@@ -1,0 +1,20 @@
+# Dados brutos, bases binárias e saídas locais podem ser grandes ou dependentes da máquina.
+# O manual mantém comandos, parâmetros, resultados auditados e regras; não duplica os DBC/HTML.
+*.dbc
+*.dbf
+*.zip
+*.rds
+*.RData
+*.html
+*.htm
+dados/brutos/
+logs/
+tmp/
+.Rhistory
+.Rproj.user/
+
+# Arquivos de sessão e temporários do Windows
+*.tmp
+*.bak
+Thumbs.db
+desktop.ini
