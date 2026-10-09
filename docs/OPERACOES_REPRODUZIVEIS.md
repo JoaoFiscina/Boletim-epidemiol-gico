@@ -20,10 +20,11 @@ Se algum caminho não existir, localizar a instalação real antes de prosseguir
 
 ```powershell
 $env:LC_ALL = 'Portuguese_Brazil.utf8'
-& $rscript -e "m <- readRDS('Meningite/pre_analise_meningite.rds'); print(names(m)); print(m\$serie_anual)"
+Set-Location $raiz
+& $rscript "$projeto\scripts\abrir_pacote.R" "$projeto\dados\tratados\meningites_salvador_20261009.rds"
 ```
 
-O pacote contém objetos separados para série, etiologia, qualidade, denominadores, piloto nacional, SIH e SIM. Não transformar o RDS em uma tabela única que misture unidades.
+O pacote atual contém listas SINAN, população, SIH, SIM e PNI. O anterior está em `pre_analise_meningite.rds`, preservado. Use arquivo `.R`: a auditoria reproduziu perda de aspas internas em `Rscript -e` no Windows PowerShell 5.1. No RStudio, `m <- readRDS(...)` pode ser usado diretamente.
 
 ## 3. Reproduzir a pré-análise local
 
@@ -46,7 +47,7 @@ Para atualizar apenas o pacote após uma alteração de tabelas auxiliares:
 ```powershell
 Get-FileHash "$projeto\dados\denominadores\populacao_total.csv" -Algorithm SHA256
 Get-FileHash "$projeto\dados\denominadores\populacao_sexo_idade_original.csv" -Algorithm SHA256
-Get-FileHash "$projeto\dados\tratados\sinan_br_piloto\MENIBR24.dbc" -Algorithm SHA256
+Get-FileHash "$projeto\dados\brutos\sinan_br_piloto\MENIBR24.dbc" -Algorithm SHA256
 ```
 
 Os valores esperados dos arquivos principais estão nos manifestos em `Meningite\metadados`. Se o hash mudar, criar nova versão e registrar por que mudou.
@@ -62,7 +63,28 @@ agregar por arquivo -> filtrar residência e confirmação
 comparar com TabNet -> registrar divergências e cobertura
 ```
 
-O script de piloto existente é `Meningite\scripts\baixar_piloto_sinan_br.py`; o analisador é `Meningite\scripts\analisar_piloto_br.R`. Inspecione argumentos e manifestos antes de executar. Os arquivos `MENIBR24–26` já foram baixados e não devem ser baixados novamente sem necessidade.
+O script de piloto existente é `Meningite\scripts\baixar_piloto_br.py`; o analisador é `Meningite\scripts\analisar_piloto_br.R`. Inspecione argumentos e manifestos antes de executar. Os arquivos `MENIBR24–26` já foram baixados e não devem ser baixados novamente sem necessidade. A coleta histórica nova é `coletar_sinan_br_historico.py`, com leitura em `processar_sinan_br_historico.R`; consultar o estado atual antes de usar as instruções históricas desta seção.
+
+### Rodada integral executada em 09/10/2026
+
+```powershell
+& $python "$projeto\scripts\coletar_sinan_br_historico.py" --versao 20261009 --baixar --lote 3 --teto-mb 80
+$env:R_LIBS_USER = 'C:/Users/joaov/AppData/Local/R/win-library/4.5'
+& $rscript "$projeto\scripts\processar_sinan_br_historico.R" $projeto 20261009
+```
+
+O primeiro comando consulta o catálogo, reaproveita hashes válidos e solicita apenas pendentes. O segundo lê os13DBC localmente. Em outra máquina, conferir a bibliotecaR e os caminhos reais. DNS11001/WinError10013 no ambiente restrito pode exigir autorização de rede; não interpretar como indisponibilidade epidemiológica ouzero. Os erros são mantidos no histórico, e uma requisição pública só deve ser repetida dentro do teto registrado.
+
+O caminho `R_LIBS_USER` é o usado nesta máquina; substituir pela biblioteca real no computador do amigo. Pacotes necessários: `read.dbc`, `jsonlite`, `digest`. Python 3.9+; nenhuma instalação automática. O JSON de configuração documenta o perfil; os períodos SINAN são explícitos no código. A versão atualiza a pasta/data de auditoria, não amplia automaticamente anos de coleta ou sintomas.
+
+### Consolidar a rodada já coletada, sem rede
+
+```powershell
+& $rscript "$projeto\scripts\consolidar_coleta.R" $projeto 20261009
+& $rscript "$projeto\scripts\abrir_pacote.R" "$projeto\dados\tratados\meningites_salvador_20261009.rds"
+```
+
+A consolidação exige os resultados válidos dos complementos e PNI, além do RDS SINAN. Se faltarem entradas, interrompe; não fabrica uma fonte vazia. O clone Git contém agregados e código, mas não inclui DBC/RDS: coletar ou transportar os brutos para repetir o processamento integral.
 
 ## 6. Leitura DBC em R
 
@@ -105,6 +127,15 @@ SIM: ano do óbito / causa básica
 
 Se uma linha CID não vier na resposta, marcar `linha_omitida_sem_imputacao`; não gravar zero. Antes de incluir custo, permanência ou idade, confirmar que o campo realmente foi coletado.
 
+As duas frentes encerraram a rodada dentro dos limites; consultar `docs/ESTADO_COLETA.md` e os relatórios próprios antes de retomar. Para inventário de argumentos, sem downloads:
+
+```powershell
+& $python "$projeto\scripts\coletar_complementos_20261009.py" --help
+& $python "$projeto\scripts\coletar_pni_meningites.py" --help
+```
+
+SIH pode retornar capítulos, grupos intermediários e folhas CID na mesma tabela. Somar apenas folhas do recorte, conferindo contra TOTAL oficial. Dois perfis A87 são conferências do mesmo universo, não novas internações. PNI mantém legado e RNDS separados; não chamar cobertura conjugada atual de vacina monovalente específica.
+
 ## 9. Fechamento da coleta
 
 Só congelar uma base analítica quando:
@@ -123,8 +154,15 @@ O diretório do manual já possui um Git. Como o Windows pode acusar “dubious 
 ```powershell
 $gitmanual = 'C:\Pesquisa\Boletim epidemiolóico\Boletim epidemiológico'
 git -c safe.directory="$gitmanual" -C $gitmanual status --short --branch
-git -c safe.directory="$gitmanual" -C $gitmanual add .
+git -c safe.directory="$gitmanual" -C $gitmanual diff --stat
+git -c safe.directory="$gitmanual" -C $gitmanual add README.md CHANGELOG.md docs pipeline
 git -c safe.directory="$gitmanual" -C $gitmanual commit -m "Documenta manual de analise de meningites"
 ```
 
 Não adicionar DBC, ZIP, HTML, RDS ou dados brutos ao Git. Se for necessário compartilhar dados públicos, preparar um pacote separado e versionado com manifesto.
+
+O sincronizador faz cópias por lista explícita e confere SHA, sem commit/publicação automática:
+
+```powershell
+& "$projeto\scripts\sincronizar_manual.ps1" -Projeto $projeto -Repositorio $gitmanual -Versao 20261009
+```

@@ -1,0 +1,232 @@
+{
+  "sincronizado_em": "2026-10-09T18:35:58.7708059-03:00",
+  "versao": "20261009",
+  "criterio": "Somente código,configuração,planos,agregados públicos e denominadores; sem brutos e bases individuais",
+  "arquivos": [
+    {
+      "caminho": "config/coleta_integral.json",
+      "bytes": 1837,
+      "sha256": "1a6e006f6fdbc3551b64dea77b555d12d77bb0462348da24a629bb176e4c103a"
+    },
+    {
+      "caminho": "PLANO_COLETA_INTEGRAL.md",
+      "bytes": 20324,
+      "sha256": "76287fa744c85a3434fee73137ed35e0a1320af0cf7c5b9c80d30566ff7c6aaf"
+    },
+    {
+      "caminho": "scripts/coletar_sinan_br_historico.py",
+      "bytes": 13986,
+      "sha256": "ed052e66906b7beecf7cb4f1904299a0b10bc8816b4adad95c449b365384a96a"
+    },
+    {
+      "caminho": "scripts/processar_sinan_br_historico.R",
+      "bytes": 16878,
+      "sha256": "6353322886b18df9e3ce37aadd089fe3b08a716d0dbf6b2711537564a828f387"
+    },
+    {
+      "caminho": "dados/denominadores/populacao_total.csv",
+      "bytes": 173,
+      "sha256": "e0d2f73029bec27820fad805b1eb47e447efdc927db60432060638050e37ad57"
+    },
+    {
+      "caminho": "dados/denominadores/populacao_sexo_idade_original.csv",
+      "bytes": 49638,
+      "sha256": "b0317f55013b789071593a84564bd6e83cf4a90208929c6990f06a290bcf8afa"
+    },
+    {
+      "caminho": "dados/denominadores/populacao_faixas_sinan.csv",
+      "bytes": 6598,
+      "sha256": "71cde10b4bde4ed2734935978b1add9e3a1a6c47cb86df4e2c7345564ef95ee9"
+    },
+    {
+      "caminho": "dados/tratados/sinan/meningite_sinan_longo.csv",
+      "bytes": 85431,
+      "sha256": "44f7f2e017199c2b01b141f17d47c970a35f4495004b0833d07c6d6041f54c17"
+    },
+    {
+      "caminho": "metadados/DENOMINADORES.json",
+      "bytes": 2434,
+      "sha256": "38c2eecd69ffd1122f0e83d6c10d41869a32b2f05ff32b7bc9d4cd83be24036f"
+    },
+    {
+      "caminho": "scripts/abrir_pacote.R",
+      "bytes": 393,
+      "sha256": "dc3b890789f6087405345608db837f0081b343f1a90745afa10b9c437ce65dee"
+    },
+    {
+      "caminho": "scripts/consolidar_coleta.R",
+      "bytes": 5650,
+      "sha256": "309444bfc9b9180797b389256e152d4efee8f6f02e4aae3687b00b78db952202"
+    },
+    {
+      "caminho": "scripts/sincronizar_manual.ps1",
+      "bytes": 4750,
+      "sha256": "806a9efbea3fc0303f6b82a2a977748717d0042a487b9c6e01bb1bfb65235073"
+    },
+    {
+      "caminho": "scripts/verificar_entrega_manual.py",
+      "bytes": 3736,
+      "sha256": "ae1fa9389b7daa58363b142eee1123e2c1cdfeb612abda9bf625007fd717521a"
+    },
+    {
+      "caminho": "scripts/_tabnet_complementos.py",
+      "bytes": 4934,
+      "sha256": "98bfa941f83d4b72c4d8ab8cc4f79935190708aa54c1d458a422cab52f4cb3f9"
+    },
+    {
+      "caminho": "scripts/coletar_complementos_20261009.py",
+      "bytes": 29858,
+      "sha256": "b6b4678c99b4895956f71229533fc70ef2d2d50c28effd7dad74b04cb6143dbc"
+    },
+    {
+      "caminho": "scripts/conferir_complementos_20261009.py",
+      "bytes": 5567,
+      "sha256": "4cd2e5cb57e8c8244c5db589106ae5d35f85a35e65f8aa383f77ee7d0ef720f9"
+    },
+    {
+      "caminho": "scripts/coletar_pni_meningites.py",
+      "bytes": 45602,
+      "sha256": "f6a9e0f2729f052b343e08503c087c28fd8259171b58bc1f06d2846f9dc3039c"
+    },
+    {
+      "caminho": "RELATORIO_COLETA_INTEGRAL_20261009.md",
+      "bytes": 10936,
+      "sha256": "5a9651d82782c3e8227a88d31221df5849e4569a0798481d6dd7aea6d57ae390"
+    },
+    {
+      "caminho": "metadados/sinan_br_20261009/RESULTADO_PROCESSAMENTO.json",
+      "bytes": 11259,
+      "sha256": "bac815fe8e4ff5c0a0b93e5086f8aead8549e45e39ae00e72b102df739ba7319"
+    },
+    {
+      "caminho": "dados/tratados/sinan_br_20261009/serie_anual.csv",
+      "bytes": 1217,
+      "sha256": "65d5c5736363829bfbabb09b4b78463edc04e5beab14eb2179792a1f86c06b3e"
+    },
+    {
+      "caminho": "dados/tratados/sinan_br_20261009/serie_mensal.csv",
+      "bytes": 1997,
+      "sha256": "f38b49ffc23e83ef0541267d630c29f61e6d73326673b54713e1cf36cf1b6c22"
+    },
+    {
+      "caminho": "dados/tratados/sinan_br_20261009/qualidade_anual.csv",
+      "bytes": 28392,
+      "sha256": "b804e9618b66b1ac9d2fb9cf11124a424903bfe2c294832461353d368c4a5ac9"
+    },
+    {
+      "caminho": "dados/tratados/sinan_br_20261009/marginais_anuais.csv",
+      "bytes": 12806,
+      "sha256": "3ea3e9a86b8a142612a91fd3f74f8abf061a032cc58221cb61597e071c1af80c"
+    },
+    {
+      "caminho": "dados/tratados/sinan_br_20261009/base_conjunta_agregada.csv",
+      "bytes": 43998,
+      "sha256": "ac29a33bd7352d8675ae10f21eb0416d7f31bc8907ab68a5911735ca8f793a0c"
+    },
+    {
+      "caminho": "dados/tratados/sinan_br_20261009/comparacao_tabnet_snapshot20261005.csv",
+      "bytes": 20163,
+      "sha256": "a0170e408cee343890d070a2f28d27473fb6130b1aa99ed1804e2e50286cbe4d"
+    },
+    {
+      "caminho": "dados/tratados/sinan_br_20261009/etiologia_codigos_fora_dominio_1_10.csv",
+      "bytes": 234,
+      "sha256": "917169b2e27ba72e2d341446bce83ddf67304f49455518b92dc2a9553fe00cae"
+    },
+    {
+      "caminho": "dados/tratados/pni_20261009/cobertura_rnds_piloto_2023.csv",
+      "bytes": 1417,
+      "sha256": "aa5963412acd82ccc633b7b5d047855ef23250c8bce825e84ada622b116fa8d3"
+    },
+    {
+      "caminho": "dados/tratados/pni_20261009/cobertura_rnds_piloto_2024.csv",
+      "bytes": 1409,
+      "sha256": "70512fa1035599255a65bccd705a8bee5585f4ddf429750b92e8c7b174482c2e"
+    },
+    {
+      "caminho": "dados/tratados/pni_20261009/cobertura_legado_penta_cache_2014_2022.csv",
+      "bytes": 4444,
+      "sha256": "be3d0d0b5ec007bfa7db6db304c09b44411092c353948775a4fb09ba937ebf94"
+    },
+    {
+      "caminho": "dados/tratados/pni_20261009/pni_cobertura_municipal_2014_2024_longo.csv",
+      "bytes": 8570,
+      "sha256": "bea32325c9cf2c5caa1847cd102c968fdecb302aecac590a51d7b1ccb7a3b742"
+    },
+    {
+      "caminho": "dados/tratados/pni_20261009/disponibilidade_pni_municipal_2014_2024.csv",
+      "bytes": 7874,
+      "sha256": "14dc499d3465c5c2ee6125a7d6dc3b7b1b1e5399590520e3df032ea8c90400c1"
+    },
+    {
+      "caminho": "metadados/pni_20261009/RELATORIO_PNI.md",
+      "bytes": 8707,
+      "sha256": "c792d13e36bd7dbdf9fad43fcce8813bd6e023a8dff3a10e5c2244b9ee6b5964"
+    },
+    {
+      "caminho": "metadados/pni_20261009/validacao_piloto.json",
+      "bytes": 3720,
+      "sha256": "68be612128e149c1f64c9e33222315d903bc749c5c29478ec5ac499ffd4eaed0"
+    },
+    {
+      "caminho": "metadados/pni_20261009/indicadores_solicitados_disponiveis.csv",
+      "bytes": 3487,
+      "sha256": "0e3be23d9e262e387e9eb745f72ebb46f3e91dd5e1ad74ee0e64d18b0f7104b8"
+    },
+    {
+      "caminho": "metadados/pni_20261009/definicoes_indicadores_snapshot_20261003.csv",
+      "bytes": 16758,
+      "sha256": "162f705170babd252eb69050cd347db496fa2d911eb4c33d6fac4408f1dc57c7"
+    },
+    {
+      "caminho": "metadados/complementos_20261009/RELATORIO_COMPLEMENTOS.md",
+      "bytes": 9921,
+      "sha256": "3ea29d19ba301c37c1cea4046d1a76a5686abb24a92895a86195742e10d121a7"
+    },
+    {
+      "caminho": "metadados/complementos_20261009/RESULTADO_COLETA_COMPLEMENTOS.json",
+      "bytes": 265661,
+      "sha256": "5c5373270122db9841e753234bd58fd975ac292494580850253f303960b0a204"
+    },
+    {
+      "caminho": "metadados/complementos_20261009/CONFERENCIA_MECANICA.json",
+      "bytes": 6360,
+      "sha256": "46c805affbd4c4f92029673a84fcfe2ead2d9a4da68d300bb866232069073783"
+    },
+    {
+      "caminho": "dados/tratados/complementos_20261009/sih_medidas_anuais_longo.csv",
+      "bytes": 13126,
+      "sha256": "067bbb863cca14a81ee940a81a8f3d84135ca3133bafc6f77120d2c1c745f09d"
+    },
+    {
+      "caminho": "dados/tratados/complementos_20261009/sih_internacoes_anuais_totais_das_marginais.csv",
+      "bytes": 1844,
+      "sha256": "547aa05ea5d6fb9383deace88128a3c77b89c145a03932e8dc58a93c20646464"
+    },
+    {
+      "caminho": "dados/tratados/complementos_20261009/perfis_anuais_longo.csv",
+      "bytes": 45948,
+      "sha256": "2d7bff9594caab33c68258ecc6766d0c2f10b219751fd6f9bc2dd93a5f7618d8"
+    },
+    {
+      "caminho": "dados/tratados/complementos_20261009/conferencias.csv",
+      "bytes": 3817,
+      "sha256": "58c148b3a7eb46a0801b0849783c306b53fc4af6560c84148871542e8670dfd2"
+    },
+    {
+      "caminho": "metadados/CONSOLIDACAO_20261009.json",
+      "bytes": 4452,
+      "sha256": "b917563334cb3b6d56914a3f838926eebea488b9f08856b119da719186cbfe6a"
+    },
+    {
+      "caminho": "metadados/auditoria_independente_20261009/AUDITORIA_SINAN.md",
+      "bytes": 12253,
+      "sha256": "dd8f0253e08ab9ee25090c3eb93cc1dc9be248cac54b9d502b4a7d8aab61419c"
+    },
+    {
+      "caminho": "metadados/auditoria_independente_20261009/AUDITORIA_DENOMINADORES_PORTABILIDADE.md",
+      "bytes": 8103,
+      "sha256": "d9b0c13b2266b0eade4cc65a7ba8e5e15a77b6ab466683faa9246a1ddb1c2816"
+    }
+  ]
+}

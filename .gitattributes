@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Copias do pipeline tem SHA-256 de bytes, inclusive finais de linha.
+# Conservar esses bytes no clone em qualquer sistema operacional.
+pipeline/Meningite/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Texto oficial copiado literalmente conserva espacos internos e finais.
+pipeline/Meningite/metadados/pni_20261009/definicoes_indicadores_snapshot_20261003.csv -whitespace

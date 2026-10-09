@@ -1,5 +1,7 @@
 # Guia mestre para análise de meningites em Salvador
 
+Atualização: **09/10/2026**. Começar pelo [estado da coleta](docs/ESTADO_COLETA.md), [plano integral](pipeline/Meningite/PLANO_COLETA_INTEGRAL.md) e [relatório executado](pipeline/Meningite/RELATORIO_COLETA_INTEGRAL_20261009.md). O núcleo nacional histórico está concluído e a diferença etiológica foi localizada; SIH/PNI conservam pendências explícitas. A pré-análise de 05/10 permanece histórica.
+
 ## 1. Para que este manual serve
 
 Este documento reúne o procedimento que funcionou no projeto, as decisões metodológicas, os erros encontrados, as preferências de organização e o estado dos dados. Ele é um manual de pesquisa e reprodução, não uma declaração de que todas as bases estejam completas ou prontas para publicação.
@@ -37,7 +39,7 @@ O primeiro objetivo é avaliar viabilidade e qualidade. Ainda não é permitido 
 | Código IBGE | `292740` |
 | Perspectiva principal | residência do caso/óbito/internação, sempre declarada |
 | SINAN | ano dos primeiros sintomas, 2014–2024 |
-| Arquivos nacionais de apoio | partições de notificação 2014–2026; 2024–2026 já testadas |
+| Arquivos nacionais de apoio | treze partições de notificação 2014–2026 já lidas e auditadas |
 | População | residente municipal, referência de 1º de julho, mesma revisão RIPSA |
 | População usada nas taxas | 2014: 2.705.138; 2015: 2.693.763; 2016: 2.682.130; 2017: 2.669.559; 2018: 2.658.252; 2019: 2.647.884; 2020: 2.636.986; 2021: 2.622.913; 2022: 2.607.447; 2023: 2.589.296; 2024: 2.568.928 |
 | Fonte populacional | `popsvs2024br.def`, formulário TabNet oficial |
@@ -62,18 +64,18 @@ Use para carga hospitalar, internações/AIHs e óbitos hospitalares. Uma AIH é
 
 ### SIM
 
-Use para óbitos por causa básica, com ano do óbito e residência declarados. A ausência de uma linha no retorno não autoriza preencher zero. O SIM não é o denominador de letalidade do SINAN sem vinculação individual e desenho específico.
+Use para óbitos por causa básica, com ano do óbito e residência declarados. O arquivo BA por residência não demonstra a cobertura de óbitos registrados em outras UFs. A ausência de uma linha no retorno não autoriza preencher zero. SIM não é numerador de letalidade do SINAN sem vinculação individual e desenho específico.
 
 ### PNI
 
-Ainda não coletado nesta etapa. Só incluir depois de conferir imunobiológico, população-alvo, dose, calendário vigente e unidade do indicador. Cobertura municipal é medida ecológica; não prova vacinação individual ou proteção contra toda a categoria de meningite.
+Coletadas 17 observações: nove Penta legado 2014–2022 e oito indicadores atuais 2023/2024; 27 lacunas. Conferir imunobiológico, alvo, dose, calendário, método e unidade. A NT84/2026 revoga a NT90/2025 e estende o método individual a 2023; NT69/2026 consolida pneumocócicas conjugadas. Não emendar automaticamente legado/RNDS ou chamar conjugadas atuais de MenC/PCV10 exclusivas. Cobertura municipal é ecológica e não demonstra vacinação individual ou proteção contra toda meningite.
 
 ## 6. Sequência de trabalho recomendada
 
 ### 6.1 Inventário e preservação
 
 1. Verificar se `C:\Pesquisa\Boletim epidemiolóico\Meningite` existe.
-2. Ler `PLANO_COLETA.md`, `RELATORIO_PRE_ANALISE.md`, `metadados/RESULTADO_PRE_ANALISE.json` e `metadados/RESULTADO_PILOTO_BR.json`.
+2. Ler `PLANO_COLETA_INTEGRAL.md`, `RELATORIO_COLETA_INTEGRAL_20261009.md` e metadados das versões atuais; os arquivos de pré-análise/piloto registram o estágio anterior.
 3. Listar scripts e manifests antes de executar.
 4. Conferir SHA-256 dos arquivos já validados.
 5. Criar uma nova pasta de coleta/versionamento quando a fonte ou parâmetros mudarem; não sobrescrever HTML, CSV, ZIP ou DBC.
@@ -88,7 +90,7 @@ As consultas do SINAN Bahia foram feitas por POST ao formulário oficial. O tota
 
 O catálogo oficial `ftp.php` foi usado para confirmar os nomes reais. A rota HTTPS `download.php` permitiu baixar rapidamente `MENIBR24`, `MENIBR25` e `MENIBR26`. O piloto nacional leu 25.485, 26.983 e 19.450 registros, todos com 131 campos.
 
-Para completar a série, baixar uma vez cada partição `MENIBR14`–`MENIBR23`, preservando finais e preliminares. Filtrar:
+Essa coleta já foi concluída em 09/10. Para reproduzir em outra raiz, usar o coletor histórico do pipeline, preservando a modalidade de cada partição, sem novas versões sobrepostas. Filtrar:
 
 ```text
 ID_MN_RESI = 292740
@@ -125,6 +127,8 @@ Não começar com dezenas de regressões ou p-valores. Com onze pontos anuais, m
 
 ## 7. Resultados já obtidos
 
+Os itens abaixo conservam resultados do estágio de 05/10, inclusive A39 e decomposição SIM anteriores. Os complementos de 09/10 e pendências da rodada atual estão em [ESTADO_COLETA.md](docs/ESTADO_COLETA.md); não usar o snapshot anterior para ocultar uma consulta atual que falhou.
+
 - SINAN/TabNet: 1.976 casos, 2014–2024.
 - Taxa registrada: 13,34/100 mil em 2014; 1,52/100 mil em 2020; 6,31/100 mil em 2024.
 - Sexo: 1.132 masculinos, 843 femininos, 1 ignorado.
@@ -138,7 +142,7 @@ Não começar com dezenas de regressões ou p-valores. Com onze pontos anuais, m
 
 ## 8. Interpretação correta das principais inconsistências
 
-O total geral e as tabelas de sexo, idade, evolução, critério e mês fecham em 1.976. A tabela de etiologia fecha em 1.970. A diferença é de seis registros em 2014, 2015, 2016, 2017 e 2022. A causa não foi demonstrada. Não atribuir automaticamente a atualização, código vazio, revisão ou erro de extração.
+O total geral e as tabelas de sexo, idade, evolução, critério e mês fecham em 1.976. A tabela TabNet de etiologia fecha em 1.970. Em 09/10, os seis adicionais foram localizados nos DBC como códigos não canônicos: `7.` (2014/2015), `7%` (2016), `7` e `X` (2017), `%7` (2022). Categorias canônicas e brancos concordam com TabNet. Não recodificar esses valores como `07`/viral ou preencher o residual com MNE. A base geral conserva os seis em categoria própria.
 
 `MNE` significa meningite não especificada e é uma limitação de especificidade, não um dado inútil. `MV` aparece como rótulo viral/asséptico no TabNet, mas o dicionário oficial precisa ser consultado antes de chamar todos os casos de virais. O piloto mostrou que `CRITERIO=9`/PCR aparece em categorias bacterianas; não publicar “confirmação viral por PCR” com base somente no rótulo do TabNet.
 
@@ -160,13 +164,13 @@ No Windows, `python` pode não estar no PATH. Use o runtime documentado em `C:\U
 
 ## 11. Próximos passos obrigatórios
 
-1. Coletar e auditar `MENIBR14`–`MENIBR23`.
-2. Comparar a série nacional completa com o TabNet por ano e categoria.
-3. Esclarecer a diferença histórica de seis registros.
-4. Completar SIH sexo/idade anual e SIM idade somente se esses módulos entrarem na pergunta.
-5. Definir uma análise principal antes dos modelos: tendência/taxa, perfil ou sazonalidade.
-6. Considerar PNI somente depois de escolher meningocócica, pneumocócica, Hib ou outro agravo específico e seus indicadores.
-7. Congelar uma versão analítica, gerar manifesto final e registrar a data de atualização das fontes.
+1. Usar o núcleo nacional concordante, sem repetir as treze aquisições já validadas.
+2. Definir análise principal: ocorrência/taxa, perfil ou sazonalidade; preservar MNE/MCC e seis códigos não canônicos.
+3. Retomar apenas cinco consultas SIH faltantes quando relevantes; SIM idade já está conferido.
+4. Investigar abrangência nacional SIM se mortalidade for eixo principal e revisar recorte clínico CID.
+5. Resolver as 27 lacunas PNI e qualidade/comparabilidade de métodos antes de associação vacinal.
+6. Produzir poucas análises planejadas; registrar limites, fonte e versão no texto e gráficos.
+7. Atualizar estado, métodos, preferências, pacote e changelog em cada etapa; commit local verificado, sem publicação remota automática.
 
 ## 12. Fontes oficiais usadas
 

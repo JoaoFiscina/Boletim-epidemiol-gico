@@ -1,0 +1,419 @@
+﻿sistema;cid_grupo;dimensao;estrato;ano;referencia_tempo;medida;valor;valor_original;status;consulta_id;municipio_residencia
+SIM;conjunto_filtrado;idade;Menor 1 ano;2014;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;Menor 1 ano;2015;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;Menor 1 ano;2016;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;Menor 1 ano;2017;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;Menor 1 ano;2018;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;Menor 1 ano;2019;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;Menor 1 ano;2020;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;Menor 1 ano;2021;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;Menor 1 ano;2022;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;Menor 1 ano;2023;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;Menor 1 ano;2024;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2014;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2015;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2016;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2017;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2018;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2019;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2020;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2021;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2022;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2023;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;1 a 4 anos;2024;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2014;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2015;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2016;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2017;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2018;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2019;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2020;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2021;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2022;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2023;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;5 a 9 anos;2024;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2014;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2015;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2016;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2017;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2018;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2019;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2020;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2021;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2022;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2023;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;10 a 14 anos;2024;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2014;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2015;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2016;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2017;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2018;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2019;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2020;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2021;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2022;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2023;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;15 a 19 anos;2024;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2014;ano_obito;obitos_causa_basica;5;5;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2015;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2016;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2017;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2018;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2019;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2020;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2021;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2022;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2023;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;20 a 29 anos;2024;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2014;ano_obito;obitos_causa_basica;6;6;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2015;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2016;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2017;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2018;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2019;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2020;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2021;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2022;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2023;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;30 a 39 anos;2024;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2014;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2015;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2016;ano_obito;obitos_causa_basica;4;4;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2017;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2018;ano_obito;obitos_causa_basica;4;4;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2019;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2020;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2021;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2022;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2023;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;40 a 49 anos;2024;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2014;ano_obito;obitos_causa_basica;4;4;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2015;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2016;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2017;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2018;ano_obito;obitos_causa_basica;6;6;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2019;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2020;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2021;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2022;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2023;ano_obito;obitos_causa_basica;4;4;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;50 a 59 anos;2024;ano_obito;obitos_causa_basica;6;6;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2014;ano_obito;obitos_causa_basica;6;6;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2015;ano_obito;obitos_causa_basica;4;4;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2016;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2017;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2018;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2019;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2020;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2021;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2022;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2023;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;60 a 69 anos;2024;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2014;ano_obito;obitos_causa_basica;5;5;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2015;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2016;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2017;ano_obito;obitos_causa_basica;4;4;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2018;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2019;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2020;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2021;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2022;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2023;ano_obito;obitos_causa_basica;3;3;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;70 a 79 anos;2024;ano_obito;obitos_causa_basica;4;4;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2014;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2015;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2016;ano_obito;obitos_causa_basica;5;5;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2017;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2018;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2019;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2020;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2021;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2022;ano_obito;obitos_causa_basica;1;1;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2023;ano_obito;obitos_causa_basica;0;-;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIM;conjunto_filtrado;idade;80 anos e mais;2024;ano_obito;obitos_causa_basica;2;2;observado;SIM_idade_ano_G00_G03_A39_A87;292740
+SIH;G00;idade;Menor 1 ano;2014;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;Menor 1 ano;2015;ano_processamento;internacoes;14;14;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;Menor 1 ano;2016;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;Menor 1 ano;2017;ano_processamento;internacoes;8;8;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;Menor 1 ano;2018;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;Menor 1 ano;2019;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;Menor 1 ano;2020;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;Menor 1 ano;2021;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;Menor 1 ano;2022;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;Menor 1 ano;2023;ano_processamento;internacoes;7;7;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;Menor 1 ano;2024;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2014;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2015;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2016;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2017;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2018;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2019;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2020;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2021;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2022;ano_processamento;internacoes;14;14;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2023;ano_processamento;internacoes;17;17;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;1 a 4 anos;2024;ano_processamento;internacoes;11;11;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2014;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2015;ano_processamento;internacoes;8;8;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2016;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2017;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2018;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2019;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2020;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2021;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2022;ano_processamento;internacoes;16;16;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2023;ano_processamento;internacoes;12;12;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;5 a 9 anos;2024;ano_processamento;internacoes;15;15;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2014;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2015;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2016;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2017;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2018;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2019;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2020;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2021;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2022;ano_processamento;internacoes;7;7;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2023;ano_processamento;internacoes;8;8;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;10 a 14 anos;2024;ano_processamento;internacoes;10;10;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2014;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2015;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2016;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2017;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2018;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2019;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2020;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2021;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2022;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2023;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;15 a 19 anos;2024;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2014;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2015;ano_processamento;internacoes;9;9;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2016;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2017;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2018;ano_processamento;internacoes;6;6;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2019;ano_processamento;internacoes;9;9;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2020;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2021;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2022;ano_processamento;internacoes;7;7;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2023;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;20 a 29 anos;2024;ano_processamento;internacoes;11;11;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2014;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2015;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2016;ano_processamento;internacoes;6;6;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2017;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2018;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2019;ano_processamento;internacoes;9;9;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2020;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2021;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2022;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2023;ano_processamento;internacoes;10;10;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;30 a 39 anos;2024;ano_processamento;internacoes;9;9;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2014;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2015;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2016;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2017;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2018;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2019;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2020;ano_processamento;internacoes;6;6;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2021;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2022;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2023;ano_processamento;internacoes;7;7;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;40 a 49 anos;2024;ano_processamento;internacoes;8;8;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2014;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2015;ano_processamento;internacoes;6;6;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2016;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2017;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2018;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2019;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2020;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2021;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2022;ano_processamento;internacoes;10;10;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2023;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;50 a 59 anos;2024;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2014;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2015;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2016;ano_processamento;internacoes;3;3;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2017;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2018;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2019;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2020;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2021;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2022;ano_processamento;internacoes;5;5;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2023;ano_processamento;internacoes;7;7;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;60 a 69 anos;2024;ano_processamento;internacoes;6;6;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2014;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2015;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2016;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2017;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2018;ano_processamento;internacoes;2;2;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2019;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2020;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2021;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2022;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2023;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;70 a 79 anos;2024;ano_processamento;internacoes;4;4;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2014;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2015;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2016;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2017;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2018;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2019;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2020;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2021;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2022;ano_processamento;internacoes;0;-;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2023;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;G00;idade;80 anos e mais;2024;ano_processamento;internacoes;1;1;observado;SIH_G00_idade_ano;292740
+SIH;A87;sexo;Masc;2014;ano_processamento;internacoes;56;56;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Masc;2015;ano_processamento;internacoes;39;39;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Masc;2016;ano_processamento;internacoes;29;29;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Masc;2017;ano_processamento;internacoes;32;32;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Masc;2018;ano_processamento;internacoes;10;10;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Masc;2019;ano_processamento;internacoes;26;26;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Masc;2020;ano_processamento;internacoes;9;9;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Masc;2021;ano_processamento;internacoes;3;3;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Masc;2022;ano_processamento;internacoes;12;12;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Masc;2023;ano_processamento;internacoes;19;19;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Masc;2024;ano_processamento;internacoes;14;14;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2014;ano_processamento;internacoes;39;39;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2015;ano_processamento;internacoes;46;46;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2016;ano_processamento;internacoes;33;33;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2017;ano_processamento;internacoes;19;19;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2018;ano_processamento;internacoes;18;18;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2019;ano_processamento;internacoes;26;26;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2020;ano_processamento;internacoes;12;12;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2021;ano_processamento;internacoes;2;2;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2022;ano_processamento;internacoes;14;14;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2023;ano_processamento;internacoes;19;19;observado;SIH_A87_sexo_ano;292740
+SIH;A87;sexo;Fem;2024;ano_processamento;internacoes;12;12;observado;SIH_A87_sexo_ano;292740
+SIH;A87;idade;Menor 1 ano;2014;ano_processamento;internacoes;8;8;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;Menor 1 ano;2015;ano_processamento;internacoes;6;6;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;Menor 1 ano;2016;ano_processamento;internacoes;6;6;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;Menor 1 ano;2017;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;Menor 1 ano;2018;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;Menor 1 ano;2019;ano_processamento;internacoes;5;5;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;Menor 1 ano;2020;ano_processamento;internacoes;8;8;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;Menor 1 ano;2021;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;Menor 1 ano;2022;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;Menor 1 ano;2023;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;Menor 1 ano;2024;ano_processamento;internacoes;4;4;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2014;ano_processamento;internacoes;14;14;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2015;ano_processamento;internacoes;7;7;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2016;ano_processamento;internacoes;8;8;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2017;ano_processamento;internacoes;9;9;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2018;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2019;ano_processamento;internacoes;4;4;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2020;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2021;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2022;ano_processamento;internacoes;5;5;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2023;ano_processamento;internacoes;5;5;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;1 a 4 anos;2024;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2014;ano_processamento;internacoes;12;12;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2015;ano_processamento;internacoes;11;11;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2016;ano_processamento;internacoes;9;9;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2017;ano_processamento;internacoes;7;7;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2018;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2019;ano_processamento;internacoes;10;10;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2020;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2021;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2022;ano_processamento;internacoes;4;4;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2023;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;5 a 9 anos;2024;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2014;ano_processamento;internacoes;4;4;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2015;ano_processamento;internacoes;9;9;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2016;ano_processamento;internacoes;7;7;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2017;ano_processamento;internacoes;8;8;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2018;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2019;ano_processamento;internacoes;7;7;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2020;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2021;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2022;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2023;ano_processamento;internacoes;4;4;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;10 a 14 anos;2024;ano_processamento;internacoes;4;4;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2014;ano_processamento;internacoes;15;15;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2015;ano_processamento;internacoes;12;12;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2016;ano_processamento;internacoes;6;6;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2017;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2018;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2019;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2020;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2021;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2022;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2023;ano_processamento;internacoes;5;5;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;15 a 19 anos;2024;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2014;ano_processamento;internacoes;15;15;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2015;ano_processamento;internacoes;11;11;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2016;ano_processamento;internacoes;10;10;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2017;ano_processamento;internacoes;8;8;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2018;ano_processamento;internacoes;8;8;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2019;ano_processamento;internacoes;9;9;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2020;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2021;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2022;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2023;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;20 a 29 anos;2024;ano_processamento;internacoes;5;5;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2014;ano_processamento;internacoes;14;14;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2015;ano_processamento;internacoes;13;13;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2016;ano_processamento;internacoes;9;9;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2017;ano_processamento;internacoes;6;6;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2018;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2019;ano_processamento;internacoes;6;6;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2020;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2021;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2022;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2023;ano_processamento;internacoes;8;8;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;30 a 39 anos;2024;ano_processamento;internacoes;4;4;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2014;ano_processamento;internacoes;5;5;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2015;ano_processamento;internacoes;9;9;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2016;ano_processamento;internacoes;5;5;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2017;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2018;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2019;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2020;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2021;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2022;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2023;ano_processamento;internacoes;6;6;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;40 a 49 anos;2024;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2014;ano_processamento;internacoes;6;6;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2015;ano_processamento;internacoes;6;6;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2016;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2017;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2018;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2019;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2020;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2021;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2022;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2023;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;50 a 59 anos;2024;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2014;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2015;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2016;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2017;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2018;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2019;ano_processamento;internacoes;4;4;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2020;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2021;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2022;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2023;ano_processamento;internacoes;2;2;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;60 a 69 anos;2024;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2014;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2015;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2016;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2017;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2018;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2019;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2020;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2021;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2022;ano_processamento;internacoes;3;3;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2023;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;70 a 79 anos;2024;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2014;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2015;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2016;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2017;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2018;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2019;ano_processamento;internacoes;1;1;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2020;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2021;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2022;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2023;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740
+SIH;A87;idade;80 anos e mais;2024;ano_processamento;internacoes;0;-;observado;SIH_A87_idade_ano;292740

@@ -2,19 +2,21 @@
 
 Este repositório é o guia reproduzível da investigação de meningites e doença meningocócica em residentes de Salvador. Ele foi escrito para que outra pessoa ou outra IA consiga entender o objetivo, repetir a coleta, conferir os resultados e continuar o trabalho sem misturar fontes ou inventar dados.
 
-O projeto executado está em `C:\Pesquisa\Boletim epidemiolóico\Meningite`. Este Git contém o manual, o histórico e os parâmetros essenciais; os dados brutos e o pacote R permanecem no diretório de trabalho original e não são duplicados aqui. Para uma entrega completa, envie este repositório junto com a pasta `Meningite`, ou siga o manual para recriar a coleta a partir das fontes oficiais.
+O projeto executado está em `C:\Pesquisa\Boletim epidemiolóico\Meningite`. Este Git contém manual, código, configuração, denominadores e resultados agregados com hashes em [pipeline](pipeline/README.md). Dados brutos e pacotes R permanecem locais. Para repetir a leitura integral, transportar os brutos com seus manifestos ou coletá-los pela rotina oficial na própria cópia do projeto.
 
 Comece nesta ordem:
 
-1. [Guia mestre](GUIA_MESTRE_MENINGITES_SALVADOR.md) — método, decisões, fontes, preferências e limites.
-2. [Estado atual e resultados](docs/RESULTADOS_ATUAIS.md) — o que já foi medido, o que é confiável e o que falta.
+1. [Estado atual da coleta](docs/ESTADO_COLETA.md) — rodada 09/10, validações e pendências concretas.
+2. [Guia mestre](GUIA_MESTRE_MENINGITES_SALVADOR.md) e [preferências/métodos](docs/PREFERENCIAS_E_METODOS.md).
 3. [Operações reproduzíveis](docs/OPERACOES_REPRODUZIVEIS.md) — comandos e sequência de execução.
 4. [Checklist de qualidade](docs/CHECKLIST_QUALIDADE.md) — critérios para aceitar, ajustar ou recusar cada análise.
 5. [Prompt para continuidade por outra IA](PROMPT_CONTINUIDADE_IA.md) — contexto pronto para colar em outro chat.
 
 ## Decisão atual
 
-O tema é viável para ocorrência registrada, perfil por idade e sexo, sazonalidade e qualidade da classificação diagnóstica. A série do SINAN/TabNet possui 1.976 casos confirmados registrados entre 2014 e 2024. Um piloto nacional de 2024 reproduziu os 162 casos de Salvador nas categorias comparadas. A série histórica nacional completa, a resolução de uma diferença de seis registros entre visões do TabNet e alguns complementos ainda estão pendentes.
+O tema é viável para ocorrência registrada, perfil por idade/sexo, sazonalidade e qualidade diagnóstica. A leitura nacional das 13 partições confirmou **1.976 notificações confirmadas com sintomas em 2014–2024**. Os onze totais anuais e 572 células comparáveis concordaram com o TabNet de 05/10. A diferença de seis na etiologia foi localizada em códigos não canônicos, preservados sem inferir agente.
+
+Complementos: seis consultas SIH/SIM válidas, cinco pendentes; PNI com 17 observações e 27 lacunas. O plano detalhado e relatório executado estão em [pipeline/Meningite](pipeline/Meningite/RELATORIO_COLETA_INTEGRAL_20261009.md). A entrada R atual é `Meningite/dados/tratados/meningites_salvador_20261009.rds`; o pacote anterior permanece histórico.
 
 Letalidade, vacinação e subtipos raros não devem ser o eixo principal antes de resolver incompletude e cobertura. SINAN, SIH e SIM são fontes diferentes e não podem ser somados como pessoas.
 

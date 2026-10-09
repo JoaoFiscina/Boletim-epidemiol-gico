@@ -1,0 +1,935 @@
+"ano_sintomas";"sexo";"faixa_etaria";"etiologia";"evolucao";"n"
+"2014";"Feminino";"<1 Ano";"MB";"Alta";2
+"2014";"Feminino";"<1 Ano";"MB";"Ign/Branco";1
+"2014";"Feminino";"<1 Ano";"MCC";"Alta";1
+"2014";"Feminino";"<1 Ano";"MNE";"Alta";2
+"2014";"Feminino";"<1 Ano";"MNE";"Ign/Branco";2
+"2014";"Feminino";"<1 Ano";"MP";"Alta";1
+"2014";"Feminino";"<1 Ano";"MV";"Alta";9
+"2014";"Feminino";"<1 Ano";"MV";"Ign/Branco";1
+"2014";"Feminino";"1-4";"Codigo nao mapeado:7.";"Alta";1
+"2014";"Feminino";"1-4";"MB";"Alta";1
+"2014";"Feminino";"1-4";"MV";"Alta";9
+"2014";"Feminino";"1-4";"MV";"Ign/Branco";1
+"2014";"Feminino";"10-14";"MNE";"Alta";1
+"2014";"Feminino";"10-14";"MTBC";"Alta";1
+"2014";"Feminino";"10-14";"MV";"Alta";8
+"2014";"Feminino";"15-19";"MB";"Alta";2
+"2014";"Feminino";"15-19";"MCC";"Alta";1
+"2014";"Feminino";"15-19";"MH";"Alta";1
+"2014";"Feminino";"15-19";"MNE";"Alta";1
+"2014";"Feminino";"15-19";"MV";"Alta";7
+"2014";"Feminino";"20-39";"MB";"Alta";2
+"2014";"Feminino";"20-39";"MB";"Ign/Branco";1
+"2014";"Feminino";"20-39";"MNE";"Alta";6
+"2014";"Feminino";"20-39";"MNE";"Óbito por meningite";1
+"2014";"Feminino";"20-39";"MOE";"Óbito por outra causa";1
+"2014";"Feminino";"20-39";"MP";"Alta";1
+"2014";"Feminino";"20-39";"MP";"Ign/Branco";1
+"2014";"Feminino";"20-39";"MV";"Alta";27
+"2014";"Feminino";"20-39";"MV";"Ign/Branco";1
+"2014";"Feminino";"40-59";"MB";"Alta";4
+"2014";"Feminino";"40-59";"MB";"Ign/Branco";1
+"2014";"Feminino";"40-59";"MNE";"Ign/Branco";3
+"2014";"Feminino";"40-59";"MTBC";"Alta";1
+"2014";"Feminino";"40-59";"MV";"Alta";11
+"2014";"Feminino";"5-9";"MB";"Alta";2
+"2014";"Feminino";"5-9";"MNE";"Alta";5
+"2014";"Feminino";"5-9";"MV";"Alta";11
+"2014";"Feminino";"60-64";"MB";"Alta";1
+"2014";"Feminino";"60-64";"MB";"Óbito por meningite";1
+"2014";"Feminino";"60-64";"MP";"Alta";1
+"2014";"Feminino";"65-69";"MNE";"Óbito por outra causa";1
+"2014";"Feminino";"65-69";"MOE";"Alta";1
+"2014";"Feminino";"70-79";"MV";"Óbito por outra causa";1
+"2014";"Feminino";"80 e +";"MV";"Alta";1
+"2014";"Masculino";"<1 Ano";"MB";"Alta";5
+"2014";"Masculino";"<1 Ano";"MB";"Ign/Branco";1
+"2014";"Masculino";"<1 Ano";"MM";"Alta";2
+"2014";"Masculino";"<1 Ano";"MNE";"Alta";2
+"2014";"Masculino";"<1 Ano";"MV";"Alta";10
+"2014";"Masculino";"1-4";"MB";"Alta";8
+"2014";"Masculino";"1-4";"MB";"Óbito por meningite";1
+"2014";"Masculino";"1-4";"MNE";"Alta";1
+"2014";"Masculino";"1-4";"MV";"Alta";32
+"2014";"Masculino";"10-14";"MB";"Alta";1
+"2014";"Masculino";"10-14";"MM";"Alta";1
+"2014";"Masculino";"10-14";"MV";"Alta";13
+"2014";"Masculino";"15-19";"MB";"Alta";4
+"2014";"Masculino";"15-19";"MNE";"Óbito por outra causa";1
+"2014";"Masculino";"15-19";"MV";"Alta";12
+"2014";"Masculino";"20-39";"MB";"Alta";6
+"2014";"Masculino";"20-39";"MB";"Óbito por meningite";1
+"2014";"Masculino";"20-39";"MB";"Óbito por outra causa";1
+"2014";"Masculino";"20-39";"MCC";"Alta";2
+"2014";"Masculino";"20-39";"MM";"Alta";2
+"2014";"Masculino";"20-39";"MM+MCC";"Alta";1
+"2014";"Masculino";"20-39";"MNE";"Alta";1
+"2014";"Masculino";"20-39";"MNE";"Óbito por meningite";1
+"2014";"Masculino";"20-39";"MNE";"Óbito por outra causa";2
+"2014";"Masculino";"20-39";"MOE";"Alta";2
+"2014";"Masculino";"20-39";"MP";"Alta";1
+"2014";"Masculino";"20-39";"MTBC";"Alta";1
+"2014";"Masculino";"20-39";"MTBC";"Óbito por meningite";1
+"2014";"Masculino";"20-39";"MV";"Alta";40
+"2014";"Masculino";"20-39";"MV";"Ign/Branco";1
+"2014";"Masculino";"20-39";"MV";"Óbito por meningite";1
+"2014";"Masculino";"40-59";"MB";"Alta";1
+"2014";"Masculino";"40-59";"MM";"Alta";1
+"2014";"Masculino";"40-59";"MNE";"Alta";4
+"2014";"Masculino";"40-59";"MNE";"Óbito por meningite";2
+"2014";"Masculino";"40-59";"MNE";"Óbito por outra causa";1
+"2014";"Masculino";"40-59";"MP";"Óbito por meningite";2
+"2014";"Masculino";"40-59";"MTBC";"Óbito por meningite";1
+"2014";"Masculino";"40-59";"MV";"Alta";6
+"2014";"Masculino";"5-9";"MB";"Alta";4
+"2014";"Masculino";"5-9";"MNE";"Alta";4
+"2014";"Masculino";"5-9";"MNE";"Ign/Branco";1
+"2014";"Masculino";"5-9";"MTBC";"Alta";1
+"2014";"Masculino";"5-9";"MV";"Alta";28
+"2014";"Masculino";"60-64";"MB";"Alta";2
+"2014";"Masculino";"60-64";"MOE";"Alta";1
+"2014";"Masculino";"60-64";"MV";"Alta";1
+"2014";"Masculino";"65-69";"MB";"Óbito por meningite";1
+"2014";"Masculino";"65-69";"MV";"Alta";1
+"2014";"Masculino";"70-79";"MNE";"Alta";2
+"2015";"Feminino";"<1 Ano";"MB";"Alta";2
+"2015";"Feminino";"<1 Ano";"MNE";"Alta";2
+"2015";"Feminino";"<1 Ano";"MV";"Alta";7
+"2015";"Feminino";"<1 Ano";"MV";"Ign/Branco";1
+"2015";"Feminino";"1-4";"MB";"Alta";1
+"2015";"Feminino";"1-4";"MB";"Ign/Branco";1
+"2015";"Feminino";"1-4";"MNE";"Alta";1
+"2015";"Feminino";"1-4";"MV";"Alta";10
+"2015";"Feminino";"10-14";"MB";"Óbito por meningite";1
+"2015";"Feminino";"10-14";"MCC";"Alta";1
+"2015";"Feminino";"10-14";"MNE";"Alta";1
+"2015";"Feminino";"10-14";"MTBC";"Alta";1
+"2015";"Feminino";"10-14";"MV";"Alta";5
+"2015";"Feminino";"15-19";"MB";"Alta";2
+"2015";"Feminino";"15-19";"MNE";"Alta";4
+"2015";"Feminino";"15-19";"MTBC";"Óbito por meningite";1
+"2015";"Feminino";"15-19";"MV";"Alta";8
+"2015";"Feminino";"20-39";"MB";"Alta";6
+"2015";"Feminino";"20-39";"MB";"Óbito por outra causa";1
+"2015";"Feminino";"20-39";"MNE";"Alta";4
+"2015";"Feminino";"20-39";"MNE";"Ign/Branco";2
+"2015";"Feminino";"20-39";"MNE";"Óbito por meningite";1
+"2015";"Feminino";"20-39";"MP";"Alta";1
+"2015";"Feminino";"20-39";"MP";"Óbito por meningite";1
+"2015";"Feminino";"20-39";"MTBC";"Alta";1
+"2015";"Feminino";"20-39";"MV";"Alta";17
+"2015";"Feminino";"20-39";"MV";"Óbito por outra causa";1
+"2015";"Feminino";"40-59";"MB";"Alta";4
+"2015";"Feminino";"40-59";"MCC";"Ign/Branco";1
+"2015";"Feminino";"40-59";"MH";"Alta";1
+"2015";"Feminino";"40-59";"MNE";"Alta";7
+"2015";"Feminino";"40-59";"MNE";"Ign/Branco";2
+"2015";"Feminino";"40-59";"MNE";"Óbito por meningite";5
+"2015";"Feminino";"40-59";"MNE";"Óbito por outra causa";1
+"2015";"Feminino";"40-59";"MOE";"Alta";2
+"2015";"Feminino";"40-59";"MP";"Alta";1
+"2015";"Feminino";"40-59";"MV";"Alta";6
+"2015";"Feminino";"5-9";"MB";"Alta";1
+"2015";"Feminino";"5-9";"MNE";"Alta";2
+"2015";"Feminino";"5-9";"MV";"Alta";7
+"2015";"Feminino";"60-64";"MB";"Alta";1
+"2015";"Feminino";"60-64";"MB";"Óbito por outra causa";1
+"2015";"Feminino";"60-64";"MV";"Alta";1
+"2015";"Feminino";"65-69";"MB";"Alta";1
+"2015";"Feminino";"65-69";"MM";"Alta";1
+"2015";"Feminino";"65-69";"MNE";"Óbito por outra causa";1
+"2015";"Feminino";"65-69";"MOE";"Ign/Branco";1
+"2015";"Feminino";"65-69";"MV";"Óbito por meningite";1
+"2015";"Feminino";"70-79";"MNE";"Alta";1
+"2015";"Feminino";"70-79";"MNE";"Ign/Branco";1
+"2015";"Feminino";"80 e +";"MNE";"Óbito por meningite";1
+"2015";"Feminino";"80 e +";"MNE";"Óbito por outra causa";1
+"2015";"Masculino";"<1 Ano";"MB";"Alta";2
+"2015";"Masculino";"<1 Ano";"MB";"Óbito por outra causa";1
+"2015";"Masculino";"<1 Ano";"MM";"Alta";1
+"2015";"Masculino";"<1 Ano";"MNE";"Alta";5
+"2015";"Masculino";"<1 Ano";"MV";"Alta";8
+"2015";"Masculino";"<1 Ano";"MV";"Óbito por meningite";1
+"2015";"Masculino";"1-4";"MB";"Alta";1
+"2015";"Masculino";"1-4";"MNE";"Alta";3
+"2015";"Masculino";"1-4";"MNE";"Ign/Branco";1
+"2015";"Masculino";"1-4";"MV";"Alta";5
+"2015";"Masculino";"10-14";"MB";"Alta";1
+"2015";"Masculino";"10-14";"MNE";"Alta";1
+"2015";"Masculino";"10-14";"MNE";"Ign/Branco";2
+"2015";"Masculino";"10-14";"MV";"Alta";11
+"2015";"Masculino";"15-19";"MB";"Alta";1
+"2015";"Masculino";"15-19";"MM";"Ign/Branco";1
+"2015";"Masculino";"15-19";"MM+MCC";"Alta";1
+"2015";"Masculino";"15-19";"MNE";"Alta";1
+"2015";"Masculino";"15-19";"MV";"Alta";9
+"2015";"Masculino";"15-19";"MV";"Ign/Branco";2
+"2015";"Masculino";"20-39";"Codigo nao mapeado:7.";"Alta";1
+"2015";"Masculino";"20-39";"MB";"Alta";4
+"2015";"Masculino";"20-39";"MB";"Ign/Branco";1
+"2015";"Masculino";"20-39";"MM";"Alta";3
+"2015";"Masculino";"20-39";"MM";"Ign/Branco";1
+"2015";"Masculino";"20-39";"MNE";"Alta";6
+"2015";"Masculino";"20-39";"MNE";"Ign/Branco";1
+"2015";"Masculino";"20-39";"MNE";"Óbito por meningite";1
+"2015";"Masculino";"20-39";"MOE";"Alta";3
+"2015";"Masculino";"20-39";"MP";"Alta";1
+"2015";"Masculino";"20-39";"MTBC";"Alta";1
+"2015";"Masculino";"20-39";"MV";"Alta";15
+"2015";"Masculino";"20-39";"MV";"Óbito por meningite";2
+"2015";"Masculino";"20-39";"MV";"Óbito por outra causa";1
+"2015";"Masculino";"40-59";"MB";"Alta";4
+"2015";"Masculino";"40-59";"MB";"Óbito por outra causa";1
+"2015";"Masculino";"40-59";"MNE";"Alta";3
+"2015";"Masculino";"40-59";"MNE";"Ign/Branco";4
+"2015";"Masculino";"40-59";"MNE";"Óbito por meningite";1
+"2015";"Masculino";"40-59";"MP";"Alta";1
+"2015";"Masculino";"40-59";"MP";"Óbito por outra causa";1
+"2015";"Masculino";"40-59";"MTBC";"Óbito por meningite";1
+"2015";"Masculino";"40-59";"MV";"Alta";11
+"2015";"Masculino";"5-9";"MB";"Alta";1
+"2015";"Masculino";"5-9";"MNE";"Alta";3
+"2015";"Masculino";"5-9";"MV";"Alta";13
+"2015";"Masculino";"60-64";"MNE";"Alta";1
+"2015";"Masculino";"60-64";"MOE";"Alta";1
+"2015";"Masculino";"60-64";"MTBC";"Óbito por outra causa";1
+"2015";"Masculino";"65-69";"MNE";"Alta";2
+"2015";"Masculino";"65-69";"MNE";"Ign/Branco";1
+"2015";"Masculino";"65-69";"MNE";"Óbito por meningite";1
+"2015";"Masculino";"65-69";"MTBC";"Alta";1
+"2015";"Masculino";"70-79";"MB";"Alta";2
+"2015";"Masculino";"70-79";"MNE";"Óbito por outra causa";1
+"2015";"Masculino";"70-79";"MV";"Alta";1
+"2015";"Masculino";"80 e +";"MNE";"Óbito por outra causa";1
+"2016";"Feminino";"<1 Ano";"MB";"Óbito por outra causa";1
+"2016";"Feminino";"<1 Ano";"MNE";"Alta";2
+"2016";"Feminino";"<1 Ano";"MV";"Alta";5
+"2016";"Feminino";"<1 Ano";"MV";"Óbito por outra causa";1
+"2016";"Feminino";"1-4";"MB";"Alta";1
+"2016";"Feminino";"1-4";"MB";"Óbito por meningite";1
+"2016";"Feminino";"1-4";"MNE";"Alta";2
+"2016";"Feminino";"1-4";"MNE";"Ign/Branco";1
+"2016";"Feminino";"1-4";"MV";"Alta";10
+"2016";"Feminino";"10-14";"MB";"Alta";2
+"2016";"Feminino";"10-14";"MM+MCC";"Alta";1
+"2016";"Feminino";"10-14";"MV";"Alta";5
+"2016";"Feminino";"15-19";"Codigo nao mapeado:7%";"Alta";1
+"2016";"Feminino";"15-19";"MNE";"Alta";1
+"2016";"Feminino";"15-19";"MV";"Alta";2
+"2016";"Feminino";"20-39";"MB";"Alta";5
+"2016";"Feminino";"20-39";"MM";"Alta";2
+"2016";"Feminino";"20-39";"MNE";"Alta";4
+"2016";"Feminino";"20-39";"MNE";"Óbito por outra causa";1
+"2016";"Feminino";"20-39";"MOE";"Alta";1
+"2016";"Feminino";"20-39";"MTBC";"Alta";1
+"2016";"Feminino";"20-39";"MTBC";"Ign/Branco";1
+"2016";"Feminino";"20-39";"MV";"Alta";9
+"2016";"Feminino";"40-59";"MB";"Alta";1
+"2016";"Feminino";"40-59";"MCC";"Alta";1
+"2016";"Feminino";"40-59";"MNE";"Alta";1
+"2016";"Feminino";"40-59";"MNE";"Ign/Branco";2
+"2016";"Feminino";"40-59";"MP";"Alta";1
+"2016";"Feminino";"40-59";"MP";"Óbito por meningite";1
+"2016";"Feminino";"40-59";"MTBC";"Óbito por outra causa";1
+"2016";"Feminino";"40-59";"MV";"Alta";10
+"2016";"Feminino";"40-59";"MV";"Ign/Branco";1
+"2016";"Feminino";"5-9";"MB";"Alta";1
+"2016";"Feminino";"5-9";"MNE";"Alta";1
+"2016";"Feminino";"5-9";"MP";"Alta";1
+"2016";"Feminino";"5-9";"MV";"Alta";16
+"2016";"Feminino";"5-9";"MV";"Ign/Branco";1
+"2016";"Feminino";"60-64";"MB";"Ign/Branco";1
+"2016";"Feminino";"60-64";"MNE";"Ign/Branco";1
+"2016";"Feminino";"60-64";"MV";"Alta";1
+"2016";"Feminino";"60-64";"MV";"Óbito por meningite";1
+"2016";"Feminino";"65-69";"MTBC";"Óbito por meningite";1
+"2016";"Feminino";"65-69";"MV";"Ign/Branco";1
+"2016";"Feminino";"70-79";"MNE";"Alta";2
+"2016";"Feminino";"70-79";"MV";"Alta";1
+"2016";"Feminino";"80 e +";"MNE";"Óbito por meningite";1
+"2016";"Masculino";"<1 Ano";"MB";"Alta";1
+"2016";"Masculino";"<1 Ano";"MNE";"Alta";5
+"2016";"Masculino";"<1 Ano";"MTBC";"Alta";1
+"2016";"Masculino";"<1 Ano";"MV";"Alta";8
+"2016";"Masculino";"1-4";"MB";"Alta";1
+"2016";"Masculino";"1-4";"MM+MCC";"Alta";1
+"2016";"Masculino";"1-4";"MNE";"Alta";3
+"2016";"Masculino";"1-4";"MNE";"Ign/Branco";1
+"2016";"Masculino";"1-4";"MV";"Alta";7
+"2016";"Masculino";"10-14";"MB";"Alta";2
+"2016";"Masculino";"10-14";"MM+MCC";"Alta";1
+"2016";"Masculino";"10-14";"MNE";"Alta";1
+"2016";"Masculino";"10-14";"MV";"Alta";4
+"2016";"Masculino";"10-14";"MV";"Ign/Branco";1
+"2016";"Masculino";"15-19";"MB";"Alta";3
+"2016";"Masculino";"15-19";"MP";"Óbito por meningite";1
+"2016";"Masculino";"15-19";"MTBC";"Alta";1
+"2016";"Masculino";"15-19";"MV";"Alta";8
+"2016";"Masculino";"20-39";"MB";"Alta";2
+"2016";"Masculino";"20-39";"MB";"Ign/Branco";1
+"2016";"Masculino";"20-39";"MB";"Óbito por outra causa";2
+"2016";"Masculino";"20-39";"MM";"Alta";2
+"2016";"Masculino";"20-39";"MNE";"Alta";8
+"2016";"Masculino";"20-39";"MNE";"Ign/Branco";1
+"2016";"Masculino";"20-39";"MNE";"Óbito por meningite";1
+"2016";"Masculino";"20-39";"MOE";"Alta";1
+"2016";"Masculino";"20-39";"MP";"Óbito por meningite";1
+"2016";"Masculino";"20-39";"MV";"Alta";15
+"2016";"Masculino";"20-39";"MV";"Ign/Branco";1
+"2016";"Masculino";"40-59";"MB";"Alta";2
+"2016";"Masculino";"40-59";"MB";"Óbito por meningite";2
+"2016";"Masculino";"40-59";"MM";"Alta";1
+"2016";"Masculino";"40-59";"MM+MCC";"Alta";1
+"2016";"Masculino";"40-59";"MNE";"Alta";2
+"2016";"Masculino";"40-59";"MNE";"Ign/Branco";1
+"2016";"Masculino";"40-59";"MNE";"Óbito por meningite";2
+"2016";"Masculino";"40-59";"MOE";"Alta";4
+"2016";"Masculino";"40-59";"MOE";"Ign/Branco";1
+"2016";"Masculino";"40-59";"MP";"Alta";1
+"2016";"Masculino";"40-59";"MTBC";"Alta";1
+"2016";"Masculino";"40-59";"MTBC";"Óbito por meningite";1
+"2016";"Masculino";"40-59";"MV";"Alta";2
+"2016";"Masculino";"5-9";"MB";"Alta";2
+"2016";"Masculino";"5-9";"MNE";"Alta";1
+"2016";"Masculino";"5-9";"MV";"Alta";10
+"2016";"Masculino";"60-64";"MB";"Alta";1
+"2016";"Masculino";"60-64";"MNE";"Alta";1
+"2016";"Masculino";"60-64";"MV";"Alta";1
+"2016";"Masculino";"65-69";"MNE";"Ign/Branco";1
+"2016";"Masculino";"70-79";"MB";"Óbito por outra causa";1
+"2016";"Masculino";"70-79";"MNE";"Alta";1
+"2016";"Masculino";"70-79";"MNE";"Ign/Branco";1
+"2016";"Masculino";"70-79";"MNE";"Óbito por meningite";1
+"2016";"Masculino";"70-79";"MNE";"Óbito por outra causa";1
+"2016";"Masculino";"70-79";"MP";"Óbito por meningite";1
+"2016";"Masculino";"80 e +";"MNE";"Óbito por meningite";2
+"2016";"Masculino";"80 e +";"MV";"Óbito por meningite";1
+"2017";"Feminino";"<1 Ano";"MB";"Alta";2
+"2017";"Feminino";"<1 Ano";"MCC";"Alta";1
+"2017";"Feminino";"<1 Ano";"MNE";"Alta";3
+"2017";"Feminino";"<1 Ano";"MV";"Alta";5
+"2017";"Feminino";"1-4";"MB";"Alta";2
+"2017";"Feminino";"1-4";"MNE";"Alta";2
+"2017";"Feminino";"1-4";"MV";"Alta";4
+"2017";"Feminino";"10-14";"MB";"Alta";1
+"2017";"Feminino";"10-14";"MNE";"Alta";2
+"2017";"Feminino";"10-14";"MV";"Alta";5
+"2017";"Feminino";"10-14";"MV";"Ign/Branco";1
+"2017";"Feminino";"15-19";"MB";"Alta";1
+"2017";"Feminino";"15-19";"MNE";"Alta";1
+"2017";"Feminino";"15-19";"MTBC";"Alta";1
+"2017";"Feminino";"15-19";"MV";"Alta";2
+"2017";"Feminino";"20-39";"MB";"Alta";1
+"2017";"Feminino";"20-39";"MB";"Ign/Branco";1
+"2017";"Feminino";"20-39";"MM";"Alta";1
+"2017";"Feminino";"20-39";"MNE";"Alta";4
+"2017";"Feminino";"20-39";"MOE";"Alta";1
+"2017";"Feminino";"20-39";"MOE";"Ign/Branco";1
+"2017";"Feminino";"20-39";"MTBC";"Óbito por outra causa";1
+"2017";"Feminino";"20-39";"MV";"Alta";13
+"2017";"Feminino";"40-59";"MB";"Alta";1
+"2017";"Feminino";"40-59";"MM+MCC";"Ign/Branco";1
+"2017";"Feminino";"40-59";"MNE";"Alta";1
+"2017";"Feminino";"40-59";"MP";"Alta";2
+"2017";"Feminino";"40-59";"MTBC";"Ign/Branco";1
+"2017";"Feminino";"40-59";"MTBC";"Óbito por meningite";1
+"2017";"Feminino";"40-59";"MV";"Alta";3
+"2017";"Feminino";"5-9";"MP";"Óbito por meningite";1
+"2017";"Feminino";"5-9";"MV";"Alta";11
+"2017";"Feminino";"60-64";"MCC";"Alta";1
+"2017";"Feminino";"60-64";"MV";"Alta";1
+"2017";"Feminino";"65-69";"MNE";"Ign/Branco";1
+"2017";"Feminino";"70-79";"MB";"Óbito por meningite";1
+"2017";"Feminino";"70-79";"MNE";"Alta";1
+"2017";"Feminino";"70-79";"MOE";"Alta";1
+"2017";"Masculino";"<1 Ano";"MB";"Alta";1
+"2017";"Masculino";"<1 Ano";"MNE";"Alta";3
+"2017";"Masculino";"<1 Ano";"MV";"Alta";4
+"2017";"Masculino";"1-4";"MB";"Alta";1
+"2017";"Masculino";"1-4";"MNE";"Alta";4
+"2017";"Masculino";"1-4";"MNE";"Óbito por meningite";1
+"2017";"Masculino";"1-4";"MV";"Alta";10
+"2017";"Masculino";"1-4";"MV";"Ign/Branco";1
+"2017";"Masculino";"10-14";"Codigo nao mapeado:7";"Alta";1
+"2017";"Masculino";"10-14";"Codigo nao mapeado:X";"Ign/Branco";1
+"2017";"Masculino";"10-14";"MB";"Alta";3
+"2017";"Masculino";"10-14";"MV";"Alta";7
+"2017";"Masculino";"15-19";"MNE";"Alta";2
+"2017";"Masculino";"15-19";"MTBC";"Alta";1
+"2017";"Masculino";"15-19";"MV";"Alta";3
+"2017";"Masculino";"20-39";"MB";"Alta";4
+"2017";"Masculino";"20-39";"MB";"Óbito por meningite";1
+"2017";"Masculino";"20-39";"MCC";"Alta";2
+"2017";"Masculino";"20-39";"MM+MCC";"Alta";1
+"2017";"Masculino";"20-39";"MNE";"Alta";4
+"2017";"Masculino";"20-39";"MNE";"Ign/Branco";1
+"2017";"Masculino";"20-39";"MOE";"Alta";2
+"2017";"Masculino";"20-39";"MOE";"Óbito por outra causa";1
+"2017";"Masculino";"20-39";"MTBC";"Alta";2
+"2017";"Masculino";"20-39";"MTBC";"Óbito por meningite";1
+"2017";"Masculino";"20-39";"MTBC";"Óbito por outra causa";1
+"2017";"Masculino";"20-39";"MV";"Alta";11
+"2017";"Masculino";"40-59";"MB";"Alta";2
+"2017";"Masculino";"40-59";"MB";"Óbito por meningite";1
+"2017";"Masculino";"40-59";"MB";"Óbito por outra causa";1
+"2017";"Masculino";"40-59";"MM";"Ign/Branco";1
+"2017";"Masculino";"40-59";"MNE";"Alta";1
+"2017";"Masculino";"40-59";"MNE";"Ign/Branco";1
+"2017";"Masculino";"40-59";"MOE";"Alta";2
+"2017";"Masculino";"40-59";"MOE";"Óbito por meningite";1
+"2017";"Masculino";"40-59";"MTBC";"Óbito por meningite";1
+"2017";"Masculino";"40-59";"MV";"Alta";2
+"2017";"Masculino";"5-9";"MB";"Alta";5
+"2017";"Masculino";"5-9";"MNE";"Alta";2
+"2017";"Masculino";"5-9";"MNE";"Ign/Branco";1
+"2017";"Masculino";"5-9";"MV";"Alta";8
+"2017";"Masculino";"5-9";"MV";"Ign/Branco";1
+"2017";"Masculino";"60-64";"MB";"Óbito por meningite";1
+"2017";"Masculino";"60-64";"MP";"Óbito por meningite";1
+"2017";"Masculino";"65-69";"MNE";"Óbito por meningite";1
+"2017";"Masculino";"65-69";"MTBC";"Alta";1
+"2017";"Masculino";"65-69";"MV";"Óbito por meningite";1
+"2017";"Masculino";"70-79";"MB";"Alta";1
+"2017";"Masculino";"70-79";"MNE";"Ign/Branco";1
+"2017";"Masculino";"70-79";"MOE";"Alta";1
+"2017";"Masculino";"70-79";"MP";"Alta";1
+"2017";"Masculino";"80 e +";"MNE";"Alta";1
+"2018";"Feminino";"<1 Ano";"MB";"Alta";1
+"2018";"Feminino";"<1 Ano";"MNE";"Alta";1
+"2018";"Feminino";"<1 Ano";"MNE";"Ign/Branco";1
+"2018";"Feminino";"<1 Ano";"MP";"Óbito por meningite";1
+"2018";"Feminino";"<1 Ano";"MV";"Alta";4
+"2018";"Feminino";"1-4";"MNE";"Alta";3
+"2018";"Feminino";"1-4";"MNE";"Óbito por meningite";1
+"2018";"Feminino";"1-4";"MV";"Alta";2
+"2018";"Feminino";"10-14";"MTBC";"Alta";1
+"2018";"Feminino";"15-19";"MB";"Alta";1
+"2018";"Feminino";"15-19";"MB";"Óbito por meningite";1
+"2018";"Feminino";"15-19";"MNE";"Alta";1
+"2018";"Feminino";"15-19";"MV";"Alta";2
+"2018";"Feminino";"20-39";"MB";"Alta";2
+"2018";"Feminino";"20-39";"MNE";"Alta";3
+"2018";"Feminino";"20-39";"MOE";"Alta";1
+"2018";"Feminino";"20-39";"MOE";"Óbito por meningite";2
+"2018";"Feminino";"20-39";"MP";"Alta";1
+"2018";"Feminino";"20-39";"MTBC";"Alta";1
+"2018";"Feminino";"20-39";"MV";"Alta";7
+"2018";"Feminino";"20-39";"MV";"Ign/Branco";1
+"2018";"Feminino";"40-59";"MB";"Óbito por meningite";1
+"2018";"Feminino";"40-59";"MNE";"Alta";1
+"2018";"Feminino";"40-59";"MNE";"Ign/Branco";1
+"2018";"Feminino";"40-59";"MNE";"Óbito por meningite";3
+"2018";"Feminino";"40-59";"MOE";"Óbito por meningite";2
+"2018";"Feminino";"40-59";"MP";"Óbito por meningite";4
+"2018";"Feminino";"40-59";"MTBC";"Óbito por meningite";1
+"2018";"Feminino";"40-59";"MV";"Alta";2
+"2018";"Feminino";"40-59";"MV";"Ign/Branco";1
+"2018";"Feminino";"40-59";"MV";"Óbito por meningite";1
+"2018";"Feminino";"5-9";"MB";"Alta";1
+"2018";"Feminino";"5-9";"MNE";"Alta";1
+"2018";"Feminino";"5-9";"MV";"Alta";5
+"2018";"Feminino";"60-64";"MM";"Alta";1
+"2018";"Feminino";"60-64";"MNE";"Alta";1
+"2018";"Feminino";"60-64";"MP";"Óbito por meningite";1
+"2018";"Feminino";"60-64";"MTBC";"Óbito por outra causa";1
+"2018";"Feminino";"65-69";"MNE";"Alta";1
+"2018";"Feminino";"65-69";"MP";"Ign/Branco";1
+"2018";"Feminino";"70-79";"MB";"Alta";1
+"2018";"Feminino";"70-79";"MP";"Alta";1
+"2018";"Feminino";"70-79";"MV";"Alta";1
+"2018";"Feminino";"80 e +";"MCC";"Alta";1
+"2018";"Masculino";"<1 Ano";"MB";"Alta";2
+"2018";"Masculino";"<1 Ano";"MH";"Alta";1
+"2018";"Masculino";"<1 Ano";"MM";"Alta";1
+"2018";"Masculino";"<1 Ano";"MNE";"Alta";1
+"2018";"Masculino";"<1 Ano";"MV";"Alta";3
+"2018";"Masculino";"1-4";"MM";"Alta";1
+"2018";"Masculino";"1-4";"MNE";"Alta";3
+"2018";"Masculino";"1-4";"MP";"Alta";1
+"2018";"Masculino";"1-4";"MV";"Alta";5
+"2018";"Masculino";"10-14";"MV";"Alta";3
+"2018";"Masculino";"15-19";"MNE";"Alta";1
+"2018";"Masculino";"15-19";"MP";"Óbito por meningite";1
+"2018";"Masculino";"15-19";"MV";"Alta";1
+"2018";"Masculino";"20-39";"MB";"Alta";2
+"2018";"Masculino";"20-39";"MB";"Ign/Branco";1
+"2018";"Masculino";"20-39";"MCC";"Alta";1
+"2018";"Masculino";"20-39";"MM";"Alta";1
+"2018";"Masculino";"20-39";"MNE";"Alta";1
+"2018";"Masculino";"20-39";"MNE";"Ign/Branco";1
+"2018";"Masculino";"20-39";"MNE";"Óbito por meningite";1
+"2018";"Masculino";"20-39";"MOE";"Alta";1
+"2018";"Masculino";"20-39";"MP";"Óbito por meningite";1
+"2018";"Masculino";"20-39";"MTBC";"Óbito por outra causa";1
+"2018";"Masculino";"20-39";"MV";"Alta";7
+"2018";"Masculino";"20-39";"MV";"Óbito por outra causa";1
+"2018";"Masculino";"40-59";"MB";"Alta";1
+"2018";"Masculino";"40-59";"MNE";"Alta";1
+"2018";"Masculino";"40-59";"MOE";"Alta";1
+"2018";"Masculino";"40-59";"MP";"Óbito por meningite";2
+"2018";"Masculino";"40-59";"MTBC";"Alta";2
+"2018";"Masculino";"40-59";"MV";"Alta";1
+"2018";"Masculino";"5-9";"MNE";"Alta";2
+"2018";"Masculino";"5-9";"MNE";"Óbito por outra causa";1
+"2018";"Masculino";"5-9";"MV";"Alta";10
+"2018";"Masculino";"60-64";"MNE";"Alta";1
+"2018";"Masculino";"60-64";"MP";"Alta";1
+"2018";"Masculino";"65-69";"MNE";"Alta";2
+"2018";"Masculino";"70-79";"MP";"Óbito por meningite";1
+"2019";"Feminino";"<1 Ano";"MB";"Alta";1
+"2019";"Feminino";"<1 Ano";"MNE";"Alta";5
+"2019";"Feminino";"<1 Ano";"MV";"Alta";2
+"2019";"Feminino";"1-4";"MB";"Alta";2
+"2019";"Feminino";"1-4";"MNE";"Alta";2
+"2019";"Feminino";"1-4";"MV";"Alta";2
+"2019";"Feminino";"10-14";"MB";"Alta";1
+"2019";"Feminino";"10-14";"MNE";"Alta";3
+"2019";"Feminino";"10-14";"MV";"Alta";4
+"2019";"Feminino";"10-14";"MV";"Ign/Branco";1
+"2019";"Feminino";"15-19";"MB";"Alta";1
+"2019";"Feminino";"15-19";"MNE";"Alta";1
+"2019";"Feminino";"15-19";"MV";"Alta";1
+"2019";"Feminino";"20-39";"IGN/EM BRANCO";"Alta";1
+"2019";"Feminino";"20-39";"MCC";"Óbito por meningite";1
+"2019";"Feminino";"20-39";"MM";"Ign/Branco";1
+"2019";"Feminino";"20-39";"MM+MCC";"Alta";1
+"2019";"Feminino";"20-39";"MNE";"Alta";6
+"2019";"Feminino";"20-39";"MNE";"Óbito por meningite";2
+"2019";"Feminino";"20-39";"MV";"Alta";7
+"2019";"Feminino";"40-59";"MB";"Alta";1
+"2019";"Feminino";"40-59";"MNE";"Alta";1
+"2019";"Feminino";"40-59";"MNE";"Óbito por meningite";1
+"2019";"Feminino";"40-59";"MOE";"Alta";2
+"2019";"Feminino";"40-59";"MP";"Alta";1
+"2019";"Feminino";"40-59";"MV";"Alta";3
+"2019";"Feminino";"5-9";"MM+MCC";"Alta";1
+"2019";"Feminino";"5-9";"MNE";"Alta";3
+"2019";"Feminino";"5-9";"MP";"Óbito por meningite";1
+"2019";"Feminino";"5-9";"MV";"Alta";3
+"2019";"Feminino";"60-64";"MB";"Alta";1
+"2019";"Feminino";"60-64";"MH";"Alta";1
+"2019";"Feminino";"60-64";"MP";"Alta";1
+"2019";"Feminino";"60-64";"MV";"Alta";1
+"2019";"Feminino";"65-69";"MB";"Óbito por meningite";1
+"2019";"Feminino";"65-69";"MNE";"Óbito por meningite";1
+"2019";"Feminino";"65-69";"MOE";"Alta";1
+"2019";"Feminino";"65-69";"MP";"Óbito por meningite";1
+"2019";"Feminino";"70-79";"MNE";"Óbito por meningite";1
+"2019";"Feminino";"80 e +";"MM";"Alta";1
+"2019";"Feminino";"80 e +";"MNE";"Alta";2
+"2019";"Masculino";"<1 Ano";"MB";"Alta";1
+"2019";"Masculino";"<1 Ano";"MB";"Óbito por meningite";1
+"2019";"Masculino";"<1 Ano";"MNE";"Alta";4
+"2019";"Masculino";"<1 Ano";"MV";"Alta";2
+"2019";"Masculino";"1-4";"MB";"Alta";1
+"2019";"Masculino";"1-4";"MM+MCC";"Alta";1
+"2019";"Masculino";"1-4";"MNE";"Alta";1
+"2019";"Masculino";"1-4";"MTBC";"Alta";1
+"2019";"Masculino";"1-4";"MV";"Alta";6
+"2019";"Masculino";"10-14";"MB";"Alta";1
+"2019";"Masculino";"10-14";"MNE";"Alta";3
+"2019";"Masculino";"10-14";"MTBC";"Alta";1
+"2019";"Masculino";"10-14";"MV";"Alta";4
+"2019";"Masculino";"15-19";"MB";"Alta";1
+"2019";"Masculino";"15-19";"MB";"Ign/Branco";1
+"2019";"Masculino";"15-19";"MM+MCC";"Alta";1
+"2019";"Masculino";"15-19";"MV";"Alta";1
+"2019";"Masculino";"15-19";"MV";"Ign/Branco";1
+"2019";"Masculino";"20-39";"MB";"Alta";4
+"2019";"Masculino";"20-39";"MM";"Alta";2
+"2019";"Masculino";"20-39";"MM";"Óbito por meningite";1
+"2019";"Masculino";"20-39";"MM+MCC";"Alta";3
+"2019";"Masculino";"20-39";"MNE";"Alta";5
+"2019";"Masculino";"20-39";"MOE";"Alta";1
+"2019";"Masculino";"20-39";"MP";"Alta";2
+"2019";"Masculino";"20-39";"MP";"Óbito por meningite";1
+"2019";"Masculino";"20-39";"MTBC";"Óbito por outra causa";1
+"2019";"Masculino";"20-39";"MV";"Alta";9
+"2019";"Masculino";"40-59";"MCC";"Alta";1
+"2019";"Masculino";"40-59";"MM";"Alta";4
+"2019";"Masculino";"40-59";"MM+MCC";"Óbito por meningite";1
+"2019";"Masculino";"40-59";"MNE";"Alta";3
+"2019";"Masculino";"40-59";"MNE";"Óbito por outra causa";2
+"2019";"Masculino";"40-59";"MOE";"Óbito por outra causa";1
+"2019";"Masculino";"40-59";"MP";"Alta";2
+"2019";"Masculino";"40-59";"MP";"Óbito por meningite";1
+"2019";"Masculino";"40-59";"MV";"Alta";4
+"2019";"Masculino";"5-9";"MB";"Alta";1
+"2019";"Masculino";"5-9";"MNE";"Alta";3
+"2019";"Masculino";"5-9";"MNE";"Óbito por meningite";1
+"2019";"Masculino";"5-9";"MV";"Alta";8
+"2019";"Masculino";"60-64";"MB";"Alta";3
+"2019";"Masculino";"60-64";"MM+MCC";"Óbito por meningite";1
+"2019";"Masculino";"60-64";"MP";"Alta";2
+"2019";"Masculino";"65-69";"MNE";"Alta";1
+"2019";"Masculino";"65-69";"MV";"Alta";1
+"2019";"Masculino";"65-69";"MV";"Óbito por meningite";1
+"2019";"Masculino";"70-79";"MM+MCC";"Óbito por meningite";1
+"2019";"Masculino";"70-79";"MNE";"Óbito por meningite";1
+"2019";"Masculino";"70-79";"MV";"Alta";1
+"2019";"Masculino";"80 e +";"MV";"Alta";1
+"2019";"Masculino";"80 e +";"MV";"Óbito por outra causa";1
+"2020";"Feminino";"<1 Ano";"MCC";"Óbito por meningite";1
+"2020";"Feminino";"1-4";"MTBC";"Alta";1
+"2020";"Feminino";"10-14";"MNE";"Alta";1
+"2020";"Feminino";"20-39";"MP";"Alta";2
+"2020";"Feminino";"20-39";"MTBC";"Alta";1
+"2020";"Feminino";"40-59";"MNE";"Alta";1
+"2020";"Feminino";"40-59";"MNE";"Óbito por meningite";1
+"2020";"Feminino";"40-59";"MNE";"Óbito por outra causa";1
+"2020";"Feminino";"40-59";"MP";"Alta";1
+"2020";"Feminino";"40-59";"MTBC";"Ign/Branco";1
+"2020";"Feminino";"40-59";"MV";"Alta";2
+"2020";"Feminino";"5-9";"MNE";"Alta";1
+"2020";"Feminino";"65-69";"MP";"Óbito por meningite";1
+"2020";"Feminino";"65-69";"MV";"Alta";1
+"2020";"Masculino";"<1 Ano";"MNE";"Alta";1
+"2020";"Masculino";"<1 Ano";"MNE";"Ign/Branco";1
+"2020";"Masculino";"<1 Ano";"MTBC";"Alta";1
+"2020";"Masculino";"1-4";"MNE";"Alta";2
+"2020";"Masculino";"15-19";"MNE";"Alta";1
+"2020";"Masculino";"15-19";"MV";"Alta";1
+"2020";"Masculino";"20-39";"MB";"Alta";1
+"2020";"Masculino";"20-39";"MB";"Óbito por meningite";1
+"2020";"Masculino";"20-39";"MNE";"Alta";3
+"2020";"Masculino";"20-39";"MOE";"Alta";1
+"2020";"Masculino";"20-39";"MOE";"Óbito por meningite";1
+"2020";"Masculino";"20-39";"MP";"Óbito por meningite";1
+"2020";"Masculino";"20-39";"MTBC";"Óbito por outra causa";1
+"2020";"Masculino";"20-39";"MV";"Alta";1
+"2020";"Masculino";"40-59";"MNE";"Alta";1
+"2020";"Masculino";"40-59";"MOE";"Óbito por outra causa";1
+"2020";"Masculino";"40-59";"MTBC";"Alta";1
+"2020";"Masculino";"40-59";"MV";"Alta";1
+"2020";"Masculino";"5-9";"MNE";"Alta";1
+"2020";"Masculino";"65-69";"MOE";"Alta";1
+"2020";"Masculino";"70-79";"MOE";"Alta";1
+"2021";"Feminino";"<1 Ano";"MNE";"Alta";2
+"2021";"Feminino";"1-4";"MV";"Alta";2
+"2021";"Feminino";"20-39";"MNE";"Alta";2
+"2021";"Feminino";"20-39";"MNE";"Óbito por meningite";2
+"2021";"Feminino";"20-39";"MOE";"Alta";1
+"2021";"Feminino";"20-39";"MP";"Óbito por meningite";1
+"2021";"Feminino";"20-39";"MTBC";"Alta";3
+"2021";"Feminino";"20-39";"MV";"Alta";2
+"2021";"Feminino";"40-59";"MP";"Óbito por meningite";1
+"2021";"Feminino";"40-59";"MTBC";"Ign/Branco";1
+"2021";"Feminino";"40-59";"MV";"Alta";1
+"2021";"Feminino";"5-9";"MNE";"Alta";1
+"2021";"Feminino";"60-64";"MP";"Alta";1
+"2021";"Feminino";"65-69";"MB";"Óbito por meningite";1
+"2021";"Feminino";"80 e +";"MNE";"Óbito por meningite";1
+"2021";"Masculino";"<1 Ano";"MB";"Óbito por meningite";1
+"2021";"Masculino";"<1 Ano";"MNE";"Alta";1
+"2021";"Masculino";"<1 Ano";"MNE";"Óbito por meningite";1
+"2021";"Masculino";"<1 Ano";"MV";"Alta";2
+"2021";"Masculino";"1-4";"MB";"Alta";1
+"2021";"Masculino";"10-14";"MNE";"Óbito por meningite";1
+"2021";"Masculino";"15-19";"MV";"Alta";1
+"2021";"Masculino";"20-39";"MB";"Alta";1
+"2021";"Masculino";"20-39";"MNE";"Alta";1
+"2021";"Masculino";"20-39";"MNE";"Óbito por meningite";2
+"2021";"Masculino";"20-39";"MOE";"Alta";1
+"2021";"Masculino";"20-39";"MOE";"Ign/Branco";1
+"2021";"Masculino";"20-39";"MTBC";"Alta";1
+"2021";"Masculino";"20-39";"MV";"Alta";1
+"2021";"Masculino";"40-59";"MB";"Alta";1
+"2021";"Masculino";"40-59";"MNE";"Óbito por meningite";1
+"2021";"Masculino";"40-59";"MOE";"Alta";2
+"2021";"Masculino";"40-59";"MTBC";"Óbito por meningite";1
+"2021";"Masculino";"40-59";"MTBC";"Óbito por outra causa";2
+"2021";"Masculino";"40-59";"MV";"Alta";1
+"2021";"Masculino";"60-64";"MB";"Alta";1
+"2021";"Masculino";"60-64";"MNE";"Ign/Branco";1
+"2021";"Masculino";"60-64";"MP";"Alta";1
+"2021";"Masculino";"65-69";"MOE";"Óbito por meningite";1
+"2021";"Masculino";"70-79";"MP";"Óbito por meningite";1
+"2022";"Feminino";"<1 Ano";"MB";"Alta";1
+"2022";"Feminino";"<1 Ano";"MNE";"Alta";1
+"2022";"Feminino";"1-4";"MNE";"Alta";3
+"2022";"Feminino";"1-4";"MV";"Alta";2
+"2022";"Feminino";"10-14";"MB";"Alta";1
+"2022";"Feminino";"10-14";"MM+MCC";"Alta";1
+"2022";"Feminino";"15-19";"MNE";"Alta";2
+"2022";"Feminino";"20-39";"MB";"Alta";1
+"2022";"Feminino";"20-39";"MB";"Óbito por outra causa";1
+"2022";"Feminino";"20-39";"MNE";"Alta";1
+"2022";"Feminino";"20-39";"MNE";"Óbito por meningite";1
+"2022";"Feminino";"20-39";"MOE";"Alta";1
+"2022";"Feminino";"20-39";"MP";"Alta";2
+"2022";"Feminino";"20-39";"MP";"Óbito por meningite";1
+"2022";"Feminino";"20-39";"MTBC";"Alta";1
+"2022";"Feminino";"20-39";"MV";"Alta";3
+"2022";"Feminino";"40-59";"MB";"Alta";1
+"2022";"Feminino";"40-59";"MNE";"Alta";2
+"2022";"Feminino";"40-59";"MNE";"Ign/Branco";1
+"2022";"Feminino";"40-59";"MOE";"Alta";1
+"2022";"Feminino";"40-59";"MOE";"Óbito por meningite";2
+"2022";"Feminino";"40-59";"MP";"Alta";1
+"2022";"Feminino";"40-59";"MP";"Óbito por meningite";1
+"2022";"Feminino";"40-59";"MTBC";"Alta";2
+"2022";"Feminino";"40-59";"MV";"Alta";4
+"2022";"Feminino";"5-9";"MNE";"Óbito por meningite";1
+"2022";"Feminino";"5-9";"MV";"Alta";3
+"2022";"Feminino";"60-64";"MNE";"Alta";1
+"2022";"Feminino";"65-69";"MB";"Alta";2
+"2022";"Feminino";"65-69";"MNE";"Óbito por meningite";1
+"2022";"Feminino";"65-69";"MV";"Óbito por meningite";1
+"2022";"Feminino";"70-79";"MB";"Óbito por meningite";1
+"2022";"Feminino";"70-79";"MNE";"Alta";1
+"2022";"Feminino";"70-79";"MOE";"Óbito por outra causa";1
+"2022";"Feminino";"70-79";"MV";"Alta";1
+"2022";"Masculino";"<1 Ano";"MB";"Alta";1
+"2022";"Masculino";"<1 Ano";"MB";"Ign/Branco";1
+"2022";"Masculino";"<1 Ano";"MB";"Óbito por meningite";1
+"2022";"Masculino";"<1 Ano";"MNE";"Alta";1
+"2022";"Masculino";"<1 Ano";"MV";"Alta";1
+"2022";"Masculino";"1-4";"MH";"Alta";1
+"2022";"Masculino";"1-4";"MNE";"Alta";3
+"2022";"Masculino";"1-4";"MOE";"Alta";1
+"2022";"Masculino";"1-4";"MP";"Alta";1
+"2022";"Masculino";"1-4";"MV";"Alta";5
+"2022";"Masculino";"10-14";"Codigo nao mapeado:%7";"Alta";1
+"2022";"Masculino";"10-14";"MP";"Alta";1
+"2022";"Masculino";"10-14";"MV";"Alta";2
+"2022";"Masculino";"15-19";"MNE";"Óbito por meningite";1
+"2022";"Masculino";"15-19";"MOE";"Alta";2
+"2022";"Masculino";"15-19";"MV";"Alta";1
+"2022";"Masculino";"20-39";"MB";"Alta";5
+"2022";"Masculino";"20-39";"MB";"Óbito por outra causa";1
+"2022";"Masculino";"20-39";"MNE";"Alta";2
+"2022";"Masculino";"20-39";"MOE";"Alta";3
+"2022";"Masculino";"20-39";"MOE";"Ign/Branco";1
+"2022";"Masculino";"20-39";"MTBC";"Alta";2
+"2022";"Masculino";"20-39";"MTBC";"Óbito por meningite";1
+"2022";"Masculino";"20-39";"MV";"Alta";6
+"2022";"Masculino";"20-39";"MV";"Óbito por outra causa";1
+"2022";"Masculino";"40-59";"IGN/EM BRANCO";"Ign/Branco";1
+"2022";"Masculino";"40-59";"MB";"Alta";1
+"2022";"Masculino";"40-59";"MB";"Ign/Branco";2
+"2022";"Masculino";"40-59";"MB";"Óbito por outra causa";1
+"2022";"Masculino";"40-59";"MNE";"Alta";3
+"2022";"Masculino";"40-59";"MNE";"Ign/Branco";1
+"2022";"Masculino";"40-59";"MNE";"Óbito por meningite";1
+"2022";"Masculino";"40-59";"MOE";"Óbito por meningite";1
+"2022";"Masculino";"40-59";"MOE";"Óbito por outra causa";1
+"2022";"Masculino";"40-59";"MP";"Alta";1
+"2022";"Masculino";"40-59";"MTBC";"Alta";3
+"2022";"Masculino";"40-59";"MTBC";"Óbito por meningite";1
+"2022";"Masculino";"40-59";"MTBC";"Óbito por outra causa";1
+"2022";"Masculino";"40-59";"MV";"Alta";2
+"2022";"Masculino";"40-59";"MV";"Óbito por outra causa";1
+"2022";"Masculino";"5-9";"MNE";"Alta";1
+"2022";"Masculino";"5-9";"MV";"Alta";9
+"2022";"Masculino";"5-9";"MV";"Ign/Branco";1
+"2022";"Masculino";"60-64";"MB";"Alta";1
+"2022";"Masculino";"60-64";"MB";"Óbito por outra causa";1
+"2022";"Masculino";"60-64";"MP";"Óbito por meningite";2
+"2022";"Masculino";"60-64";"MV";"Alta";1
+"2022";"Masculino";"60-64";"MV";"Ign/Branco";1
+"2022";"Masculino";"60-64";"MV";"Óbito por meningite";1
+"2022";"Masculino";"65-69";"MOE";"Óbito por meningite";1
+"2022";"Masculino";"70-79";"MNE";"Alta";1
+"2022";"Masculino";"70-79";"MV";"Alta";2
+"2022";"Masculino";"70-79";"MV";"Óbito por outra causa";1
+"2022";"Masculino";"80 e +";"MB";"Óbito por meningite";1
+"2023";"Feminino";"<1 Ano";"MB";"Alta";1
+"2023";"Feminino";"<1 Ano";"MM";"Alta";1
+"2023";"Feminino";"<1 Ano";"MNE";"Alta";1
+"2023";"Feminino";"<1 Ano";"MNE";"Ign/Branco";1
+"2023";"Feminino";"<1 Ano";"MV";"Óbito por meningite";1
+"2023";"Feminino";"1-4";"MNE";"Alta";2
+"2023";"Feminino";"1-4";"MV";"Alta";2
+"2023";"Feminino";"10-14";"MB";"Alta";1
+"2023";"Feminino";"10-14";"MH";"Alta";1
+"2023";"Feminino";"10-14";"MNE";"Alta";1
+"2023";"Feminino";"10-14";"MNE";"Óbito por meningite";1
+"2023";"Feminino";"10-14";"MP";"Alta";1
+"2023";"Feminino";"10-14";"MV";"Alta";1
+"2023";"Feminino";"15-19";"MNE";"Alta";1
+"2023";"Feminino";"15-19";"MNE";"Ign/Branco";1
+"2023";"Feminino";"15-19";"MV";"Alta";3
+"2023";"Feminino";"15-19";"MV";"Óbito por outra causa";1
+"2023";"Feminino";"20-39";"MB";"Alta";1
+"2023";"Feminino";"20-39";"MNE";"Alta";3
+"2023";"Feminino";"20-39";"MTBC";"Alta";2
+"2023";"Feminino";"20-39";"MTBC";"Ign/Branco";1
+"2023";"Feminino";"20-39";"MV";"Alta";3
+"2023";"Feminino";"20-39";"MV";"Ign/Branco";1
+"2023";"Feminino";"40-59";"MB";"Óbito por meningite";1
+"2023";"Feminino";"40-59";"MNE";"Alta";3
+"2023";"Feminino";"40-59";"MNE";"Ign/Branco";1
+"2023";"Feminino";"40-59";"MNE";"Óbito por meningite";1
+"2023";"Feminino";"40-59";"MOE";"Óbito por meningite";1
+"2023";"Feminino";"40-59";"MP";"Alta";2
+"2023";"Feminino";"40-59";"MP";"Óbito por meningite";1
+"2023";"Feminino";"40-59";"MTBC";"Alta";1
+"2023";"Feminino";"40-59";"MV";"Alta";4
+"2023";"Feminino";"40-59";"MV";"Ign/Branco";1
+"2023";"Feminino";"40-59";"MV";"Óbito por meningite";1
+"2023";"Feminino";"5-9";"MB";"Óbito por outra causa";1
+"2023";"Feminino";"5-9";"MNE";"Alta";4
+"2023";"Feminino";"5-9";"MNE";"Ign/Branco";1
+"2023";"Feminino";"5-9";"MP";"Alta";1
+"2023";"Feminino";"5-9";"MV";"Alta";2
+"2023";"Feminino";"5-9";"MV";"Óbito por outra causa";1
+"2023";"Feminino";"60-64";"MP";"Alta";1
+"2023";"Feminino";"60-64";"MP";"Óbito por meningite";1
+"2023";"Feminino";"60-64";"MTBC";"Alta";1
+"2023";"Feminino";"60-64";"MV";"Alta";1
+"2023";"Feminino";"65-69";"MB";"Alta";1
+"2023";"Feminino";"70-79";"MOE";"Ign/Branco";1
+"2023";"Feminino";"70-79";"MP";"Óbito por meningite";1
+"2023";"Feminino";"80 e +";"MNE";"Óbito por outra causa";1
+"2023";"Feminino";"80 e +";"MV";"Alta";1
+"2023";"Masculino";"<1 Ano";"MB";"Alta";1
+"2023";"Masculino";"<1 Ano";"MH";"Alta";1
+"2023";"Masculino";"<1 Ano";"MV";"Alta";3
+"2023";"Masculino";"1-4";"MNE";"Alta";3
+"2023";"Masculino";"1-4";"MNE";"Ign/Branco";1
+"2023";"Masculino";"1-4";"MTBC";"Ign/Branco";1
+"2023";"Masculino";"1-4";"MV";"Alta";4
+"2023";"Masculino";"10-14";"MB";"Alta";1
+"2023";"Masculino";"10-14";"MNE";"Alta";1
+"2023";"Masculino";"10-14";"MP";"Óbito por meningite";1
+"2023";"Masculino";"10-14";"MV";"Alta";7
+"2023";"Masculino";"15-19";"MB";"Alta";1
+"2023";"Masculino";"15-19";"MB";"Óbito por meningite";1
+"2023";"Masculino";"15-19";"MP";"Óbito por meningite";2
+"2023";"Masculino";"20-39";"MB";"Alta";4
+"2023";"Masculino";"20-39";"MB";"Óbito por meningite";1
+"2023";"Masculino";"20-39";"MCC";"Óbito por meningite";1
+"2023";"Masculino";"20-39";"MM";"Alta";1
+"2023";"Masculino";"20-39";"MM+MCC";"Óbito por meningite";1
+"2023";"Masculino";"20-39";"MNE";"Alta";1
+"2023";"Masculino";"20-39";"MNE";"Ign/Branco";3
+"2023";"Masculino";"20-39";"MNE";"Óbito por meningite";1
+"2023";"Masculino";"20-39";"MOE";"Alta";6
+"2023";"Masculino";"20-39";"MOE";"Óbito por outra causa";1
+"2023";"Masculino";"20-39";"MP";"Alta";3
+"2023";"Masculino";"20-39";"MP";"Óbito por outra causa";1
+"2023";"Masculino";"20-39";"MTBC";"Alta";3
+"2023";"Masculino";"20-39";"MV";"Alta";4
+"2023";"Masculino";"40-59";"MB";"Alta";1
+"2023";"Masculino";"40-59";"MB";"Óbito por meningite";1
+"2023";"Masculino";"40-59";"MNE";"Alta";2
+"2023";"Masculino";"40-59";"MNE";"Ign/Branco";2
+"2023";"Masculino";"40-59";"MNE";"Óbito por meningite";2
+"2023";"Masculino";"40-59";"MNE";"Óbito por outra causa";1
+"2023";"Masculino";"40-59";"MOE";"Alta";1
+"2023";"Masculino";"40-59";"MOE";"Ign/Branco";1
+"2023";"Masculino";"40-59";"MOE";"Óbito por meningite";1
+"2023";"Masculino";"40-59";"MOE";"Óbito por outra causa";1
+"2023";"Masculino";"40-59";"MP";"Alta";1
+"2023";"Masculino";"40-59";"MTBC";"Alta";2
+"2023";"Masculino";"40-59";"MTBC";"Óbito por meningite";1
+"2023";"Masculino";"40-59";"MTBC";"Óbito por outra causa";2
+"2023";"Masculino";"40-59";"MV";"Alta";4
+"2023";"Masculino";"5-9";"MB";"Alta";1
+"2023";"Masculino";"5-9";"MH";"Óbito por meningite";1
+"2023";"Masculino";"5-9";"MNE";"Alta";1
+"2023";"Masculino";"5-9";"MV";"Alta";5
+"2023";"Masculino";"60-64";"MOE";"Alta";2
+"2023";"Masculino";"60-64";"MP";"Alta";1
+"2023";"Masculino";"60-64";"MP";"Óbito por meningite";1
+"2023";"Masculino";"60-64";"MTBC";"Ign/Branco";1
+"2023";"Masculino";"65-69";"MNE";"Óbito por meningite";1
+"2023";"Masculino";"70-79";"MNE";"Alta";1
+"2023";"Masculino";"70-79";"MNE";"Óbito por meningite";1
+"2023";"Masculino";"80 e +";"MNE";"Óbito por outra causa";1
+"2024";"Feminino";"<1 Ano";"MB";"Alta";1
+"2024";"Feminino";"<1 Ano";"MM+MCC";"Alta";1
+"2024";"Feminino";"<1 Ano";"MNE";"Alta";1
+"2024";"Feminino";"<1 Ano";"MNE";"Ign/Branco";1
+"2024";"Feminino";"<1 Ano";"MV";"Alta";2
+"2024";"Feminino";"<1 Ano";"MV";"Ign/Branco";1
+"2024";"Feminino";"10-14";"MM";"Alta";2
+"2024";"Feminino";"10-14";"MNE";"Ign/Branco";1
+"2024";"Feminino";"10-14";"MV";"Alta";3
+"2024";"Feminino";"15-19";"MB";"Alta";1
+"2024";"Feminino";"15-19";"MM";"Alta";1
+"2024";"Feminino";"20-39";"MB";"Alta";1
+"2024";"Feminino";"20-39";"MB";"Óbito por meningite";1
+"2024";"Feminino";"20-39";"MM";"Alta";1
+"2024";"Feminino";"20-39";"MNE";"Alta";1
+"2024";"Feminino";"20-39";"MNE";"Ign/Branco";3
+"2024";"Feminino";"20-39";"MNE";"Óbito por meningite";1
+"2024";"Feminino";"20-39";"MP";"Óbito por meningite";1
+"2024";"Feminino";"20-39";"MTBC";"Alta";1
+"2024";"Feminino";"20-39";"MTBC";"Óbito por meningite";2
+"2024";"Feminino";"20-39";"MV";"Alta";8
+"2024";"Feminino";"20-39";"MV";"Óbito por outra causa";2
+"2024";"Feminino";"40-59";"MB";"Alta";2
+"2024";"Feminino";"40-59";"MCC";"Alta";1
+"2024";"Feminino";"40-59";"MCC";"Óbito por meningite";1
+"2024";"Feminino";"40-59";"MM";"Alta";2
+"2024";"Feminino";"40-59";"MM";"Ign/Branco";1
+"2024";"Feminino";"40-59";"MM";"Óbito por meningite";1
+"2024";"Feminino";"40-59";"MNE";"Alta";2
+"2024";"Feminino";"40-59";"MNE";"Ign/Branco";2
+"2024";"Feminino";"40-59";"MOE";"Ign/Branco";1
+"2024";"Feminino";"40-59";"MOE";"Óbito por outra causa";1
+"2024";"Feminino";"40-59";"MP";"Alta";2
+"2024";"Feminino";"40-59";"MP";"Ign/Branco";1
+"2024";"Feminino";"40-59";"MP";"Óbito por meningite";1
+"2024";"Feminino";"40-59";"MP";"Óbito por outra causa";1
+"2024";"Feminino";"40-59";"MTBC";"Óbito por outra causa";1
+"2024";"Feminino";"40-59";"MV";"Alta";2
+"2024";"Feminino";"5-9";"MNE";"Alta";4
+"2024";"Feminino";"5-9";"MV";"Alta";4
+"2024";"Feminino";"60-64";"MP";"Óbito por meningite";1
+"2024";"Feminino";"65-69";"MNE";"Ign/Branco";1
+"2024";"Feminino";"70-79";"MB";"Alta";1
+"2024";"Feminino";"70-79";"MNE";"Ign/Branco";1
+"2024";"Feminino";"70-79";"MNE";"Óbito por meningite";1
+"2024";"Ignorado";"60-64";"MB";"Ign/Branco";1
+"2024";"Masculino";"<1 Ano";"MM";"Alta";1
+"2024";"Masculino";"<1 Ano";"MOE";"Alta";1
+"2024";"Masculino";"<1 Ano";"MP";"Alta";1
+"2024";"Masculino";"<1 Ano";"MV";"Alta";1
+"2024";"Masculino";"1-4";"MNE";"Alta";4
+"2024";"Masculino";"1-4";"MNE";"Ign/Branco";1
+"2024";"Masculino";"1-4";"MV";"Alta";3
+"2024";"Masculino";"10-14";"MNE";"Alta";1
+"2024";"Masculino";"10-14";"MNE";"Ign/Branco";2
+"2024";"Masculino";"10-14";"MV";"Alta";1
+"2024";"Masculino";"10-14";"MV";"Ign/Branco";1
+"2024";"Masculino";"20-39";"MB";"Alta";2
+"2024";"Masculino";"20-39";"MNE";"Alta";1
+"2024";"Masculino";"20-39";"MNE";"Ign/Branco";4
+"2024";"Masculino";"20-39";"MOE";"Alta";2
+"2024";"Masculino";"20-39";"MOE";"Ign/Branco";1
+"2024";"Masculino";"20-39";"MP";"Alta";3
+"2024";"Masculino";"20-39";"MP";"Óbito por meningite";1
+"2024";"Masculino";"20-39";"MTBC";"Alta";2
+"2024";"Masculino";"20-39";"MTBC";"Ign/Branco";1
+"2024";"Masculino";"20-39";"MV";"Alta";9
+"2024";"Masculino";"20-39";"MV";"Óbito por outra causa";2
+"2024";"Masculino";"40-59";"MB";"Alta";2
+"2024";"Masculino";"40-59";"MB";"Ign/Branco";1
+"2024";"Masculino";"40-59";"MB";"Óbito por meningite";1
+"2024";"Masculino";"40-59";"MM+MCC";"Alta";1
+"2024";"Masculino";"40-59";"MNE";"Alta";3
+"2024";"Masculino";"40-59";"MNE";"Ign/Branco";3
+"2024";"Masculino";"40-59";"MOE";"Alta";2
+"2024";"Masculino";"40-59";"MOE";"Ign/Branco";1
+"2024";"Masculino";"40-59";"MP";"Alta";4
+"2024";"Masculino";"40-59";"MP";"Ign/Branco";1
+"2024";"Masculino";"40-59";"MP";"Óbito por meningite";1
+"2024";"Masculino";"40-59";"MTBC";"Óbito por meningite";1
+"2024";"Masculino";"40-59";"MTBC";"Óbito por outra causa";1
+"2024";"Masculino";"40-59";"MV";"Alta";3
+"2024";"Masculino";"5-9";"MNE";"Alta";2
+"2024";"Masculino";"5-9";"MP";"Alta";1
+"2024";"Masculino";"5-9";"MP";"Ign/Branco";1
+"2024";"Masculino";"5-9";"MV";"Alta";4
+"2024";"Masculino";"60-64";"MOE";"Alta";1
+"2024";"Masculino";"60-64";"MP";"Óbito por meningite";1
+"2024";"Masculino";"65-69";"MP";"Alta";1
+"2024";"Masculino";"65-69";"MP";"Óbito por meningite";2
+"2024";"Masculino";"65-69";"MV";"Alta";2
+"2024";"Masculino";"70-79";"MB";"Alta";1
+"2024";"Masculino";"70-79";"MNE";"Alta";1
+"2024";"Masculino";"80 e +";"MB";"Óbito por meningite";1
+"2024";"Masculino";"80 e +";"MNE";"Ign/Branco";1

@@ -1,0 +1,45 @@
+﻿codigo_ibge6;municipio;ano;indicador_grupo;indicador_fonte;fonte_sistema;disponibilidade_portal;status_coleta;cobertura_percentual;numerador_oficial;denominador_oficial;ausencia_imputada_zero;arquivo_bruto
+292740;Salvador;2014;meningococica;Meningococo C;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2015;meningococica;Meningococo C;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2016;meningococica;Meningococo C;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2017;meningococica;Meningococo C;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2018;meningococica;Meningococo C;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2019;meningococica;Meningococo C;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2020;meningococica;Meningococo C;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2021;meningococica;Meningococo C;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2022;meningococica;Meningococo C;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2023;meningococica;Meningocócica Conjugada;Painel residência RNDS;indicador municipal retornou;observado;63.73891395674498;16386;25708;False;Meningite\dados\brutos\pni_20261009\rnds_meningococica_2023_resumo.json
+292740;Salvador;2024;meningococica;Meningocócica Conjugada;Painel residência RNDS;indicador municipal retornou;observado;36.983910785732526;8689;23494;False;Meningite\dados\brutos\pni_20261009\rnds_meningococica_2024_resumo.json
+292740;Salvador;2014;pneumococica;Pneumocócica;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2015;pneumococica;Pneumocócica;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2016;pneumococica;Pneumocócica;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2017;pneumococica;Pneumocócica;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2018;pneumococica;Pneumocócica;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2019;pneumococica;Pneumocócica;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2020;pneumococica;Pneumocócica;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2021;pneumococica;Pneumocócica;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2022;pneumococica;Pneumocócica;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2023;pneumococica;Pneumocócica Conjugada;Painel residência RNDS;indicador municipal retornou;observado;70.4994554224366;18124;25708;False;Meningite\dados\brutos\pni_20261009\rnds_pneumococica_2023_resumo.json
+292740;Salvador;2024;pneumococica;Pneumocócica Conjugada;Painel residência RNDS;indicador municipal retornou;observado;75.48735847450413;17735;23494;False;Meningite\dados\brutos\pni_20261009\rnds_pneumococica_2024_resumo.json
+292740;Salvador;2014;penta_hib;Penta;TabNet legado;"campo/ano presente; não garante resposta";observado_cache_sha_validado;90.42;;;False;Meningite\dados\brutos\pni_20261009\cache_20261003_pni_cobertura_2_20261003T144734192747.csv
+292740;Salvador;2015;penta_hib;Penta;TabNet legado;"campo/ano presente; não garante resposta";observado_cache_sha_validado;95.13;;;False;Meningite\dados\brutos\pni_20261009\cache_20261003_pni_cobertura_2_20261003T144734192747.csv
+292740;Salvador;2016;penta_hib;Penta;TabNet legado;"campo/ano presente; não garante resposta";observado_cache_sha_validado;87.31;;;False;Meningite\dados\brutos\pni_20261009\cache_20261003_pni_cobertura_2_20261003T144734192747.csv
+292740;Salvador;2017;penta_hib;Penta;TabNet legado;"campo/ano presente; não garante resposta";observado_cache_sha_validado;86.63;;;False;Meningite\dados\brutos\pni_20261009\cache_20261003_pni_cobertura_2_20261003T144734192747.csv
+292740;Salvador;2018;penta_hib;Penta;TabNet legado;"campo/ano presente; não garante resposta";observado_cache_sha_validado;78.15;;;False;Meningite\dados\brutos\pni_20261009\cache_20261003_pni_cobertura_2_20261003T144734192747.csv
+292740;Salvador;2019;penta_hib;Penta;TabNet legado;"campo/ano presente; não garante resposta";observado_cache_sha_validado;59.25;;;False;Meningite\dados\brutos\pni_20261009\cache_20261003_pni_cobertura_2_20261003T144734192747.csv
+292740;Salvador;2020;penta_hib;Penta;TabNet legado;"campo/ano presente; não garante resposta";observado_cache_sha_validado;72.31;;;False;Meningite\dados\brutos\pni_20261009\cache_20261003_pni_cobertura_2_20261003T144734192747.csv
+292740;Salvador;2021;penta_hib;Penta;TabNet legado;"campo/ano presente; não garante resposta";observado_cache_sha_validado;36.74;;;False;Meningite\dados\brutos\pni_20261009\cache_20261003_pni_cobertura_2_20261003T144734192747.csv
+292740;Salvador;2022;penta_hib;Penta;TabNet legado;"campo/ano presente; não garante resposta";observado_cache_sha_validado;59.06;;;False;Meningite\dados\brutos\pni_20261009\cache_20261003_pni_cobertura_2_20261003T144734192747.csv
+292740;Salvador;2023;penta_hib;Penta (DTP/HepB/Hib);Painel residência RNDS;indicador municipal retornou;observado;69.06799439863077;17756;25708;False;Meningite\dados\brutos\pni_20261009\rnds_penta_hib_2023_resumo.json
+292740;Salvador;2024;penta_hib;Penta (DTP/HepB/Hib);Painel residência RNDS;indicador municipal retornou;observado;72.94628415765727;17138;23494;False;Meningite\dados\brutos\pni_20261009\rnds_penta_hib_2024_resumo.json
+292740;Salvador;2014;bcg;BCG;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2015;bcg;BCG;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2016;bcg;BCG;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2017;bcg;BCG;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2018;bcg;BCG;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2019;bcg;BCG;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2020;bcg;BCG;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2021;bcg;BCG;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2022;bcg;BCG;TabNet legado;"campo/ano presente; não garante resposta";pendente_falha_transporte_POST;;;;False;
+292740;Salvador;2023;bcg;BCG;Painel residência RNDS;indicador municipal retornou;observado;14.458534308386495;3717;25708;False;Meningite\dados\brutos\pni_20261009\rnds_bcg_2023_resumo.json
+292740;Salvador;2024;bcg;BCG;Painel residência RNDS;indicador municipal retornou;observado;38.94611390142164;9150;23494;False;Meningite\dados\brutos\pni_20261009\rnds_bcg_2024_resumo.json

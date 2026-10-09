@@ -1,0 +1,21 @@
+{
+  "versao": "20261009",
+  "municipio": "Salvador",
+  "codigo_municipio": "292740",
+  "periodo_principal": [2014, 2024],
+  "particoes_sinan": [2014, 2026],
+  "referencia_sinan": "primeiros sintomas",
+  "referencia_sih": "processamento",
+  "referencia_sim": "obito",
+  "perspectiva": "residencia",
+  "nucleo": ["SINAN nacional", "populacao municipal"],
+  "complementos": ["SIH nacional por residencia", "SIM", "PNI por imunobiologico"],
+  "cid_sih_sim_piloto": ["G00", "G01", "G02", "G03", "A39", "A87"],
+  "cid_a_revisar": ["A17.0 meningite tuberculosa", "B00.3 meningite herpetica", "B01.0 meningite por varicela", "B02.1 meningite por zoster", "B26.1 meningite por caxumba", "B37.5 meningite por Candida", "B45.1 criptococose cerebral"],
+  "imunobiologicos": ["Meningococica C", "Pneumococica10", "Penta componenteHib", "BCG"],
+  "limites_execucao": {"sinan_lote_maximo": 3, "sinan_rede_mb": 80, "sih_sim_consultas_exitosas_maximo": 11, "sih_sim_post_tentativas_maximo": 24, "pni_consultas_exitosas_maximo": 8, "pni_post_tentativas_maximo": 16, "tentativas_por_request": 2},
+  "campos_nucleo_sinan": ["ID_MN_RESI", "CLASSI_FIN", "DT_SIN_PRI", "DT_NOTIFIC", "CS_SEXO", "NU_IDADE_N", "CON_DIAGES", "CRITERIO", "EVOLUCAO", "SG_UF_NOT"],
+  "campos_secundarios_sinan": ["CS_RACA", "CS_ESCOL_N", "CLA_SOROGR", "ATE_HOSPIT", "ATE_INTERN", "LAB_PUNCAO", "LAB_CTLIQU", "LAB_PCLIQU", "ANT_CONJ_C", "ANT_PNEUMO", "ANT_HEMO_T", "ANT_BCG", "MED_DT_EVO", "DT_ENCERRA"],
+  "regras": ["nao imputar ausencia comozero", "nao juntar fontes como pessoas", "manter MCCisolada separada", "preservar MNE", "nao confirmar agente somentepelo criterioPCR", "uma versao por particao", "nao eliminar duplicatasclinicas sem chavevalidada"],
+  "congelamento": "somente depois de conferir cobertura, dominios, marginais, datas, duplicacao tecnica e divergencias"
+}

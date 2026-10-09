@@ -1,0 +1,68 @@
+{
+  "conferido_em": "2026-10-05T19:06:31.063649-03:00",
+  "municipio": "Salvador",
+  "codigo": "292740",
+  "anos": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "chaves_originais": 396,
+  "cobertura": "populacao municipal residente, ambos os sexos",
+  "origem_denominador": "DATASUS: estimativas municipais RIPSA, serie 2000-2025 previamente preservada",
+  "fonte_formulario": "https://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvs2024br.def",
+  "referencia": "populacao residente em 1 de julho; mesma revisao para todos os anos",
+  "verificacoes": [
+    "hash das fontes anterior confirmado",
+    "396 chaves unicas positivas",
+    "codigo292740",
+    "11 totais anuais conferem com soma de sexo/idade"
+  ],
+  "arquivos": [
+    {
+      "origem": "Hepatite- Descartado\\triagem_temas_20261004\\populacao_total_reaproveitada.csv",
+      "destino": "dados\\denominadores\\populacao_total.csv",
+      "sha256": "e0d2f73029bec27820fad805b1eb47e447efdc927db60432060638050e37ad57",
+      "bytes": 173,
+      "natureza": "copia exata de agregado previamente conferido; nao exportacao bruta nova"
+    },
+    {
+      "origem": "Hepatite- Descartado\\triagem_temas_20261004\\populacao_sexo_idade_reaproveitada.csv",
+      "destino": "dados\\denominadores\\populacao_sexo_idade_original.csv",
+      "sha256": "b0317f55013b789071593a84564bd6e83cf4a90208929c6990f06a290bcf8afa",
+      "bytes": 49638,
+      "natureza": "copia exata de agregado previamente conferido; nao exportacao bruta nova"
+    }
+  ],
+  "faixas_sinan_chaves": 242,
+  "regra_faixas_sinan": {
+    "Menor 1 ano": "<1 Ano",
+    "1 a 4 anos": "1-4",
+    "5 a 9 anos": "5-9",
+    "10 a 14 anos": "10-14",
+    "15 a 19 anos": "15-19",
+    "60 a 64 anos": "60-64",
+    "65 a 69 anos": "65-69",
+    "70 a 74 anos": "70-79",
+    "75 a 79 anos": "70-79",
+    "80 anos e mais": "80 e +",
+    "20 a 24 anos": "20-39",
+    "25 a 29 anos": "20-39",
+    "30 a 34 anos": "20-39",
+    "35 a 39 anos": "20-39",
+    "40 a 44 anos": "40-59",
+    "45 a 49 anos": "40-59",
+    "50 a 54 anos": "40-59",
+    "55 a 59 anos": "40-59"
+  },
+  "faixas_sinan_sha256": "71cde10b4bde4ed2734935978b1add9e3a1a6c47cb86df4e2c7345564ef95ee9",
+  "limite": "Faixas agregadas preservam os totais; juncoes dos casos precisam conferir categorias e universo da marginal."
+}

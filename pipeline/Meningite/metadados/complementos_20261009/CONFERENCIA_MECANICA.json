@@ -1,0 +1,202 @@
+{
+  "status": "conferencia_mecanica_passou",
+  "python": "3.12.14",
+  "consultas_validas": [
+    {
+      "consulta": "SIM_idade_ano_G00_G03_A39_A87",
+      "sha256_conferido": true,
+      "arquivos_periodo": 11,
+      "anos_retornados": 11,
+      "medida": "obitos_causa_basica",
+      "unidade": "obitos",
+      "dimensao": "idade",
+      "grupo": "conjunto_filtrado",
+      "referencia_tempo": "ano_obito",
+      "tracos_presentes": true,
+      "legenda_zero_confirmada": true,
+      "status": "conferido"
+    },
+    {
+      "consulta": "SIH_obitos_diagnostico_ano",
+      "sha256_conferido": true,
+      "arquivos_periodo": 132,
+      "anos_retornados": 11,
+      "medida": "obitos",
+      "unidade": "altas_por_obito",
+      "dimensao": "diagnostico",
+      "grupo": "grupos_separados",
+      "referencia_tempo": "ano_processamento",
+      "tracos_presentes": true,
+      "legenda_zero_confirmada": true,
+      "status": "conferido"
+    },
+    {
+      "consulta": "SIH_valor_total_diagnostico_ano",
+      "sha256_conferido": true,
+      "arquivos_periodo": 132,
+      "anos_retornados": 11,
+      "medida": "valor_total",
+      "unidade": "BRL_aprovados_nominais",
+      "dimensao": "diagnostico",
+      "grupo": "grupos_separados",
+      "referencia_tempo": "ano_processamento",
+      "tracos_presentes": true,
+      "legenda_zero_confirmada": true,
+      "status": "conferido"
+    },
+    {
+      "consulta": "SIH_G00_idade_ano",
+      "sha256_conferido": true,
+      "arquivos_periodo": 132,
+      "anos_retornados": 11,
+      "medida": "internacoes",
+      "unidade": "episodios_aproximados",
+      "dimensao": "idade",
+      "grupo": "G00",
+      "referencia_tempo": "ano_processamento",
+      "tracos_presentes": true,
+      "legenda_zero_confirmada": true,
+      "status": "conferido"
+    },
+    {
+      "consulta": "SIH_A87_sexo_ano",
+      "sha256_conferido": true,
+      "arquivos_periodo": 132,
+      "anos_retornados": 11,
+      "medida": "internacoes",
+      "unidade": "episodios_aproximados",
+      "dimensao": "sexo",
+      "grupo": "A87",
+      "referencia_tempo": "ano_processamento",
+      "tracos_presentes": false,
+      "legenda_zero_confirmada": false,
+      "status": "conferido"
+    },
+    {
+      "consulta": "SIH_A87_idade_ano",
+      "sha256_conferido": true,
+      "arquivos_periodo": 132,
+      "anos_retornados": 11,
+      "medida": "internacoes",
+      "unidade": "episodios_aproximados",
+      "dimensao": "idade",
+      "grupo": "A87",
+      "referencia_tempo": "ano_processamento",
+      "tracos_presentes": true,
+      "legenda_zero_confirmada": true,
+      "status": "conferido"
+    }
+  ],
+  "csvs_conferidos": [
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\comparacao_piloto_versoes.csv",
+      "linhas": 132,
+      "hash_conferido": true,
+      "chave": [
+        "cid_grupo",
+        "ano",
+        "medida"
+      ],
+      "chave_unica": true
+    },
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\conferencias.csv",
+      "linhas": 77,
+      "hash_conferido": true,
+      "chave": null,
+      "chave_unica": null
+    },
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\perfis_anuais_longo.csv",
+      "linhas": 418,
+      "hash_conferido": true,
+      "chave": [
+        "consulta_id",
+        "estrato",
+        "ano"
+      ],
+      "chave_unica": true
+    },
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\SIH_A87_idade_ano_tabela.csv",
+      "linhas": 13,
+      "hash_conferido": true,
+      "chave": null,
+      "chave_unica": null
+    },
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\SIH_A87_sexo_ano_tabela.csv",
+      "linhas": 3,
+      "hash_conferido": true,
+      "chave": null,
+      "chave_unica": null
+    },
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\SIH_G00_idade_ano_tabela.csv",
+      "linhas": 13,
+      "hash_conferido": true,
+      "chave": null,
+      "chave_unica": null
+    },
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\sih_internacoes_anuais_totais_das_marginais.csv",
+      "linhas": 22,
+      "hash_conferido": true,
+      "chave": [
+        "cid_grupo",
+        "ano_processamento"
+      ],
+      "chave_unica": true
+    },
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\sih_medidas_anuais_longo.csv",
+      "linhas": 132,
+      "hash_conferido": true,
+      "chave": [
+        "cid_grupo",
+        "ano_processamento",
+        "medida"
+      ],
+      "chave_unica": true
+    },
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\SIH_obitos_diagnostico_ano_tabela.csv",
+      "linhas": 10,
+      "hash_conferido": true,
+      "chave": null,
+      "chave_unica": null
+    },
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\SIH_valor_total_diagnostico_ano_tabela.csv",
+      "linhas": 11,
+      "hash_conferido": true,
+      "chave": null,
+      "chave_unica": null
+    },
+    {
+      "arquivo": "dados\\tratados\\complementos_20261009\\SIM_idade_ano_G00_G03_A39_A87_tabela.csv",
+      "linhas": 13,
+      "hash_conferido": true,
+      "chave": null,
+      "chave_unica": null
+    }
+  ],
+  "conservacoes_sem_diferenca": 77,
+  "escopos": {
+    "csv_longo_SIH": "grupo diagnostico × ano processamento × medida; obitos e valores separados por unidade",
+    "csv_perfis": "consulta × estrato × ano; medidas separadas SIH/SIM; nao e sexo×idade conjunto",
+    "csv_totais_marginais": "um total de internacoes por CID×ano; origens concordantes nao sao somadas",
+    "tabelas_SIH_originais": "incluem capitulos e subtotais; nao agregar pais com folhas",
+    "tabela_SIM_idade": "obitos causa basica do conjunto G00-G03/A39/A87, e nao tipos individuais",
+    "csv_comparacao": "snapshots separados; branco nao significa zero nem falta de internacoes"
+  },
+  "pendencias_coleta": [
+    "SIH_internacoes_diagnostico_ano",
+    "SIH_dias_permanencia_diagnostico_ano",
+    "SIH_G00_sexo_ano",
+    "SIH_A39_sexo_ano",
+    "SIH_A39_idade_ano"
+  ],
+  "status_coleta": "coleta_parcial_ou_conferencia_pendente",
+  "nota": "Conferencia mecanica confirma arquivo e contagem; nao valida clinicamente diagnostico ou pessoas unicas."
+}

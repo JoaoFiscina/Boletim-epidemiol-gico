@@ -1,0 +1,94 @@
+{
+  "em": "2026-10-09T18:23:55.402117-03:00",
+  "municipio": "292740 Salvador",
+  "linhas_observadas": 17,
+  "chaves_solicitadas": 44,
+  "chaves_pendentes": 27,
+  "cache_penta_sha_validado": true,
+  "html_cache_confirma_municipio": true,
+  "validacoes_rnds": [
+    {
+      "ano": 2023,
+      "indicador": "Meningocócica Conjugada",
+      "municipio_confirmado": true,
+      "selecao_unica_3_campos": true,
+      "razao_numerador_denominador_validada": true,
+      "arquivo": "Meningite\\dados\\brutos\\pni_20261009\\rnds_meningococica_2023_resumo.json",
+      "sha256": "942a381b069527594195c302565f9b207f2cec6022929c118a14e48e95d0471b"
+    },
+    {
+      "ano": 2023,
+      "indicador": "Pneumocócica Conjugada",
+      "municipio_confirmado": true,
+      "selecao_unica_3_campos": true,
+      "razao_numerador_denominador_validada": true,
+      "arquivo": "Meningite\\dados\\brutos\\pni_20261009\\rnds_pneumococica_2023_resumo.json",
+      "sha256": "ef9921d41a39b2aac79ae645c1f0adec9a32c131c16930115c868856722b8b1f"
+    },
+    {
+      "ano": 2023,
+      "indicador": "Penta (DTP/HepB/Hib)",
+      "municipio_confirmado": true,
+      "selecao_unica_3_campos": true,
+      "razao_numerador_denominador_validada": true,
+      "arquivo": "Meningite\\dados\\brutos\\pni_20261009\\rnds_penta_hib_2023_resumo.json",
+      "sha256": "ad66196ef86351fafac98b63a0000c82432aa247beda743468f34da3355fd5cd"
+    },
+    {
+      "ano": 2023,
+      "indicador": "BCG",
+      "municipio_confirmado": true,
+      "selecao_unica_3_campos": true,
+      "razao_numerador_denominador_validada": true,
+      "arquivo": "Meningite\\dados\\brutos\\pni_20261009\\rnds_bcg_2023_resumo.json",
+      "sha256": "6359c2763fd71941493d91540856d2fdf6ce91ee982d4ea21df9e33f8b6ecbcb"
+    },
+    {
+      "ano": 2024,
+      "indicador": "Meningocócica Conjugada",
+      "municipio_confirmado": true,
+      "selecao_unica_3_campos": true,
+      "razao_numerador_denominador_validada": true,
+      "arquivo": "Meningite\\dados\\brutos\\pni_20261009\\rnds_meningococica_2024_resumo.json",
+      "sha256": "6e55c7f3502964a527a9e0dd57c683f084307e6bc34806acfebed2cd0d0aeedf"
+    },
+    {
+      "ano": 2024,
+      "indicador": "Pneumocócica Conjugada",
+      "municipio_confirmado": true,
+      "selecao_unica_3_campos": true,
+      "razao_numerador_denominador_validada": true,
+      "arquivo": "Meningite\\dados\\brutos\\pni_20261009\\rnds_pneumococica_2024_resumo.json",
+      "sha256": "4a23775d60f49c9d93f59135e532c0de57cf408341b6efdf3551cc5db73536e0"
+    },
+    {
+      "ano": 2024,
+      "indicador": "Penta (DTP/HepB/Hib)",
+      "municipio_confirmado": true,
+      "selecao_unica_3_campos": true,
+      "razao_numerador_denominador_validada": true,
+      "arquivo": "Meningite\\dados\\brutos\\pni_20261009\\rnds_penta_hib_2024_resumo.json",
+      "sha256": "e8e772e4b436dee998feee5bb7be5b2fa74354a7dbb2bb6abf4c0d49f1886527"
+    },
+    {
+      "ano": 2024,
+      "indicador": "BCG",
+      "municipio_confirmado": true,
+      "selecao_unica_3_campos": true,
+      "razao_numerador_denominador_validada": true,
+      "arquivo": "Meningite\\dados\\brutos\\pni_20261009\\rnds_bcg_2024_resumo.json",
+      "sha256": "9af00a55ba3f2faf4f77d89c8e9d3f5481f7b53dbd83d5efb33409f64dc0e739"
+    }
+  ],
+  "http_post_tentativas": 5,
+  "http_post_concluidos": 0,
+  "rpc_websocket": 76,
+  "bytes_respostas_recebidas": 4837074,
+  "limite_bytes": 20971520,
+  "limite_post_concluidos": 8,
+  "limite_tentativas_totais": 16,
+  "limite_tentativas_por_consulta": 2,
+  "imputacoes_zero": 0,
+  "microdados_individuais_baixados": false,
+  "doses_totais_confundidas_com_numerador": false
+}

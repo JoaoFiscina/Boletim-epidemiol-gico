@@ -1,0 +1,341 @@
+{
+  "status": "serie_nacional_geral_concordante_demais_auditorias_documentadas",
+  "versao": "20261009",
+  "data_corte_auditoria": "2026-10-09",
+  "gerado_utc": "2026-10-09 21:27:19 UTC",
+  "particoes_lidas": 13,
+  "registros_nacionais": 295369,
+  "residentes_confirmados_todas_datas": 2255,
+  "coorte_confirmada": 1976,
+  "confirmados_sem_data": 0,
+  "confirmados_fora_janela": 279,
+  "notificados_foraBA": 2,
+  "n_MNE": 442,
+  "n_MCC": 19,
+  "n_etiologia_fora_dominio": 6,
+  "n_etiologia_vazia": 2,
+  "regra_etiologia": "dominio canonicoCON_DIAGES01-10; seis codigosnao padronizados preservados, sem correcao automatica",
+  "n_evolucao_desconhecida": 144,
+  "diferenca_total_por_ano": [
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 361,
+      "n_br": 361,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2014,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2014"
+    },
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 292,
+      "n_br": 292,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2015,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2015"
+    },
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 241,
+      "n_br": 241,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2016,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2016"
+    },
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 198,
+      "n_br": 198,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2017,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2017"
+    },
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 141,
+      "n_br": 141,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2018,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2018"
+    },
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 181,
+      "n_br": 181,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2019,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2019"
+    },
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 40,
+      "n_br": 40,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2020,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2020"
+    },
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 51,
+      "n_br": 51,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2021,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2021"
+    },
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 142,
+      "n_br": 142,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2022,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2022"
+    },
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 167,
+      "n_br": 167,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2023,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2023"
+    },
+    {
+      "categoria": "Todos os casos confirmados",
+      "n_tabnet": 162,
+      "n_br": 162,
+      "diferenca_br_menos_tabnet": 0,
+      "ano": 2024,
+      "consulta": "total_sem_coluna",
+      "_row": "total_sem_coluna 2024"
+    }
+  ],
+  "duplicatas_tecnicas": [
+    {
+      "grupos_hash_repetidos": 0,
+      "linhas_em_grupos_repetidos": 0,
+      "linhas_excedentes": 0,
+      "linhas_removidas": 0
+    }
+  ],
+  "n_linhas_comparacao": 578,
+  "n_celulas_comparadas": 572,
+  "n_celulas_diferenca_observada": 0,
+  "n_categorias_nacionais_sem_equivalente_tabnet": 6,
+  "fontes": [
+    {
+      "arquivo": "MENIBR14.dbc",
+      "sha256": "783a5bb96f9c8078e19f44ee282c2ca02108ad5d422b2abb7ab6071208d0c7ed",
+      "modalidade": "Dados - Finais",
+      "n_nacional": 26304,
+      "n_campos": 131,
+      "n_coorte": 356,
+      "data_fonte_utc": "2026-10-09T20:59:21.371776+00:00"
+    },
+    {
+      "arquivo": "MENIBR15.dbc",
+      "sha256": "48468454e32651bbf987962e0418d197b517a710ef55cc32d596843e2ea50aa9",
+      "modalidade": "Dados - Finais",
+      "n_nacional": 24259,
+      "n_campos": 131,
+      "n_coorte": 285,
+      "data_fonte_utc": "2026-10-09T20:59:21.903707+00:00"
+    },
+    {
+      "arquivo": "MENIBR16.dbc",
+      "sha256": "08eff5757eb36d124f9fceb77f3dabdcc362f444f2f99dc9bcee450445640356",
+      "modalidade": "Dados - Finais",
+      "n_nacional": 23754,
+      "n_campos": 131,
+      "n_coorte": 251,
+      "data_fonte_utc": "2026-10-09T20:59:21.983841+00:00"
+    },
+    {
+      "arquivo": "MENIBR17.dbc",
+      "sha256": "ed152ab81b17664af8f26f2d040b3cce78a0bc4388af2b768377352580e4ff53",
+      "modalidade": "Dados - Finais",
+      "n_nacional": 26446,
+      "n_campos": 131,
+      "n_coorte": 192,
+      "data_fonte_utc": "2026-10-09T20:59:29.780021+00:00"
+    },
+    {
+      "arquivo": "MENIBR18.dbc",
+      "sha256": "092941aec761877b854d4547995fc9124b0e532b9105853043f12916b5b358e3",
+      "modalidade": "Dados - Finais",
+      "n_nacional": 26043,
+      "n_campos": 131,
+      "n_coorte": 141,
+      "data_fonte_utc": "2026-10-09T20:59:29.818135+00:00"
+    },
+    {
+      "arquivo": "MENIBR19.dbc",
+      "sha256": "17d56ae60a35212a89cf7dcce397ec95c55cb690ee30e635bc99582cc7384ec9",
+      "modalidade": "Dados - Finais",
+      "n_nacional": 25538,
+      "n_campos": 131,
+      "n_coorte": 186,
+      "data_fonte_utc": "2026-10-09T20:59:29.851752+00:00"
+    },
+    {
+      "arquivo": "MENIBR20.dbc",
+      "sha256": "5e97f2e946074272823df678ef7260bbf96ddcaf36f6eaf8a2344f8c32efae47",
+      "modalidade": "Dados - Finais",
+      "n_nacional": 11939,
+      "n_campos": 131,
+      "n_coorte": 41,
+      "data_fonte_utc": "2026-10-09T20:59:34.954034+00:00"
+    },
+    {
+      "arquivo": "MENIBR21.dbc",
+      "sha256": "d277a4caacc920d1c9bd5112de47bd3f3cc02924a106c626e52ee475cace7019",
+      "modalidade": "Dados - Finais",
+      "n_nacional": 11904,
+      "n_campos": 131,
+      "n_coorte": 43,
+      "data_fonte_utc": "2026-10-09T20:59:34.973451+00:00"
+    },
+    {
+      "arquivo": "MENIBR22.dbc",
+      "sha256": "6be9dcbd99fccde082e6db58b276bebfce9b098972efd587dc74414c29a4bd7c",
+      "modalidade": "Dados - Finais",
+      "n_nacional": 20635,
+      "n_campos": 131,
+      "n_coorte": 145,
+      "data_fonte_utc": "2026-10-09T20:59:35.000219+00:00"
+    },
+    {
+      "arquivo": "MENIBR23.dbc",
+      "sha256": "9c9320a7150eadc705f4eaaeb5d5176c84868d943ee2c8d4dae92fafa88ba97c",
+      "modalidade": "Dados - Preliminares",
+      "n_nacional": 26629,
+      "n_campos": 131,
+      "n_coorte": 169,
+      "data_fonte_utc": "2026-10-09T20:59:38.164009+00:00"
+    },
+    {
+      "arquivo": "MENIBR24.dbc",
+      "sha256": "69bec57a8f537cb3c8b3859a5efd652728797845201915d64e9a5cb6dce13e31",
+      "modalidade": "Dados - Preliminares",
+      "n_nacional": 25485,
+      "n_campos": 131,
+      "n_coorte": 162,
+      "data_fonte_utc": "2026-10-05T21:59:40.447591+00:00"
+    },
+    {
+      "arquivo": "MENIBR25.dbc",
+      "sha256": "958e7bbb0a162d0de77b46acb8d9c95f827738263db70686d1b0690b5067bfa7",
+      "modalidade": "Dados - Preliminares",
+      "n_nacional": 26983,
+      "n_campos": 131,
+      "n_coorte": 5,
+      "data_fonte_utc": "2026-10-05T21:59:40.497161+00:00"
+    },
+    {
+      "arquivo": "MENIBR26.dbc",
+      "sha256": "89309c24cffe41a187d44cb794ebcd6d9a2d04cd68805d5fab3c5429a8098c73",
+      "modalidade": "Dados - Preliminares",
+      "n_nacional": 19450,
+      "n_campos": 131,
+      "n_coorte": 0,
+      "data_fonte_utc": "2026-10-05T21:59:40.541909+00:00"
+    }
+  ],
+  "script_sha256": "6353322886b18df9e3ce37aadd089fe3b08a716d0dbf6b2711537564a828f387",
+  "tabnet_snapshot_sha256": "44f7f2e017199c2b01b141f17d47c970a35f4495004b0833d07c6d6041f54c17",
+  "pacote": {
+    "arquivo": "C:/Pesquisa/Boletim epidemiolóico/Meningite/dados/tratados/sinan_br_20261009/meningites_salvador_sinan.rds",
+    "sha256": "1f3ed66d13b3c5c7474879a78447389bad3df9f029556ced5cf74d205ed785d6",
+    "bytes": 111460
+  },
+  "limites": ["nao exportar casos individuais aoGit", "pessoas unicas nao validadas", "nao excluir MNE/MCC sem regra", "codigoPCR geral nao provaagente", "completude de datas filtradas nao mede total semdata", "TabNet preservado em05/10/2026; fontes podem ter datasdistintas"],
+  "saidas": [
+    {
+      "arquivo": "auditoria_datas_confirmados_todos.csv",
+      "bytes": 1843,
+      "sha256": "b1fae7ffd6007c514efa9b2375bd571c4b443391489b83eb87631448ae51cad4"
+    },
+    {
+      "arquivo": "base_conjunta_agregada.csv",
+      "bytes": 43998,
+      "sha256": "ac29a33bd7352d8675ae10f21eb0416d7f31bc8907ab68a5911735ca8f793a0c"
+    },
+    {
+      "arquivo": "comparacao_tabnet_snapshot20261005.csv",
+      "bytes": 20163,
+      "sha256": "a0170e408cee343890d070a2f28d27473fb6130b1aa99ed1804e2e50286cbe4d"
+    },
+    {
+      "arquivo": "dominios_anuais.csv",
+      "bytes": 115457,
+      "sha256": "a5f89f06849da1744a2a488bebfb3a05eecfdd86e320d3625301eac2f4219fd1"
+    },
+    {
+      "arquivo": "duplicatas_tecnicas.csv",
+      "bytes": 102,
+      "sha256": "fbaeea57d09ce62b83b7c1911ee4e5e38835c9e73034e8d7c2defa2b38b6e44d"
+    },
+    {
+      "arquivo": "esquema_campos.csv",
+      "bytes": 66796,
+      "sha256": "065d5a09c91c8440b2714e0ecffaf4e1e585509f794f11743412f56f057e3f2f"
+    },
+    {
+      "arquivo": "etiologia_codigos_fora_dominio_1_10.csv",
+      "bytes": 234,
+      "sha256": "917169b2e27ba72e2d341446bce83ddf67304f49455518b92dc2a9553fe00cae"
+    },
+    {
+      "arquivo": "fluxos_selecao.csv",
+      "bytes": 742,
+      "sha256": "86aba36bc7a84d7b20835506476ecc6456325bd208502a6e8914f83d9f51dda1"
+    },
+    {
+      "arquivo": "marginais_anuais.csv",
+      "bytes": 12806,
+      "sha256": "3ea3e9a86b8a142612a91fd3f74f8abf061a032cc58221cb61597e071c1af80c"
+    },
+    {
+      "arquivo": "meningites_salvador_sinan.rds",
+      "bytes": 111460,
+      "sha256": "1f3ed66d13b3c5c7474879a78447389bad3df9f029556ced5cf74d205ed785d6"
+    },
+    {
+      "arquivo": "notificacoes_tardias_uf.csv",
+      "bytes": 656,
+      "sha256": "91be088f05fe8b1f2b255b784f2bfe3a7c98b476fd82303af2adf5712968a611"
+    },
+    {
+      "arquivo": "qualidade_anual.csv",
+      "bytes": 28392,
+      "sha256": "b804e9618b66b1ac9d2fb9cf11124a424903bfe2c294832461353d368c4a5ac9"
+    },
+    {
+      "arquivo": "serie_anual.csv",
+      "bytes": 1217,
+      "sha256": "65d5c5736363829bfbabb09b4b78463edc04e5beab14eb2179792a1f86c06b3e"
+    },
+    {
+      "arquivo": "serie_mensal.csv",
+      "bytes": 1997,
+      "sha256": "f38b49ffc23e83ef0541267d630c29f61e6d73326673b54713e1cf36cf1b6c22"
+    },
+    {
+      "arquivo": "sorogrupo_entre_doenca_meningococica.csv",
+      "bytes": 1103,
+      "sha256": "7559de1ea33006f8504031c08b296f98c54a5a4950bd6d10b7ff1e084dd859c5"
+    },
+    {
+      "arquivo": "tecnica_etiologia_laboratorio.csv",
+      "bytes": 52786,
+      "sha256": "13e09a556544af492eb7441869c7007883a8e30bcec366a2bc309f2d29f69090"
+    }
+  ]
+}

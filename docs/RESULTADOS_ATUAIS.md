@@ -1,4 +1,6 @@
-# Estado atual e resultados auditados
+# Resultados da pré-análise preservada — 05/10/2026
+
+Este documento registra o estágio de 05/10. O estado vigente é [ESTADO_COLETA.md](ESTADO_COLETA.md): coleta nacional completa, seis códigos etiológicos residuais localizados, complementos SIH/SIM e PNI executados em 09/10. As pendências históricas abaixo não devem orientar novos downloads sem consultar essa atualização.
 
 Data de referência: 05/10/2026. O detalhe completo está em `C:\Pesquisa\Boletim epidemiolóico\Meningite\RELATORIO_PRE_ANALISE.md`.
 

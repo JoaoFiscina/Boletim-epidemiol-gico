@@ -1,6 +1,6 @@
 # Prompt para entregar este projeto a outra IA
 
-Você está continuando uma pré-análise de meningites e doença meningocócica em residentes de Salvador, Brasil. Leia todo este repositório antes de agir. O manual é normativo para organização e rastreabilidade; o relatório do projeto original contém os resultados executados.
+Você está continuando a coleta e preparação analítica de meningites e doença meningocócica em residentes de Salvador, Brasil. Primeiro leia `AGENTS.md`, `docs/ESTADO_COLETA.md`, `docs/PREFERENCIAS_E_METODOS.md`, o plano e relatório em `pipeline/Meningite`. Estado vigente: 09/10/2026. A pré-análise de 05/10 é histórica. Confirme arquivos/hashes antes de executar e atualize o Git local após cada etapa.
 
 ## Contexto fixo
 
@@ -13,17 +13,21 @@ Você está continuando uma pré-análise de meningites e doença meningocócica
 
 ## Resultado que não pode ser perdido
 
-O SINAN/TabNet tem 1.976 casos gerais, mas a tabela de etiologia tem 1.970; há diferença de seis registros sem causa demonstrada. Sexo, idade e mês têm bom preenchimento. Evolução tem piora recente: 32/162 casos de 2024 sem evolução conhecida. O piloto nacional `MENIBR24–26` reproduziu os 162 casos de 2024 do TabNet sem divergências nas células comparadas e encontrou um caso notificado fora da Bahia.
+As 13 partições MENIBR14–26 foram lidas: 295.369 linhas nacionais, 2.255 residentes confirmados e 1.976 com sintomas 2014–2024. Os onze totais anuais e 572 células comparáveis concordam com TabNet de 05/10. Seis categorias adicionais ficam sem referência TabNet. A diferença de seis na etiologia foi localizada em códigos não canônicos, preservados sem adivinhar agente. Há duas notificações fora BA, zero duplicatas técnicas exatas e 144 evoluções desconhecidas; em 2024, 32/162. Isso não prova pessoas únicas.
+
+SIH/SIM: seis consultas válidas, cinco SIH pendentes após 24 POST. SIM idade conserva 202 óbitos, mas arquivo BA não comprova cobertura nacional. SIH tem 75 óbitos hospitalares e R$ 2.354.667,12 aprovados; somar folhas CID sem subtotais-pai. PNI tem 17 observações e 27 lacunas; legado/RNDS e geografias são distintos. NT84/2026 revoga NT90/2025 e inclui 2023; NT69/2026 consolida conjugadas pneumocócicas. Não renomear atuais como MenC/PCV10 exclusivas. BCG baixo exige qualidade, não prova ausência de vacinação.
 
 ## O que fazer agora
 
 1. Verificar o estado dos arquivos antes de baixar qualquer coisa.
-2. Completar `MENIBR14–23` uma vez cada, pelo catálogo oficial, preservando ZIP/DBC, modalidade e hashes.
-3. Filtrar residência 292740, `CLASSI_FIN=1` e sintomas 2014–2024.
-4. Comparar a série nacional com TabNet por total, sexo, idade, evolução, critério e etiologia.
-5. Explicar ou manter explicitamente a diferença de seis; não forçar igualdade.
-6. Completar SIH sexo/idade anual e SIM idade somente se necessário para a pergunta final.
-7. Atualizar o relatório, manifestos, RDS e changelog.
+2. Não repetir SINAN, seis consultas complementares válidas ou oito RNDS já validados sem motivo.
+3. Usar o pacote local `dados/tratados/meningites_salvador_20261009.rds`; em clone Git seguir `pipeline/README.md`, pois brutos/RDS não são enviados.
+4. Definir pergunta principal com núcleo SINAN e denominadores íntegros; os cruzamentos nacionais são reais, não marginais combinadas.
+5. Retomar apenas SIH internações gerais, dias, G00 sexo e A39 sexo/idade se úteis; PNI legado tem 27 lacunas.
+6. Conferir abrangência SIM e recorte clínico se mortalidade/subtipos forem eixo principal.
+7. Atualizar plano, relatório, manifestos, RDS, estado, preferências/métodos e changelog; sincronizar código/agregados por lista explícita e conferir SHA antes do commit.
+
+Os scripts SINAN têm perfil temporal fixo explícito no código; o JSON documenta o plano, não amplia automaticamente o período. Usar scripts `.R` em PowerShell para preservar aspas. Rede/timeout é falha operacional, não ausência epidemiológica. Coordenar chats por diretórios exclusivos e não deixar duas frentes escreverem a mesma base ou Git.
 
 ## Proibições
 

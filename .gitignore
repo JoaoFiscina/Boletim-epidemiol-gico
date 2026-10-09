@@ -8,6 +8,9 @@
 *.html
 *.htm
 dados/brutos/
+**/dados/brutos/
+**/__pycache__/
+*.pyc
 logs/
 tmp/
 .Rhistory
@@ -18,3 +21,7 @@ tmp/
 *.bak
 Thumbs.db
 desktop.ini
+
+# Pacotes locais com linhas individuais não entram no manual compartilhável.
+*casos_individuais*
+*casos_minimos_locais*

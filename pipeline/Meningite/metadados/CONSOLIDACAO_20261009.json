@@ -1,0 +1,103 @@
+{
+  "versao": "20261009",
+  "gerado_utc": "2026-10-09 21:30:58 UTC",
+  "pacote": "meningites_salvador_20261009.rds",
+  "bytes": 129144,
+  "sha256": "9fec05cb6c73b51d6cf30669d186d740fbf0f4b200121e2ad30f713713571dd5",
+  "estado": [
+    {
+      "modulo": "SINAN",
+      "status": "serie nacional concordante; categorias e limites preservados"
+    },
+    {
+      "modulo": "Populacao",
+      "status": "integridade e somas conferidas"
+    },
+    {
+      "modulo": "SIH",
+      "status": "coleta parcial; cinco consultas pendentes"
+    },
+    {
+      "modulo": "SIM",
+      "status": "perfil etario conferido; abrangencia nacional nao demonstrada"
+    },
+    {
+      "modulo": "PNI",
+      "status": "17 observacoes; 27 chaves pendentes; metodos distintos"
+    }
+  ],
+  "script_sha256": "309444bfc9b9180797b389256e152d4efee8f6f02e4aae3687b00b78db952202",
+  "entradas": [
+    {
+      "caminho": "metadados/sinan_br_20261009/RESULTADO_PROCESSAMENTO.json",
+      "bytes": 11259,
+      "sha256": "bac815fe8e4ff5c0a0b93e5086f8aead8549e45e39ae00e72b102df739ba7319"
+    },
+    {
+      "caminho": "dados/tratados/sinan_br_20261009/meningites_salvador_sinan.rds",
+      "bytes": 111460,
+      "sha256": "1f3ed66d13b3c5c7474879a78447389bad3df9f029556ced5cf74d205ed785d6"
+    },
+    {
+      "caminho": "dados/denominadores/populacao_total.csv",
+      "bytes": 173,
+      "sha256": "e0d2f73029bec27820fad805b1eb47e447efdc927db60432060638050e37ad57"
+    },
+    {
+      "caminho": "dados/denominadores/populacao_sexo_idade_original.csv",
+      "bytes": 49638,
+      "sha256": "b0317f55013b789071593a84564bd6e83cf4a90208929c6990f06a290bcf8afa"
+    },
+    {
+      "caminho": "dados/denominadores/populacao_faixas_sinan.csv",
+      "bytes": 6598,
+      "sha256": "71cde10b4bde4ed2734935978b1add9e3a1a6c47cb86df4e2c7345564ef95ee9"
+    },
+    {
+      "caminho": "metadados/DENOMINADORES.json",
+      "bytes": 2434,
+      "sha256": "38c2eecd69ffd1122f0e83d6c10d41869a32b2f05ff32b7bc9d4cd83be24036f"
+    },
+    {
+      "caminho": "metadados/complementos_20261009/RESULTADO_COLETA_COMPLEMENTOS.json",
+      "bytes": 265661,
+      "sha256": "5c5373270122db9841e753234bd58fd975ac292494580850253f303960b0a204"
+    },
+    {
+      "caminho": "dados/tratados/complementos_20261009/perfis_anuais_longo.csv",
+      "bytes": 45948,
+      "sha256": "2d7bff9594caab33c68258ecc6766d0c2f10b219751fd6f9bc2dd93a5f7618d8"
+    },
+    {
+      "caminho": "dados/tratados/complementos_20261009/sih_medidas_anuais_longo.csv",
+      "bytes": 13126,
+      "sha256": "067bbb863cca14a81ee940a81a8f3d84135ca3133bafc6f77120d2c1c745f09d"
+    },
+    {
+      "caminho": "dados/tratados/complementos_20261009/sih_internacoes_anuais_totais_das_marginais.csv",
+      "bytes": 1844,
+      "sha256": "547aa05ea5d6fb9383deace88128a3c77b89c145a03932e8dc58a93c20646464"
+    },
+    {
+      "caminho": "dados/tratados/complementos_20261009/conferencias.csv",
+      "bytes": 3817,
+      "sha256": "58c148b3a7eb46a0801b0849783c306b53fc4af6560c84148871542e8670dfd2"
+    },
+    {
+      "caminho": "dados/tratados/pni_20261009/pni_cobertura_municipal_2014_2024_longo.csv",
+      "bytes": 8570,
+      "sha256": "bea32325c9cf2c5caa1847cd102c968fdecb302aecac590a51d7b1ccb7a3b742"
+    },
+    {
+      "caminho": "dados/tratados/pni_20261009/disponibilidade_pni_municipal_2014_2024.csv",
+      "bytes": 7874,
+      "sha256": "14dc499d3465c5c2ee6125a7d6dc3b7b1b1e5399590520e3df032ea8c90400c1"
+    },
+    {
+      "caminho": "metadados/pni_20261009/validacao_piloto.json",
+      "bytes": 3720,
+      "sha256": "68be612128e149c1f64c9e33222315d903bc749c5c29478ec5ac499ffd4eaed0"
+    }
+  ],
+  "limites": ["Cada fonte permanece em objeto separado; nao somar como pessoas.", "SINAN inclui meningococcemia isolada e seis codigos de etiologia nao padronizados.", "SINAN 2023-2026 preliminar no catalogo; evolucao desconhecida em 144 registros da coorte.", "SIH usa ano de processamento, valores aprovados e AIHs; CID A39 nao equivale a meningite.", "SIM usa ano do obito e causa basica; arquivo BA nao demonstra cobertura de todas as UFs.", "PNI legado e RNDS tem metodologias/geografias distintas; cobertura BCG requer auditoria.", "O RDS contem uma base minima local SINAN; compartilhar publicamente somente agregados revisados.", "Snapshot anterior de SIH/SIM permanece no pre_analise_meningite.rds, nao substitui lacunas atuais."]
+}

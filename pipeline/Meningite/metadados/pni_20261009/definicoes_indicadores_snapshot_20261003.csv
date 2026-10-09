@@ -1,0 +1,209 @@
+﻿codigo;titulo;conceituacao;objetivo;metodo_calculo;formula_calculo;unidade;granularidade;periodicidade_atualizacao;fonte_dados;interpretacao;usos;limitacoes;notas
+IMUNMENCRE;Cobertura vacinal contra meningocócica C (doses 1 e 2) em crianças menores de 1 ano, em local e período considerados.;"A cobertura vacinal é um indicador epidemiológico essencial, pois expressa a proporção da população-alvo que recebeu determinada vacina em um intervalo de tempo específico. No caso da vacina meningocócica C, o indicador reflete a adesão à imunização entre crianças menores de 1 ano, grupo prioritário por concentrar as duas doses iniciais do esquema básico e apresentar maior vulnerabilidade às infecções invasivas pelo meningococo tipo C. 
+
+A vacina meningocócica C tem como principal objetivo prevenir as doenças meningocócicas, como meningite, encefalite e meningoencefalite, que se caracterizam por evolução rápida, alta gravidade e risco de sequelas ou óbito.";Monitorar a cobertura da vacina meningocócica C em crianças menores de 1 ano, avaliando a completude do esquema vacinal conforme as recomendações do Programa Nacional de Imunizações (PNI).;"Numerador: 
+
+Fonte dos dados: RNDS (awsrp1d.dbbni.tb_ria_r) 
+Campos:  
+co_municipio_estabelecimento (ocorrência) 
+co_municipio_paciente (residência) 
+co_paciente 
+co_vacina 
+nu_idade_paciente 
+dt_vacina 
+dt_nascimento_paciente 
+co_dose_vacina 
+
+Filtros: 
+co_vacina = 41 ou 74 
+nu_idade_paciente = 0 
+st_documento = final 
+
+ 
+
+São recuperadas todas as doses registradas com base nos filtros acima e em seguida é realizada a contabilização de doses válidas para cobertura em duas etapas: 
+
+Para cada vacinado (co_paciente), é verificado se há duas doses registradas, com intervalo mínimo entre as datas de aplicação (dt_vacina) de 30 dias e com idade mínima de 42 dias (diferença entre data de nascimento e data da vacina). Caso positivo, o vacinado é contabilizado no ano e mês de aplicação (dt_vacina) da segunda dose. 
+
+Quando o primeiro critério não é atingido, então para cada vacinado (co_paciente), é verificado se há um registro com tipo de dose D2 (co_dose_vacina = 2). Caso positivo, o vacinado é contabilizado no ano e mês de aplicação (dt_vacina) da respectiva dose. 
+
+ 
+
+Cada vacinado (co_paciente), caso atenda aos critérios acima listados, é contabilizado uma única vez. 
+
+Denominador: 
+Fonte dos dados: SINASC (dfpo1.dbsinasc.tb_dn) 
+Campos: 
+co_municipio_ibge_residencia 
+dt_nascimento 
+
+
+São contabilizados todos os registros por ano e mês de nascimento (dt_nascimento) e município (co_municipio_ibge_residencia)";"$$
+\frac
+{
+\begin {array} {c}
+\textit {Número de crianças menores de 1 ano que completaram o esquema}\\ \textit {primário (duas doses válidas) da vacina meningocócica C}\\
+\end {array}
+}
+{
+\textit {Estimativa da população de crianças menores de 1 ano}
+} 
+\times 100
+$$";Percentual;Município;Diária;Rede Nacional de Dados em Saúde (RNDS) e Sistema de Informação sobre Nascidos Vivos (SINASC);"A cobertura vacinal da meningocócica C (conjugada) demonstra o desempenho do Programa Nacional de Imunizações (PNI) e a efetividade do sistema de saúde em alcançar o público-alvo. Sua interpretação envolve a análise do percentual de vacinados, associada a fatores como acesso aos serviços, adesão da população e qualidade da oferta vacinal. 
+Coberturas elevadas indicam proteção adequada contra doenças imunopreveníveis, com redução da incidência de meningite meningocócica, controle de surtos e interrupção da cadeia de transmissão, enquanto baixas coberturas sinalizam vulnerabilidade e risco de reemergência da doença.";O monitoramento da cobertura vacinal dessa vacina em crianças menores de 1 ano permite avaliar a completude do esquema vacinal, identificar áreas de baixa adesão e orientar estratégias de fortalecimento das ações de imunização. A manutenção de elevadas coberturas vacinais é fundamental para reduzir a circulação do agente, garantir proteção individual e coletiva e prevenir surtos de doença meningocócica na população infantil.;"- Sub-registro ou registro incompleto das doses e/ou nascidos vivos;  
+
+- Atrasos na digitação e transmissão dos dados;  
+
+- Interoperabilidade dos sistemas com a RNDS.";
+IMUNPENTA;Cobertura vacinal da penta (DTP/HB/Hib), considerando as doses 1, 2 e 3, em crianças menores de 1 ano, no local e período considerados;"A cobertura vacinal é um indicador epidemiológico fundamental, pois expressa a proporção da população-alvo que recebeu determinada vacina em um período específico. No caso da vacina penta (DTP/Hib/HB), esse indicador reflete a adesão à imunização de crianças menores de um ano, público-alvo prioritário do esquema vacinal. 
+A penta protege contra cinco doenças imunopreveníveis: difteria, tétano, coqueluche, hepatite B e infecções causadas por Haemophilus influenzae B, como meningite e pneumonia. A manutenção de altas coberturas vacinais é essencial para evitar a reintrodução dessas doenças e garantir proteção coletiva.";Monitorar a cobertura da Vacina penta em crianças menores de 1 ano, avaliando a completude do esquema vacinal conforme as recomendações do Programa Nacional de Imunizações (PNI).;"Numerador:Fonte dos dados: RNDS (awsrp1d.dbbni.tb_ria_r) 
+
+Campos:  
+
+co_municipio_estabelecimento (ocorrência) 
+
+co_municipio_paciente (residência) 
+
+co_paciente 
+
+co_vacina 
+
+nu_idade_paciente 
+
+dt_vacina 
+
+dt_nascimento_paciente 
+
+co_dose_vacina 
+
+Filtros: 
+
+co_vacina = 42 ou 43 
+
+nu_idade_paciente = 0 
+
+st_documento = final 
+
+São recuperadas todas as doses registradas com base nos filtros acima e em seguida é realizada a contabilização de doses válidas para cobertura em duas etapas: 
+
+Para cada vacinado (co_paciente), é verificado se há três doses registradas, com intervalo mínimo entre as datas de aplicação (dt_vacina) de 30 dias e com idade mínima de 42 dias (diferença entre data de nascimento e data da vacina). Caso positivo, o vacinado é contabilizado no ano e mês de aplicação (dt_vacina) da terceira dose. 
+
+Quando o primeiro critério não é atingido, então para cada vacinado (co_paciente), é verificado se há um registro com tipo de dose D3 (co_dose_vacina = 3). Caso positivo, o vacinado é contabilizado no ano e mês de aplicação (dt_vacina) da respectiva dose. 
+
+ 
+
+Cada vacinado (co_paciente), caso atenda aos critérios acima listados, é contabilizado uma única vez. 
+
+ 
+
+Denominador: 
+
+Fonte dos dados: SINASC (dfpo1.dbsinasc.tb_dn) 
+
+Campos: 
+
+co_municipio_ibge_residencia 
+
+dt_nascimento 
+
+ 
+
+São contabilizados todos os registros por ano e mês de nascimento (dt_nascimento) e município (co_municipio_ibge_residencia) 
+
+";"A 
+
+Y = _____ x 100 
+
+        B 
+
+Numerador: 
+
+A = Número de crianças menores de 1 ano que completaram o esquema primário (3 doses válidas) da vacina penta. 
+
+Denominador: 
+B = Estimativa da população de crianças menores de 1 ano 
+
+Multiplicador: 
+100";Percentual;Município;Diária;Rede Nacional de Dados em Saúde (RNDS) e Sistema de Informação sobre Nascidos Vivos (SINASC);"A cobertura da Vacina penta demonstra o desempenho do Programa Nacional de Imunizações (PNI) e a capacidade do sistema de saúde em alcançar a população-alvo. Sua interpretação considera o percentual de vacinados, mas também fatores como acesso aos serviços, adesão da população e qualidade da oferta vacinal. 
+Coberturas elevadas indicam proteção adequada contra doenças imunopreveníveis, redução da incidência de casos e interrupção da cadeia de transmissão, enquanto níveis baixos de cobertura evidenciam risco de reemergência de doenças controladas e a necessidade de reforçar estratégias de imunização.";O monitoramento da cobertura vacinal da penta orienta a organização das estratégias de vacinação, a definição de prioridades e o planejamento das ações nos serviços de saúde. Esses dados permitem identificar áreas com baixa adesão, direcionar buscas ativas e avaliar o desempenho das campanhas e rotinas de imunização, contribuindo para o fortalecimento da vigilância e a redução de doenças imunopreveníveis.;"- Sub-registro ou registro incompleto das doses e/ou nascidos vivos;
+- Atrasos na digitação e transmissão dos dados;
+- Interoperabilidade dos sistemas com a RNDS.";
+IMUNPN10;Cobertura vacinal contra pneumocócica 10-valente (doses 1 e 2) em crianças menores de 1 ano, em local e período considerado;A cobertura vacinal é um indicador epidemiológico essencial, pois expressa a proporção da população-alvo que recebeu determinada vacina em um período específico. No caso da vacina pneumocócica 10-valente, o indicador reflete a adesão à imunização entre crianças menores de 1 ano de idade, público prioritário por apresentar maior vulnerabilidade às doenças pneumocócicas. Essa vacina tem como objetivo prevenir infecções graves, como pneumonias, meningites e otites, que representam causas importantes de adoecimento e mortalidade infantil. O monitoramento desse indicador permite avaliar o desempenho das ações de imunização e identificar áreas com menor cobertura, orientando estratégias de prevenção e controle mais eficazes.;Monitorar a cobertura da vacina pneumocócica 10-valente em crianças menores de 1 ano, avaliando a completude do esquema vacinal conforme as recomendações do Programa Nacional de Imunizações (PNI).;"2023 Numerador: Número de últimas doses do esquema vacinal da vacina pneumocócica 10-valente Denominador: B = Estimativa da população de crianças menores de 1 ano 2024 - Presente Numerador: Fonte dos dados: RNDS (awsrp1d.dbbni.tb_ria_r) Campos: · co_municipio_estabelecimento (ocorrência) · co_municipio_paciente (residência) · co_paciente · co_vacina · nu_idade_paciente · dt_vacina · dt_nascimento_paciente · co_dose_vacina Filtros: · co_vacina = 26, 59, 106 ou 107 · nu_idade_paciente = 0 · st_documento = final
+
+São recuperadas todas as doses registradas com base nos filtros acima e em seguida é realizada a contabilização de doses válidas para cobertura em duas etapas: · Para cada vacinado (co_paciente), é verificado se há duas doses registradas, com intervalo mínimo entre as datas de aplicação (dt_vacina) de 30 dias e com idade mínima de 42 dias (diferença entre data de nascimento e data da vacina). Caso positivo, o vacinado é contabilizado no ano e mês de aplicação (dt_vacina) da segunda dose. · Quando o primeiro critério não é atingido, então para cada vacinado (co_paciente), é verificado se há um registro com tipo de dose D2 (co_dose_vacina = 2). Caso positivo, o vacinado é contabilizado no ano e mês de aplicação (dt_vacina) da respectiva dose. Cada vacinado (co_paciente), caso atenda aos critérios acima listados, é contabilizado uma única vez. Denominador: Fonte dos dados: SINASC (dfpo1.dbsinasc.tb_dn) Campos: · co_municipio_ibge_residencia · dt_nascimento São contabilizados todos os registros por ano e mês de nascimento (dt_nascimento) e município (co_municipio_ibge_residencia)";A Y = _____ x 100 B Numerador: A = Número de crianças menores de 1 ano que completaram o esquema primário (duas doses válidas) da vacina pneumocócica 10-valente. Denominador: B = Estimativa da população de crianças menores de 1 ano. Multiplicador: 100;Percentual;Município;Diária;Rede Nacional de Dados em Saúde (RNDS) e Sistema de Informação sobre Nascidos Vivos (SINASC);A cobertura da vacina pneumocócica 10-valente reflete o desempenho do Programa Nacional de Imunizações (PNI) e a capacidade do sistema de saúde em alcançar a população com as vacinas recomendadas. Sua análise envolve não apenas o percentual de vacinados em relação à população-alvo, mas também fatores como acesso aos serviços, qualidade da oferta vacinal e efetividade da vigilância em saúde. Coberturas elevadas indicam proteção adequada contra doenças imunopreveníveis, contribuindo para a redução da incidência de pneumonias e meningites, o controle de surtos e a interrupção da cadeia de transmissão. Já coberturas insuficientes podem sinalizar desigualdades de acesso e necessidade de intensificação das estratégias de imunização.;O monitoramento da cobertura vacinal da pneumocócica 10-valente orienta a organização das estratégias de vacinação, a definição de prioridades e o planejamento das ações nos serviços de saúde. Esses dados auxiliam na identificação de áreas com baixa adesão, no fortalecimento das campanhas de imunização e na ampliação do acesso e da equidade na oferta vacinal. Assim, contribuem para reduzir a incidência das doenças pneumocócicas e suas complicações, promovendo a proteção integral da saúde infantil.;"- Sub-registro ou registro incompleto das doses e/ou nascidos vivos;
+- Atrasos na digitação e transmissão dos dados;
+- Interoperabilidade dos sistemas com a RNDS.";
+MGDI_MS_XR0;Cobertura vacinal de BCG (dose única) em crianças menores de 1 ano, em determinado espaço geográfico e período considerados.;"A cobertura vacinal é um indicador epidemiológico fundamental, pois expressa a proporção da população-alvo que recebeu determinada vacina em um intervalo de tempo específico. No caso da vacina BCG, o indicador reflete a adesão à imunização entre crianças menores de 1 ano de idade, faixa etária prioritária para a aplicação da dose única, preferencialmente ao nascer, conforme as recomendações do Programa Nacional de Imunizações (PNI). 
+
+A BCG tem como principal objetivo prevenir as formas graves da tuberculose e, também, com efeito protetor contra a hanseníase. A administração precoce da vacina é essencial para oferecer proteção imediata ao recém-nascido e reduzir a morbimortalidade por tuberculose na infância.";Monitorar a cobertura da Vacina BCG em crianças menores de 1 ano, avaliando a completude do esquema vacinal conforme as recomendações do Programa Nacional de Imunizações (PNI).;"Numerador: 
+
+Fonte dos dados: RNDS (awsrp1d.dbbni.tb_ria_r) 
+
+Campos:  
+
+co_municipio_estabelecimento (ocorrência) 
+
+co_municipio_paciente (residência) 
+
+co_paciente 
+
+co_vacina 
+
+nu_idade_paciente 
+
+dt_vacina 
+
+Filtros: 
+
+co_vacina = 15 
+
+nu_idade_paciente = 0 
+
+st_documento = final 
+
+ 
+
+São recuperadas todas as doses registradas com base nos filtros acima e em seguida é realizada a contabilização de doses válidas para cobertura com o seguinte critério: 
+
+Para cada vacinado (co_paciente), é verificado se há uma dose registrada. Caso positivo, o vacinado é contabilizado no ano e mês de aplicação (dt_vacina) da respectiva dose. 
+
+ 
+
+Cada vacinado (co_paciente), caso atenda aos critérios acima listados, é contabilizado uma única vez. 
+
+ 
+
+Denominador: 
+
+Fonte dos dados: SINASC (dfpo1.dbsinasc.tb_dn) 
+
+Campos: 
+
+co_municipio_ibge_residencia 
+
+dt_nascimento 
+
+ 
+
+São contabilizados todos os registros por ano e mês de nascimento (dt_nascimento) e município (co_municipio_ibge_residencia) 
+
+";"A 
+
+Y = _____ x 100 
+
+        B 
+
+Numerador: 
+A = Número de crianças menores de 1 ano que completaram o esquema vacinal da BCG 
+
+Denominador: 
+B = Estimativa da população de crianças menores de 1 ano 
+
+Multiplicador: 
+100";Percentual;Município;Diária;Rede Nacional de Dados em Saúde (RNDS) e Sistema de Informação sobre Nascidos Vivos (SINASC);"A cobertura vacinal da BCG demonstra o desempenho do Programa Nacional de Imunizações (PNI) e a capacidade do sistema de saúde em garantir a aplicação da vacina ao nascer. Sua interpretação envolve a análise do percentual de recém-nascidos vacinados, considerando fatores como acesso ao parto institucionalizado, disponibilidade da vacina e registro nos sistemas de informação. 
+
+Coberturas elevadas indicam proteção adequada contra doenças imunopreveníveis, especialmente as formas graves da tuberculose e, também, com efeito protetor contra a hanseníase, e representam eficiência das ações de atenção neonatal. Já as baixas coberturas sugerem falhas na assistência ao nascimento e evidenciam a necessidade de fortalecer a integração entre vigilância, imunização e atenção primária à saúde.";O monitoramento da cobertura vacinal da BCG em menores de 1 ano permite avaliar a oportunidade da aplicação e o desempenho das ações de imunização neonatal, contribuindo para o fortalecimento da vigilância e para o controle da tuberculose infantil.;"- Sub-registro ou registro incompleto das doses e/ou nascidos vivos;  
+
+- Atrasos na digitação e transmissão dos dados;  
+
+- Interoperabilidade dos sistemas com a RNDS.";
