@@ -1,4 +1,16 @@
-# Estado da coleta — 09/10/2026
+# Estado do projeto — planejamento em 10/10/2026; dados de 09/10
+
+## Próxima etapa planejada, ainda não executada
+
+O [plano de preparação analítica](../pipeline/Meningite/PLANO_PREPARACAO_ANALITICA_20261010.md) foi concluído após propostas dos dois chats de apoio. Especifica a pasta futura `Meningite/analise`, pacote RDS, sete CSVs, dicionário/fontes/cobertura, dez conjuntos descritivos, quatro figuras iniciais e complementos condicionais.
+
+“Revisar contexto do projeto (2)” ficará com SINAN/população; “Revisar contexto do projeto” ficará com SIH/SIM/PNI. O mestre integrará os candidatos e será o único a escrever produtos finais e Git. Foram delimitados diretórios exclusivos, dependências e controles bloqueantes.
+
+O pesquisador pediu encerrar o planejamento antes de iniciar. Nesta rodada foram feitas leituras e documentação; não houve coleta, processamento, limpeza, cálculo de resultados ou geração de gráficos. A pasta analítica não foi criada. A implementação aguarda próximo comando humano; o núcleo e os complementos abaixo permanecem na versão de 09/10.
+
+Cuidados novos registrados: completar 131 meses observados para uma grade de 132 somente com zero derivado da coorte validada; não somar totais e marginais; usar chaves semânticas PNI; distinguir SIM de registro BA de abrangência nacional; exigir controles não vazios. O coletor SIH atual apenas reordena com `--priorizar-restantes`: selecionar exclusivamente as cinco pendências será requisito antes de uma retomada futura.
+
+## Resultado preservado da coleta de 09/10
 
 Esta página é a entrada para continuar o projeto. A rodada nacional SINAN está completa quanto às 13 partições previstas e ao confronto histórico; os complementos têm lacunas explícitas. O relatório executado e plano estão em [pipeline/Meningite](../pipeline/Meningite/RELATORIO_COLETA_INTEGRAL_20261009.md) e [plano integral](../pipeline/Meningite/PLANO_COLETA_INTEGRAL.md).
 
@@ -27,7 +39,7 @@ O manifesto da aquisição descreve sua etapa e guarda erros anteriores no hist�
 2. PNI: BCG, meningocócica C e pneumocócica 2014–2022 (27 chaves). Não emendar método legado/RNDS automaticamente. As NT84/2026 e NT69/2026 e a discordância do dicionário estão no relatório PNI.
 3. Mortalidade: conferir cobertura nacional por residência se SIM entrar como eixo principal.
 4. Revisar recorte clínico CID e aplicabilidade de campos secundários SINAN antes de análises etiológicas específicas.
-5. Definir análise principal e desfechos; depois produzir poucos gráficos, taxas específicas e modelos proporcionais ao volume de eventos.
+5. A análise principal e os descritivos estão especificados no plano de 10/10; implementar após o próximo comando. Modelos posteriores dependerão de pergunta, qualidade e volume de eventos.
 
 ## Coordenação e reprodução
 

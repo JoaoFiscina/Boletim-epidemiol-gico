@@ -6,17 +6,21 @@ O projeto executado está em `C:\Pesquisa\Boletim epidemiolóico\Meningite`. Est
 
 Comece nesta ordem:
 
-1. [Estado atual da coleta](docs/ESTADO_COLETA.md) — rodada 09/10, validações e pendências concretas.
-2. [Guia mestre](GUIA_MESTRE_MENINGITES_SALVADOR.md) e [preferências/métodos](docs/PREFERENCIAS_E_METODOS.md).
-3. [Operações reproduzíveis](docs/OPERACOES_REPRODUZIVEIS.md) — comandos e sequência de execução.
-4. [Checklist de qualidade](docs/CHECKLIST_QUALIDADE.md) — critérios para aceitar, ajustar ou recusar cada análise.
+1. [Plano de preparação analítica](pipeline/Meningite/PLANO_PREPARACAO_ANALITICA_20261010.md) — próxima etapa, contratos, tarefas, descritivos, figuras e critérios de aceite.
+2. [Estado atual da coleta](docs/ESTADO_COLETA.md) — dados de 09/10 e planejamento de 10/10, sem nova execução.
+3. [Guia mestre](GUIA_MESTRE_MENINGITES_SALVADOR.md) e [preferências/métodos](docs/PREFERENCIAS_E_METODOS.md).
+4. [Operações reproduzíveis](docs/OPERACOES_REPRODUZIVEIS.md) e [checklist de qualidade](docs/CHECKLIST_QUALIDADE.md).
 5. [Prompt para continuidade por outra IA](PROMPT_CONTINUIDADE_IA.md) — contexto pronto para colar em outro chat.
+
+**Estado em 10/10:** plano concluído; implementação aguardando o próximo comando do pesquisador. O destino futuro é `Meningite/analise`, com pacote RDS, sete CSVs longos essenciais, dicionário, fontes, cobertura, descritivos e poucas figuras. Os chats de apoio entregaram propostas de planejamento; nenhuma nova coleta, limpeza, análise ou figura foi executada nessa rodada.
 
 ## Decisão atual
 
 O tema é viável para ocorrência registrada, perfil por idade/sexo, sazonalidade e qualidade diagnóstica. A leitura nacional das 13 partições confirmou **1.976 notificações confirmadas com sintomas em 2014–2024**. Os onze totais anuais e 572 células comparáveis concordaram com o TabNet de 05/10. A diferença de seis na etiologia foi localizada em códigos não canônicos, preservados sem inferir agente.
 
 Complementos: seis consultas SIH/SIM válidas, cinco pendentes; PNI com 17 observações e 27 lacunas. O plano detalhado e relatório executado estão em [pipeline/Meningite](pipeline/Meningite/RELATORIO_COLETA_INTEGRAL_20261009.md). A entrada R atual é `Meningite/dados/tratados/meningites_salvador_20261009.rds`; o pacote anterior permanece histórico.
+
+O plano de 10/10 não muda esses resultados. Ele reserva SINAN/população ao chat “Revisar contexto do projeto (2)” e SIH/SIM/PNI ao chat “Revisar contexto do projeto”. O mestre fará a integração, os descritivos, as figuras e o Git quando a execução for solicitada.
 
 Letalidade, vacinação e subtipos raros não devem ser o eixo principal antes de resolver incompletude e cobertura. SINAN, SIH e SIM são fontes diferentes e não podem ser somados como pessoas.
 

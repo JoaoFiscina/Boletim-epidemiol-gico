@@ -1,5 +1,15 @@
 # Histórico do manual
 
+## 2026-10-10 — plano de preparação analítica, sem execução
+
+- Concluído plano detalhado para centralizar a entrada em `Meningite/analise`, com pacote RDS, sete CSVs longos, configuração, dicionário, fontes, cobertura e controles.
+- Recebidas propostas de planejamento dos chats “Revisar contexto do projeto (2)” (SINAN/população) e “Revisar contexto do projeto” (SIH/SIM/PNI); áreas futuras de escrita exclusivas e integração/Git reservadas ao mestre.
+- Especificados seleção, domínios, identidade técnica, preservação de desconhecidos, população, cardinalidade das junções, grade de 132 meses e estados de ausência sem preenchimento global por zero.
+- Planejados dez conjuntos descritivos, quatro figuras iniciais e complementos condicionais; unidades, universos, qualidade e limites acompanharão os resultados.
+- Registrados requisitos para eventual retomada seletiva: cinco consultas SIH; 27 chaves PNI em três consultas. A opção atual `--priorizar-restantes` apenas reordena e precisa seleção exclusiva antes de uso futuro.
+- Atualizados README, estado, preferências, prompt e AGENTS para distinguir planejamento de execução. Plano copiado ao Git como documento adicional; manifesto e 45 espelhamentos históricos de 09/10 preservados.
+- Nenhuma coleta, limpeza, implementação, análise ou figura foi executada; `analise/` não foi criada. A próxima etapa aguarda novo comando do pesquisador.
+
 ## 2026-10-09 — coleta nacional, complementos e reprodução
 
 - Elaborado plano integral com contratos, períodos, território, fontes, orçamento de consultas, aceite, qualidade e desenho posterior.
@@ -27,4 +37,4 @@
 
 ## Próxima entrada esperada
 
-Registrar a pergunta principal, retomada seletiva de lacunas hospitalares/vacinais, auditoria de abrangência SIM e primeira análise focada, sem apagar este estágio.
+Registrar a execução autorizada do plano de 10/10: bases candidatas/aceitas, controles, descritivos e figuras, com eventual retomada seletiva e limitações por módulo. Preservar este estágio de planejamento e os resultados anteriores.

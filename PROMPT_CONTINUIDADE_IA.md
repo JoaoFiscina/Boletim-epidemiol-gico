@@ -1,6 +1,8 @@
 # Prompt para entregar este projeto a outra IA
 
-Você está continuando a coleta e preparação analítica de meningites e doença meningocócica em residentes de Salvador, Brasil. Primeiro leia `AGENTS.md`, `docs/ESTADO_COLETA.md`, `docs/PREFERENCIAS_E_METODOS.md`, o plano e relatório em `pipeline/Meningite`. Estado vigente: 09/10/2026. A pré-análise de 05/10 é histórica. Confirme arquivos/hashes antes de executar e atualize o Git local após cada etapa.
+Você está continuando a coleta e preparação analítica de meningites e doença meningocócica em residentes de Salvador, Brasil. Primeiro leia `AGENTS.md`, `docs/ESTADO_COLETA.md`, `docs/PREFERENCIAS_E_METODOS.md` e `pipeline/Meningite/PLANO_PREPARACAO_ANALITICA_20261010.md`, além do relatório da coleta em `pipeline/Meningite`. Estado vigente: planejamento concluído em 10/10/2026; dados permanecem em 09/10. A pré-análise de 05/10 é histórica.
+
+**Instrução vigente:** o pesquisador pediu somente o plano e aviso ao terminar, antes de iniciar. Não coletar, criar `analise/`, editar scripts de processamento, limpar bases, calcular estatísticas ou gerar gráficos até um novo comando humano autorizar a próxima etapa. “Continue” durante o fechamento do plano não revoga essa restrição. Na execução autorizada, confirme arquivos/hashes e atualize o Git local após cada etapa.
 
 ## Contexto fixo
 
@@ -17,17 +19,25 @@ As 13 partições MENIBR14–26 foram lidas: 295.369 linhas nacionais, 2.255 res
 
 SIH/SIM: seis consultas válidas, cinco SIH pendentes após 24 POST. SIM idade conserva 202 óbitos, mas arquivo BA não comprova cobertura nacional. SIH tem 75 óbitos hospitalares e R$ 2.354.667,12 aprovados; somar folhas CID sem subtotais-pai. PNI tem 17 observações e 27 lacunas; legado/RNDS e geografias são distintos. NT84/2026 revoga NT90/2025 e inclui 2023; NT69/2026 consolida conjugadas pneumocócicas. Não renomear atuais como MenC/PCV10 exclusivas. BCG baixo exige qualidade, não prova ausência de vacinação.
 
-## O que fazer agora
+## Trabalho definido para o próximo comando
+
+O plano especifica contratos, grades, sete CSVs e pacote RDS, dicionário/fontes/cobertura, dez conjuntos descritivos, quatro figuras iniciais, complementos condicionais e controles. Essas saídas ainda não existem. Não confundir documentação completa de lacunas com coleta completa de observações.
+
+Divisão futura: “Revisar contexto do projeto (2)” prepara SINAN/população em `analise/trabalho/sinan_populacao/`; “Revisar contexto do projeto” prepara SIH/SIM/PNI em `analise/trabalho/complementos/`. O mestre integra, prepara produtos finais e atualiza Git. Ambos entregaram somente propostas nesta rodada; não disparar implementação automaticamente.
+
+Depois de autorizada a execução:
 
 1. Verificar o estado dos arquivos antes de baixar qualquer coisa.
 2. Não repetir SINAN, seis consultas complementares válidas ou oito RNDS já validados sem motivo.
 3. Usar o pacote local `dados/tratados/meningites_salvador_20261009.rds`; em clone Git seguir `pipeline/README.md`, pois brutos/RDS não são enviados.
-4. Definir pergunta principal com núcleo SINAN e denominadores íntegros; os cruzamentos nacionais são reais, não marginais combinadas.
-5. Retomar apenas SIH internações gerais, dias, G00 sexo e A39 sexo/idade se úteis; PNI legado tem 27 lacunas.
+4. Aplicar a pergunta e os contratos do plano: ocorrência registrada e perfil de meningites/doença meningocócica em residentes, sintomas 2014–2024. Completar grades e validar domínios/junções antes de descrever.
+5. Se o comando incluir coleta, retomar apenas SIH internações gerais, dias, G00 sexo e A39 sexo/idade, com seleção exclusiva; `--priorizar-restantes` atual apenas reordena. PNI legado tem 27 chaves em três consultas; respeitar orçamento do novo plano.
 6. Conferir abrangência SIM e recorte clínico se mortalidade/subtipos forem eixo principal.
 7. Atualizar plano, relatório, manifestos, RDS, estado, preferências/métodos e changelog; sincronizar código/agregados por lista explícita e conferir SHA antes do commit.
 
 Os scripts SINAN têm perfil temporal fixo explícito no código; o JSON documenta o plano, não amplia automaticamente o período. Usar scripts `.R` em PowerShell para preservar aspas. Rede/timeout é falha operacional, não ausência epidemiológica. Coordenar chats por diretórios exclusivos e não deixar duas frentes escreverem a mesma base ou Git.
+
+Conservar os 45 espelhamentos e o manifesto da rodada 09/10 como snapshot histórico. O plano de 10/10 é uma cópia documental adicional, conferida separadamente; não afirmar que houve nova sincronização ou reprocessamento dos dados.
 
 ## Proibições
 

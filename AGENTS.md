@@ -2,6 +2,8 @@
 
 Leia primeiro `README.md`, `docs/ESTADO_COLETA.md` e `docs/PREFERENCIAS_E_METODOS.md`. Para coleta integral, ler o plano em `pipeline/Meningite/PLANO_COLETA_INTEGRAL.md` ou sua versão principal na pasta de trabalho `Meningite`.
 
+Estado em 10/10/2026: ler também `pipeline/Meningite/PLANO_PREPARACAO_ANALITICA_20261010.md`. O pedido atual é concluir somente o planejamento e avisar, aguardando o próximo comando humano. Não iniciar coleta, implementação, processamento ou gráficos por conta própria. Um comando posterior que autorize executar substitui essa condição no escopo solicitado. As tarefas futuras e áreas exclusivas dos dois chats estão no plano; o mestre integra e mantém o Git.
+
 Este repositório acompanha a pesquisa municipal de meningites e doença meningocócica. A cada etapa autorizada de coleta, tratamento ou análise:
 
 1. conferir estado e integridade antes de baixar;
