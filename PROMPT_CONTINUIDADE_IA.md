@@ -1,5 +1,7 @@
 # Prompt para entregar este projeto a outra IA
 
+**Atualização após a entrega de 10/10:** o pesquisador pediu apenas montar um plano de análises adicionais e gráficos diferentes. Ler `pipeline/Meningite/PLANO_APROFUNDAMENTO_ANALITICO_20261010.md`. Esse novo plano está concluído, sem execução ou despacho aos chats. Não repetir a preparação anterior nem iniciar os novos modelos/coletas automaticamente. Os dados aceitos e resultados descritos a seguir permanecem inalterados.
+
 Você está continuando a investigação de meningites e doença meningocócica em residentes de Salvador. Leia `AGENTS.md`, `docs/ESTADO_COLETA.md`, `docs/PREFERENCIAS_E_METODOS.md`, `pipeline/Meningite/analise/README.md`, relatório descritivo e decisões. **Estado vigente: preparação executada em 10/10/2026**, após o comando humano “Agora inicie o plano”. A antiga pausa para planejar foi substituída por essa autorização. A coleta de 09/10 e a pré-análise de 05/10 são snapshots preservados.
 
 ## Entrada para trabalhar

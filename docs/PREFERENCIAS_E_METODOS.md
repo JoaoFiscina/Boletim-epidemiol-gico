@@ -16,6 +16,7 @@ Atualizado em 10/10/2026. Preferências expressas pelo usuário são separadas d
 - Executar as etapas autorizadas e avançar nas pendências; não encerrar apenas com promessa de plano.
 - Quando pedir explicitamente apenas o plano, concluir e avisar antes de iniciar a execução; aguardar o próximo comando.
 - Centralizar a próxima entrada analítica em uma pasta e entregar resultados descritivos junto aos gráficos, com dados limpos, organizados e cobertura explícita.
+- Após a entrega de 10/10, pediu planejar análises adicionais e gráficos diferentes, identificando informação além do que já foi descrito. As escolhas específicas de cruzamentos/modelos no plano são propostas da equipe.
 
 ## O que o pesquisador não quer
 
@@ -42,6 +43,7 @@ Estas escolhas podem mudar com evidência; não são preferências atribuídas a
 - Duas frentes prepararam candidatos em áreas exclusivas; somente o mestre integrou produtos finais e Git. Foram concluídas revisões independentes com 39 e 17 verificações.
 - Taxas do período usam soma das populações anuais como aproximação de habitantes-ano; IC95 Poisson não corrige subnotificação. Nenhuma modelagem causal ou busca de p-valores nesta entrega.
 - Preparação R offline separada da aquisição. Retomada de 10/10 fez 9 POST SIH e 2 PNI; obteve dias e A39 sexo. Não repetir consultas válidas nem ampliar orçamento sem justificativa.
+- Aprofundamento proposto em 10/10: priorizar cruzamentos, padronização etária, qualidade, evolução com cenários e intervalo até notificação; campos clínicos/sociais e modelos só após gates explícitos. Planejamento concluído, não executado.
 
 ## Aprendizados confirmados
 

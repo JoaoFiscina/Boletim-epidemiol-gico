@@ -2,6 +2,8 @@
 
 Este repositório é o guia reproduzível da investigação de meningites e doença meningocócica em residentes de Salvador. Ele foi escrito para que outra pessoa ou outra IA consiga entender o objetivo, repetir a coleta, conferir os resultados e continuar o trabalho sem misturar fontes ou inventar dados.
 
+**Próxima etapa planejada:** [aprofundamento analítico e novas figuras](pipeline/Meningite/PLANO_APROFUNDAMENTO_ANALITICO_20261010.md). Prioriza cruzamentos, padronização, qualidade, evolução com desconhecidos e intervalo até notificação; modelos/campos adicionais têm critérios de elegibilidade. Nenhuma nova análise ou coleta foi executada nesta rodada de planejamento. A entrega descrita abaixo permanece vigente.
+
 O projeto executado está em `C:\Pesquisa\Boletim epidemiolóico\Meningite`. Este Git contém manual, código, configuração, denominadores e resultados agregados com hashes em [pipeline](pipeline/README.md). Dados brutos e pacotes R permanecem locais. Para repetir a leitura integral, transportar os brutos com seus manifestos ou coletá-los pela rotina oficial na própria cópia do projeto.
 
 Comece nesta ordem:

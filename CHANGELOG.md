@@ -1,5 +1,14 @@
 # Histórico do manual
 
+## 2026-10-10 — plano de aprofundamento, sem nova execução
+
+- Inspecionados relatório/documentação/dicionários e nomes dos campos/tabelas do RDS aceito, para distinguir dados disponíveis de campos ainda sem auditoria específica. Nenhum novo cruzamento, modelo, gráfico ou consulta foi executado.
+- Propostos seis eixos prioritários: períodos/padronização etária, sexo dentro da idade, etiologia por idade e taxas por grupo, critérios/completude, evolução com cenários de desconhecidos e intervalo sintomas–notificação.
+- Especificados gráficos de pontos conectados, razões de taxas com IC, mapas de calor, pequenos painéis, faixas de cenários e curvas acumuladas; figuras condicionais de sazonalidade e SIH. Evitar repetir totais apenas mudando a aparência.
+- Delimitados modelos de contagens com exposição e diagnóstico; sensibilidade, dispersão, dependência temporal, multiplicidade e raridade. Cenários de desconhecidos não são IC; taxa padronizada não é taxa bruta.
+- Campos sociais/clínicos e sorogrupo dependem de universos condicionais/domínios; ATE_HOSPIT é indicador e ATE_INTERN data. Sem denominadores raciais anuais, cobertura SIM nacional ou série PNI harmonizada, respectivas perguntas ficam limitadas.
+- Proposta divisão futura dos dois chats, sem despacho, e saída compacta separada que preserva a entrega atual. Consultadas referências primárias R/NCI de métodos; documentação atualizada e plano espelhado com hash próprio, fora dos manifestos históricos.
+
 ## 2026-10-10 — execução autorizada e base analítica entregue
 
 - Após “Agora inicie o plano”, coordenados os dois chats existentes em áreas exclusivas. SINAN/população e complementos entregaram candidatos; o mestre integrou e revisou os produtos finais.

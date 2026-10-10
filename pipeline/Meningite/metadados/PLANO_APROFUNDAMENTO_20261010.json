@@ -1,0 +1,21 @@
+{
+  "status": "somente_planejamento",
+  "data_local": "2026-10-10",
+  "registrado_utc": "2026-10-10T19:30:14.303113+00:00",
+  "plano": {
+    "caminho": "PLANO_APROFUNDAMENTO_ANALITICO_20261010.md",
+    "bytes": 23681,
+    "sha256": "c4183d798f0895bde324b2bd83db696ed0ec9ce2523b46469ee3799fb598196c"
+  },
+  "entrada_analitica": {
+    "caminho": "analise/meningites_salvador_analitica.rds",
+    "sha256": "2fe0f7f6f02d6367b9cfa55487f24016dd57c09f4dc979f8975efd7edbb5247d",
+    "preservada": true
+  },
+  "novas_analises_executadas": false,
+  "novos_modelos": false,
+  "novas_figuras": false,
+  "novas_coletas": false,
+  "tarefas_chats": "propostas_futuras_nao_despachadas",
+  "criterio": "Plano adicional fora dos manifestos das entregas 09/10 e analitica 10/10; resultados aceitos preservados."
+}
