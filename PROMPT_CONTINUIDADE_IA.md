@@ -1,48 +1,43 @@
 # Prompt para entregar este projeto a outra IA
 
-Você está continuando a coleta e preparação analítica de meningites e doença meningocócica em residentes de Salvador, Brasil. Primeiro leia `AGENTS.md`, `docs/ESTADO_COLETA.md`, `docs/PREFERENCIAS_E_METODOS.md` e `pipeline/Meningite/PLANO_PREPARACAO_ANALITICA_20261010.md`, além do relatório da coleta em `pipeline/Meningite`. Estado vigente: planejamento concluído em 10/10/2026; dados permanecem em 09/10. A pré-análise de 05/10 é histórica.
+Você está continuando a investigação de meningites e doença meningocócica em residentes de Salvador. Leia `AGENTS.md`, `docs/ESTADO_COLETA.md`, `docs/PREFERENCIAS_E_METODOS.md`, `pipeline/Meningite/analise/README.md`, relatório descritivo e decisões. **Estado vigente: preparação executada em 10/10/2026**, após o comando humano “Agora inicie o plano”. A antiga pausa para planejar foi substituída por essa autorização. A coleta de 09/10 e a pré-análise de 05/10 são snapshots preservados.
 
-**Instrução vigente:** o pesquisador pediu somente o plano e aviso ao terminar, antes de iniciar. Não coletar, criar `analise/`, editar scripts de processamento, limpar bases, calcular estatísticas ou gerar gráficos até um novo comando humano autorizar a próxima etapa. “Continue” durante o fechamento do plano não revoga essa restrição. Na execução autorizada, confirme arquivos/hashes e atualize o Git local após cada etapa.
+## Entrada para trabalhar
 
-## Contexto fixo
+O projeto original fica em `C:\Pesquisa\Boletim epidemiolóico\Meningite`. A pasta `analise/` contém RDS local, sete CSVs essenciais, D01–D10, relatório e seis figuras PNG/PDF. Em clone Git, as tabelas públicas estão em `pipeline/Meningite/analise/`; brutos e RDS não são publicados. Outra pessoa pode ler CSVs diretamente; reprodução integral requer transferir/coletar fontes com manifestos. Não prometer mesmos hashes após nova coleta de fonte revisável.
 
-- Município: Salvador, IBGE `292740`.
-- Período principal: ano dos primeiros sintomas 2014–2024.
-- SINAN é a fonte principal de casos/notificações.
-- SIH é complemento de internações/AIHs e SIM é complemento de óbitos por causa básica.
-- População municipal já conferida; não substituir por população da Bahia.
-- O trabalho original está em `C:\Pesquisa\Boletim epidemiolóico\Meningite`.
+SINAN é o núcleo: residência `292740`, confirmação `CLASSI_FIN=1`, primeiros sintomas 2014–2024, partições MENIBR14–26. Fluxo: 295.369 nacionais → 3.871 residentes → 2.255 confirmados → 1.976 na janela. Totais anuais: 361,292,241,198,141,181,40,51,142,167,162. Há 572 células comparáveis ao TabNet sem diferença e seis extras sem referência. Preservados seis códigos etiológicos não canônicos, dois vazios, MCC isolada, MNE, 144 evoluções desconhecidas e duas notificações fora BA. Zero duplicatas técnicas não comprova pessoas únicas.
 
-## Resultado que não pode ser perdido
+População: onze totais, 396 chaves originais e 242 estratos harmonizados. Grade mensal de 132 meses; agosto/2020 zero derivado da coorte integral. Sexo conhecido soma 1.975; registro ignorado permanece no total/idade e no RDS, sem denominador fabricado.
 
-As 13 partições MENIBR14–26 foram lidas: 295.369 linhas nacionais, 2.255 residentes confirmados e 1.976 com sintomas 2014–2024. Os onze totais anuais e 572 células comparáveis concordam com TabNet de 05/10. Seis categorias adicionais ficam sem referência TabNet. A diferença de seis na etiologia foi localizada em códigos não canônicos, preservados sem adivinhar agente. Há duas notificações fora BA, zero duplicatas técnicas exatas e 144 evoluções desconhecidas; em 2024, 32/162. Isso não prova pessoas únicas.
+SIH: internações G00=532, A39=122, A87=489, grupos separados; ano de processamento e unidade AIH/episódio. Dias=12.250 e valores aprovados nominais=R$ 2.354.667,12 têm seis folhas observadas. Óbitos=75 é soma parcial de cinco folhas; G01 permanece sem linha nos onze anos. Não calcular total integral ou médias com universos incompletos.
 
-SIH/SIM: seis consultas válidas, cinco SIH pendentes após 24 POST. SIM idade conserva 202 óbitos, mas arquivo BA não comprova cobertura nacional. SIH tem 75 óbitos hospitalares e R$ 2.354.667,12 aprovados; somar folhas CID sem subtotais-pai. PNI tem 17 observações e 27 lacunas; legado/RNDS e geografias são distintos. NT84/2026 revoga NT90/2025 e inclui 2023; NT69/2026 consolida conjugadas pneumocócicas. Não renomear atuais como MenC/PCV10 exclusivas. BCG baixo exige qualidade, não prova ausência de vacinação.
+SIM: 202 óbitos por causa básica selecionada, residência Salvador, registro BA; cobertura nacional não demonstrada. PNI: 17/44 percentuais e 27 ausências. Nove Penta legados 2014–2022 e oito valores de quatro indicadores RNDS 2023/2024. Métodos/geografias distintos; NT84/2026 inclui 2023, NT69/2026 combina conjugadas pneumocócicas. Não renomear atuais como MenC/PCV10 exclusivas. BCG baixo exige auditoria, sem inferência de falta de vacinação ou eficácia.
 
-## Trabalho definido para o próximo comando
+## O que já foi executado e conferido
 
-O plano especifica contratos, grades, sete CSVs e pacote RDS, dicionário/fontes/cobertura, dez conjuntos descritivos, quatro figuras iniciais, complementos condicionais e controles. Essas saídas ainda não existem. Não confundir documentação completa de lacunas com coleta completa de observações.
+Dois chats trabalharam em áreas exclusivas: “Revisar contexto do projeto (2)” preparou SINAN/população; “Revisar contexto do projeto” preparou SIH/SIM/PNI. O mestre integrou, descreveu, gerou figuras e atualizou o Git. As tarefas estão encerradas; não reenviar implementação automaticamente.
 
-Divisão futura: “Revisar contexto do projeto (2)” prepara SINAN/população em `analise/trabalho/sinan_populacao/`; “Revisar contexto do projeto” prepara SIH/SIM/PNI em `analise/trabalho/complementos/`. O mestre integra, prepara produtos finais e atualiza Git. Ambos entregaram somente propostas nesta rodada; não disparar implementação automaticamente.
+352 controles aprovados; revisões adicionais de 39 e 17 verificações com escopos distintos. IC de 409 linhas conferidos contra poisson.test, diferença máxima zero. O mestre inspecionou todos os PNG e PDF renderizados; QA e manifestos registram os hashes atuais. Corrigidos texto SIH parcial, descrição da redução de 2024 e escalas F02/F05. RDS permaneceu inalterado após ajustes de apresentação.
 
-Depois de autorizada a execução:
+Retomada de 10/10: 9 POST SIH, 2 POST PNI e 2 GET; obtidos dias e A39 sexo. Restam internações gerais, G00 sexo e A39 idade. BCG falhou duas vezes e interrompeu PNI antes das outras consultas. Formulários reais preservados foram reaproveitados quando GET falhou. Histórico de 24 POST conservado. Falhas operacionais não viraram zero epidemiológico.
 
-1. Verificar o estado dos arquivos antes de baixar qualquer coisa.
-2. Não repetir SINAN, seis consultas complementares válidas ou oito RNDS já validados sem motivo.
-3. Usar o pacote local `dados/tratados/meningites_salvador_20261009.rds`; em clone Git seguir `pipeline/README.md`, pois brutos/RDS não são enviados.
-4. Aplicar a pergunta e os contratos do plano: ocorrência registrada e perfil de meningites/doença meningocócica em residentes, sintomas 2014–2024. Completar grades e validar domínios/junções antes de descrever.
-5. Se o comando incluir coleta, retomar apenas SIH internações gerais, dias, G00 sexo e A39 sexo/idade, com seleção exclusiva; `--priorizar-restantes` atual apenas reordena. PNI legado tem 27 chaves em três consultas; respeitar orçamento do novo plano.
-6. Conferir abrangência SIM e recorte clínico se mortalidade/subtipos forem eixo principal.
-7. Atualizar plano, relatório, manifestos, RDS, estado, preferências/métodos e changelog; sincronizar código/agregados por lista explícita e conferir SHA antes do commit.
+## Como continuar com eficiência
 
-Os scripts SINAN têm perfil temporal fixo explícito no código; o JSON documenta o plano, não amplia automaticamente o período. Usar scripts `.R` em PowerShell para preservar aspas. Rede/timeout é falha operacional, não ausência epidemiológica. Coordenar chats por diretórios exclusivos e não deixar duas frentes escreverem a mesma base ou Git.
+1. Abrir pacote/tabelas e conferir estado/manifestos antes de calcular ou baixar. Usar analise/README.md como guia de importação e comandos.
+2. Preparação R padrão é offline; configuração lida e SHA da fonte bloqueante. Abrir RDS requer R; repetir preparação precisa jsonlite/digest/ggplot2 e fontes locais.
+3. Utilizar arquivos .R em PowerShell 5.1; verificar R_LIBS_USER/.libPaths antes de instalar. SHA binário base R contorna falha nativa em caminhos Unicode.
+4. Selecionar tabelas por grão, tipo, dimensão, medida e status. Não somar marginais/total, dimensões independentes ou fontes.
+5. Taxa anual usa população correspondente; taxa média do período usa soma das populações anuais como aproximação de habitantes-ano. IC95 Poisson não inclui subnotificação/incerteza demográfica.
+6. Escolher pergunta antes de modelos. Entrega descritiva, sem teste causal, eficácia ou busca de p-valores. Recortes raros, evolução desconhecida e ruptura de método exigem sensibilidade.
+7. Se nova coleta for necessária, retomar somente pendências, com parâmetros reais, seleção exclusiva e orçamento registrado. Coletores históricos usam perfil explícito no código; JSON analítico não amplia automaticamente a coleta.
+8. Mudou apresentação: conferir arquivos afetados, atualizar QA e selar com conferir_entrega.py --selar. O selo recusa hash de figura diferente do inspecionado. Mudou base: preparar/revisar novamente; não trocar apenas hash.
+9. Atualizar métodos, estado, changelog e espelho por lista explícita; preservar manifesto/45 arquivos de 09/10. Conferir bytes/Git antes do commit local. Publicação remota depende de instrução humana.
 
-Conservar os 45 espelhamentos e o manifesto da rodada 09/10 como snapshot histórico. O plano de 10/10 é uma cópia documental adicional, conferida separadamente; não afirmar que houve nova sincronização ou reprocessamento dos dados.
+## Regras de interpretação
 
-## Proibições
+Não somar SINAN/SIH/SIM como pessoas. Não tratar ausência como zero. Não chamar todo A39 de meningite meningocócica ou MV de isolamento viral. Não excluir MNE para fabricar identificação etiológica. Não dividir SIM por SINAN como letalidade. Não emendar PNI legado/RNDS, calcular eficácia ecológica ou misturar geografias/denominadores. Não publicar casos individuais, RDS, DBC, ZIP ou HTML brutos no Git. Não alterar snapshots silenciosamente.
 
-Não somar SINAN, SIH e SIM como pessoas. Não tratar ausência como zero. Não usar “PCR - viral” como prova de agente viral. Não chamar todo A39 de meningite meningocócica. Não excluir MNE. Não calcular letalidade final com evolução incompleta. Não apagar saídas anteriores. Não inventar URL ou nome de arquivo. Não instalar dependências ou fazer dezenas de consultas sem registrar motivo.
+## Comunicação esperada
 
-## Forma de resposta esperada
-
-Ao finalizar uma etapa, informe em português: o que foi executado, caminhos exatos, quantidade de registros, filtros, hashes, divergências, limites e próximo passo. Separe claramente “validado”, “parcial”, “pendente” e “não demonstrado”.
+Responder em português com resultados claros, caminhos, filtros/unidades/denominadores, cobertura e pendências concretas. Preferir poucos gráficos legíveis e descritivos completos. Separar dado, descrição, associação, hipótese e causalidade. Preservar organização compacta, rastreabilidade e preferências expressas, sem atribuir escolhas da equipe ao usuário.

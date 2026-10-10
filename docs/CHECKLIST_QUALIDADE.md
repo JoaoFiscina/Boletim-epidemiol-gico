@@ -1,5 +1,7 @@
 # Checklist de qualidade e decisão
 
+**Entrega de 10/10/2026:** 352 controles aprovados, 39 verificações independentes SINAN/população e 17 de complementos; seis PNG e seis PDF inspecionados. Resultados e hashes em [validação](../pipeline/Meningite/analise/controle/validacao.json), [QA visual](../pipeline/Meningite/analise/controle/QA_VISUAL.json) e [selo](../pipeline/Meningite/analise/controle/VERIFICACAO_ENTREGA.json). As caixas abaixo são o checklist reutilizável para próximas versões, não uma declaração de que todos os módulos têm cobertura completa.
+
 ## Antes da coleta
 
 - [ ] O agravo e a definição de caso estão escritos.

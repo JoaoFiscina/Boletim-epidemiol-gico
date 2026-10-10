@@ -1,0 +1,125 @@
+{
+  "versao": "20261010",
+  "status": "aprovado",
+  "registrado_utc": "2026-10-10T18:48:39.0505732Z",
+  "responsavel": "Chat mestre",
+  "metodo": "PNG aberto por view_image; PDFs renderizados com Poppler pdftoppm 110 dpi e as seis paginas abertas por view_image; pdfinfo confirma uma pagina por PDF.",
+  "criterios": [
+    "Legibilidade e acentos",
+    "Ausencia de cortes",
+    "Eixos, unidades e escalas",
+    "Legenda e ressalvas",
+    "Concordancia com descritivos revisados"
+  ],
+  "figuras": [
+    {
+      "figura": "F01_evolucao_anual",
+      "png_inspecionado": true,
+      "pdf_renderizado_inspecionado": true,
+      "paginas": 1,
+      "parecer": "aprovado",
+      "observacao": "Contagem e taxa em paineis separados; IC e unidades legiveis.",
+      "png": {
+        "caminho": "resultados/figuras/F01_evolucao_anual.png",
+        "sha256": "63641b6ec872c599c157600ee41513381e1c47fdf3cf8291e7b2af7c39511d90"
+      },
+      "pdf": {
+        "caminho": "resultados/figuras/F01_evolucao_anual.pdf",
+        "sha256": "6a5269656bc3b694ee1c1b25761992e7f8a67994b43da2626a5cf8998eabc81e"
+      }
+    },
+    {
+      "figura": "F02_perfil_sexo_idade",
+      "png_inspecionado": true,
+      "pdf_renderizado_inspecionado": true,
+      "paginas": 1,
+      "parecer": "aprovado",
+      "observacao": "Sexo/idade com IC; escalas proprias declaradas; rotulos legiveis.",
+      "png": {
+        "caminho": "resultados/figuras/F02_perfil_sexo_idade.png",
+        "sha256": "4f23e660769daaf423a5270a91b0cec5699036a31799a258b268d4ad665629e3"
+      },
+      "pdf": {
+        "caminho": "resultados/figuras/F02_perfil_sexo_idade.pdf",
+        "sha256": "93f633027a895bf3e27c5384073b45d4d1f587575a497638f7e0d351660f3d5a"
+      }
+    },
+    {
+      "figura": "F03_distribuicao_mensal",
+      "png_inspecionado": true,
+      "pdf_renderizado_inspecionado": true,
+      "paginas": 1,
+      "parecer": "aprovado",
+      "observacao": "132 celulas legiveis; agosto/2020 zero derivado conservado.",
+      "png": {
+        "caminho": "resultados/figuras/F03_distribuicao_mensal.png",
+        "sha256": "a7f14e1415d63d16af9d3301655ea220a3b49013e00037715af7ba0c92d55a50"
+      },
+      "pdf": {
+        "caminho": "resultados/figuras/F03_distribuicao_mensal.pdf",
+        "sha256": "560fd4273f55af762326a82ce62c5275c8985a6900cbec9ab7ee4341699da59c"
+      }
+    },
+    {
+      "figura": "F04_classificacao_etiologica",
+      "png_inspecionado": true,
+      "pdf_renderizado_inspecionado": true,
+      "paginas": 1,
+      "parecer": "aprovado",
+      "observacao": "Grupos disjuntos fecham 100%; residual e MNE conservados.",
+      "png": {
+        "caminho": "resultados/figuras/F04_classificacao_etiologica.png",
+        "sha256": "4cd87e3d399196fcc4584c58ae89871fb28b721b368ad40ec08700444c15a111"
+      },
+      "pdf": {
+        "caminho": "resultados/figuras/F04_classificacao_etiologica.pdf",
+        "sha256": "e044f960c66b78a2d22cf9d41cb05b057952bae6c6b71434ea9c08fde6c79c49"
+      }
+    },
+    {
+      "figura": "F05_internacoes_disponiveis",
+      "png_inspecionado": true,
+      "pdf_renderizado_inspecionado": true,
+      "paginas": 1,
+      "parecer": "aprovado",
+      "observacao": "Tres CIDs em paineis; escalas proprias; AIHs e tempo declarados.",
+      "png": {
+        "caminho": "resultados/figuras/F05_internacoes_disponiveis.png",
+        "sha256": "b702fa9f43cc4df1e1c3f47a146e1fb3c1ce81bdc11eac666f0b7b1118106fea"
+      },
+      "pdf": {
+        "caminho": "resultados/figuras/F05_internacoes_disponiveis.pdf",
+        "sha256": "7077e3bd09ccc8256a97913965e5c630b82615f608be4023cc88556b23bfe1c6"
+      }
+    },
+    {
+      "figura": "F06_cobertura_vacinal_registrada",
+      "png_inspecionado": true,
+      "pdf_renderizado_inspecionado": true,
+      "paginas": 1,
+      "parecer": "aprovado",
+      "observacao": "17 pontos; metodos separados; lacunas sem zeros; ressalva BCG.",
+      "png": {
+        "caminho": "resultados/figuras/F06_cobertura_vacinal_registrada.png",
+        "sha256": "6e186b40240d013c56a8c1fa5c0b4dee7353961846430410871ecf5d4ad6da26"
+      },
+      "pdf": {
+        "caminho": "resultados/figuras/F06_cobertura_vacinal_registrada.pdf",
+        "sha256": "aa35662234d1169457a6487e7b06066d486e24ff68fcc83e70111c28f4a692d2"
+      }
+    }
+  ],
+  "revisoes_independentes": [
+    {
+      "arquivo": "documentacao/REVISAO_SINAN_POPULACAO.md",
+      "verificacoes": 39,
+      "escopo": "Nucleo numerico e PNG F01-F04; adendo F02 atualizado"
+    },
+    {
+      "arquivo": "documentacao/REVISAO_COMPLEMENTOS.md",
+      "verificacoes": 17,
+      "escopo": "Complementos e PNG F05/F06; adendo texto SIH e F05 atualizado"
+    }
+  ],
+  "limite": "Aceite de apresentacao e integridade; nao comprova validade clinica, causalidade, pessoas unicas ou eficacia vacinal."
+}

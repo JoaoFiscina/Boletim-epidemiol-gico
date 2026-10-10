@@ -1,0 +1,12 @@
+﻿Lista Morb  CID-10;2014;2015;2016;2017;2018;2019;2020;2021;2022;2023;2024;Total
+TOTAL;1.415;1.737;1.089;951;734;1.232;648;317;1.276;1.655;1.196;12.250
+01 Algumas doenças infecciosas e parasitárias;1.092;868;649;523;305;556;250;42;428;717;316;5.746
+.. Infecção meningocócica;232;86;141;73;48;202;46;24;214;104;149;1.319
+.. Outras doenças virais;860;782;508;450;257;354;204;18;214;613;167;4.427
+.... Meningite viral;860;782;508;450;257;354;204;18;214;613;167;4.427
+06 Doenças do sistema nervoso;323;869;440;428;429;676;398;275;848;938;880;6.504
+.. Doenças inflamatórias do sistema nervoso centr;323;869;440;428;429;676;398;275;848;938;880;6.504
+.... Meningite bacteriana não classif outra parte;322;866;439;387;429;671;361;275;839;809;874;6.272
+.... Meningite em doenças bacters class outr parte;-;-;-;-;-;-;-;-;-;-;2;2
+.... Mening em doenç infec/parasit class outr part;-;-;-;7;-;5;15;-;-;57;-;84
+.... Mening dev outras causas e causas não especif;1;3;1;34;-;-;22;-;9;72;4;146

@@ -1,5 +1,16 @@
 # Histórico do manual
 
+## 2026-10-10 — execução autorizada e base analítica entregue
+
+- Após “Agora inicie o plano”, coordenados os dois chats existentes em áreas exclusivas. SINAN/população e complementos entregaram candidatos; o mestre integrou e revisou os produtos finais.
+- Entrada central em `Meningite/analise`: RDS local, sete CSVs longos essenciais, configuração, dicionário, fontes/cobertura, decisões, D01–D10, relatório descritivo e seis figuras PNG/PDF.
+- 1.976 registros preservados; 242 estratos compatíveis, um sexo ignorado sem taxa fabricada; 132 meses, com zero de agosto/2020 derivado da coorte. Taxas anuais e do período com denominadores compatíveis e IC95 exato Poisson.
+- Retomada seletiva: 9 POST SIH, 2 POST PNI, 2 GET. Dias e A39 sexo concluídos; internações gerais, G00 sexo e A39 idade seguem pendentes. PNI interrompido após duas falhas BCG; conserva 17 observações e 27 lacunas.
+- 352 controles da preparação aprovados. Revisões independentes: 39 verificações SINAN/população (incluindo 409 IC e 715 proporções) e 17 dos complementos. Texto hospitalar corrigido para 75 óbitos parciais de cinco folhas, sem G01; não há total integral demonstrado. Ajustadas escalas/legendas F02 e F05 e trajetória temporal 2022–2024.
+- Seis PNG inspecionados e seis PDF renderizados com Poppler/inspecionados; hashes atuais registrados em QA_VISUAL. RDS aceito mantido após correções apenas de apresentação; código, relatório e hashes reconciliados no selo final.
+- Resolvida biblioteca R via R_LIBS_USER, sem instalação; SHA binário base R contornou falha de digest nativo em caminhos Unicode. Conferência Python usa absolute() para evitar consulta de ancestrais protegidos no sandbox Windows.
+- Atualizados estado, métodos, continuidade e comandos. Novo espelho público com lista explícita e manifesto próprio; 45 arquivos históricos de 09/10 e fontes preservados. Sem brutos, RDS ou casos individuais no Git. Commit local, sem publicação remota.
+
 ## 2026-10-10 — plano de preparação analítica, sem execução
 
 - Concluído plano detalhado para centralizar a entrada em `Meningite/analise`, com pacote RDS, sete CSVs longos, configuração, dicionário, fontes, cobertura e controles.
@@ -37,4 +48,4 @@
 
 ## Próxima entrada esperada
 
-Registrar a execução autorizada do plano de 10/10: bases candidatas/aceitas, controles, descritivos e figuras, com eventual retomada seletiva e limitações por módulo. Preservar este estágio de planejamento e os resultados anteriores.
+Registrar a pergunta analítica escolhida e eventuais novos recortes/modelos, com cobertura, pressupostos e sensibilidade. Coleta adicional deve ser seletiva e justificar o ganho; manter versões anteriores e resultados descritivos.

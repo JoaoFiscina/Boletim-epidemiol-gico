@@ -2,6 +2,12 @@
 
 Os comandos abaixo pressupõem Windows PowerShell e a estrutura original em `C:\Pesquisa\Boletim epidemiolóico`. Execute a leitura e a auditoria antes de fazer qualquer nova consulta.
 
+## Entrada atual: preparação analítica de 10/10
+
+Comece pelo [guia da base analítica](../pipeline/Meningite/analise/README.md), com comandos R offline, tipos CSV, flags de apresentação e conferência de entrega. Abrir o RDS não baixa dados; repetir a preparação exige fontes locais/caches com os hashes declarados. Em clone, sete CSVs, descritivos e figuras estão disponíveis; RDS, brutos e bases individuais precisam ser transferidos ou coletados separadamente.
+
+Os coletores seletivos de 10/10 ficam em `pipeline/Meningite/analise/trabalho/complementos/scripts/`, com ledgers em `aquisicao/`. O perfil/orçamento é explícito no código da rodada, sem leitura automática da configuração analítica R. Foram tentadas exclusivamente cinco pendências SIH, concluindo duas, e BCG legado com interrupção após duas falhas. Não executar novamente apenas porque o script está disponível. A preparação e o [selo](../pipeline/Meningite/analise/controle/VERIFICACAO_ENTREGA.json) foram conferidos; nenhuma consulta pendente foi transformada em zero.
+
 ## 1. Conferir ambiente
 
 ```powershell

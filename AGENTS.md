@@ -2,7 +2,7 @@
 
 Leia primeiro `README.md`, `docs/ESTADO_COLETA.md` e `docs/PREFERENCIAS_E_METODOS.md`. Para coleta integral, ler o plano em `pipeline/Meningite/PLANO_COLETA_INTEGRAL.md` ou sua versão principal na pasta de trabalho `Meningite`.
 
-Estado em 10/10/2026: ler também `pipeline/Meningite/PLANO_PREPARACAO_ANALITICA_20261010.md`. O pedido atual é concluir somente o planejamento e avisar, aguardando o próximo comando humano. Não iniciar coleta, implementação, processamento ou gráficos por conta própria. Um comando posterior que autorize executar substitui essa condição no escopo solicitado. As tarefas futuras e áreas exclusivas dos dois chats estão no plano; o mestre integra e mantém o Git.
+Estado em 10/10/2026: o comando humano “Agora inicie o plano” autorizou e a equipe executou a preparação. Ler `pipeline/Meningite/analise/README.md`, relatório descritivo, decisões e manifestos. Há RDS local, sete CSVs essenciais, D01–D10 e seis figuras PNG/PDF; 352 controles aprovados e duas revisões independentes (39 e 17 verificações). O plano anterior permanece histórico. As frentes encerraram suas tarefas; o mestre integrou e mantém o Git. Preparação R padrão é offline; novas consultas devem ser seletivas, com justificativa e orçamento. Não confundir lacunas documentadas com coleta completa.
 
 Este repositório acompanha a pesquisa municipal de meningites e doença meningocócica. A cada etapa autorizada de coleta, tratamento ou análise:
 

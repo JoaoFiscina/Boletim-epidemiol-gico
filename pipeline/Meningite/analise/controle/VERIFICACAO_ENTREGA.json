@@ -1,0 +1,21 @@
+{
+  "status": "aprovado",
+  "fonte_congelada_preservada": true,
+  "controles_preparacao_aprovados": 352,
+  "linhas_csv": {
+    "sinan_estratos_anuais": 242,
+    "sinan_mensal": 132,
+    "populacao": 242,
+    "sih": 572,
+    "sim": 143,
+    "pni": 44,
+    "sinan_categorias_anuais": 495
+  },
+  "qa_visual_arquivos_compativeis": 12,
+  "fontes_sha256_conferidas": true,
+  "sih_post": 9,
+  "pni_post": 2,
+  "snapshot_09_10_arquivos_preservados_em_duas_raizes": 45,
+  "limite": "Integridade da entrega; não validação clínica ou aceite de nova figura.",
+  "gerado_utc": "2026-10-10T18:56:52.502304+00:00"
+}

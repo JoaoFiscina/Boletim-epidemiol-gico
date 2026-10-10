@@ -1,0 +1,380 @@
+{
+  "versao_analitica": "20261010",
+  "gerado_utc": "2026-10-10 18:30:37 UTC",
+  "fonte_pacote": "dados/tratados/meningites_salvador_20261009.rds",
+  "fonte_sha256": "9fec05cb6c73b51d6cf30669d186d740fbf0f4b200121e2ad30f713713571dd5",
+  "modo_reproducao": "offline",
+  "configuracao_sha256": "2d6ee1ae0c284e682fbb6cec3550af6fed548c4652eeefb4c904049ed66f93b0",
+  "registros_sinan": 1976,
+  "bases_csv": 7,
+  "figuras": 6,
+  "validacao_controles": 352,
+  "estado": [
+    {
+      "modulo": "SINAN",
+      "status": "apto",
+      "limite": "Registros confirmados; inclui MCC/MNE e incompletude; não pessoas únicas"
+    },
+    {
+      "modulo": "Populacao",
+      "status": "apto",
+      "limite": "Integridade local; estimativa em 1º julho"
+    },
+    {
+      "modulo": "SIH",
+      "status": "apto_com_limites",
+      "limite": "Internações gerais, G00 sexo e A39 idade pendentes; AIHs e ano processamento"
+    },
+    {
+      "modulo": "SIM",
+      "status": "apto_com_limites",
+      "limite": "Registro BA; cobertura nacional não demonstrada"
+    },
+    {
+      "modulo": "PNI",
+      "status": "parcial",
+      "limite": "17 coberturas e 27 lacunas; métodos/geografias separados"
+    }
+  ],
+  "arquivos": [
+    {
+      "caminho": "analise/configuracao.json",
+      "bytes": 1598,
+      "sha256": "2d6ee1ae0c284e682fbb6cec3550af6fed548c4652eeefb4c904049ed66f93b0"
+    },
+    {
+      "caminho": "analise/controle/execucao.log",
+      "bytes": 480,
+      "sha256": "e3290a65403ebcf08c98c9eae5cb7915802b26ddce8a5ec6e9442bfd76540172"
+    },
+    {
+      "caminho": "analise/controle/inventario_entradas.json",
+      "bytes": 1637,
+      "sha256": "98f2f4bdcb4c7c48b735aa285bfb38331bd0d76f9b0c826a4da758e101c302f6"
+    },
+    {
+      "caminho": "analise/controle/QA_VISUAL.json",
+      "bytes": 4904,
+      "sha256": "3edf0c324a4b3c9b57b1d6e67e0d245b2f1d51950183cfd5358c6b9f35f5a4c4"
+    },
+    {
+      "caminho": "analise/controle/validacao.json",
+      "bytes": 88296,
+      "sha256": "13bdf216dca1167aae68f0918a27b66a1c8b27b2447fd73ab31a31554c6311f8"
+    },
+    {
+      "caminho": "analise/controle/VERIFICACAO_ENTREGA.json",
+      "bytes": 626,
+      "sha256": "fb308d035b32b0e8fbc28635c3277b1310c5316e64f6b267bfc27a291173fd66"
+    },
+    {
+      "caminho": "analise/dados/pni.csv",
+      "bytes": 41580,
+      "sha256": "f90c07bef692c28155e015f873a718400f3694fece345afdde783c388d83d66d"
+    },
+    {
+      "caminho": "analise/dados/populacao.csv",
+      "bytes": 59588,
+      "sha256": "76f87022d27567e8a243d5acb0abf36e7b32d7f8bfc271302a5cbe1cb172b350"
+    },
+    {
+      "caminho": "analise/dados/sih.csv",
+      "bytes": 125288,
+      "sha256": "f43e078cebda9fb54bca8f4d59f8f901a0e93cca7b9703f2a6e621a5f3ee4009"
+    },
+    {
+      "caminho": "analise/dados/sim.csv",
+      "bytes": 37560,
+      "sha256": "3d5667a219cffc7ab3753ba196a6571c1231f81d56be40088577961962c658cb"
+    },
+    {
+      "caminho": "analise/dados/sinan_categorias_anuais.csv",
+      "bytes": 75250,
+      "sha256": "cc814923e3e84a1cc7e5c7030e021f8bfa871c6a9aaf9f166afd923a9ebc0353"
+    },
+    {
+      "caminho": "analise/dados/sinan_estratos_anuais.csv",
+      "bytes": 54185,
+      "sha256": "db52731808c272a9d96695e9f3db133b3a21cd7b7a8b6b6b6baf28595f7431ce"
+    },
+    {
+      "caminho": "analise/dados/sinan_mensal.csv",
+      "bytes": 29886,
+      "sha256": "9ce7810a238b7b25fabf8ea58db1249cd2cdaf93bf56476f94b302a64d62d088"
+    },
+    {
+      "caminho": "analise/documentacao/cobertura.csv",
+      "bytes": 36397,
+      "sha256": "bc93a68cd2ce6ca86c0872d7da12de974dc005a83e725624f93a037e5005183e"
+    },
+    {
+      "caminho": "analise/documentacao/COORDENACAO.md",
+      "bytes": 2158,
+      "sha256": "63857f7d970c6d6bae058a2eda13d7ef633d5cf134961b2dd9b0e3e2f5714ae0"
+    },
+    {
+      "caminho": "analise/documentacao/decisoes.md",
+      "bytes": 6699,
+      "sha256": "ca0c1692050ad38f08693c632fa2457fe5d6b6fa53384d1e640e7844a6bc6b99"
+    },
+    {
+      "caminho": "analise/documentacao/dicionario.csv",
+      "bytes": 37113,
+      "sha256": "1b2e87c732687f00cc5b4fcd6293cc64c1d0dba57353ee13b589fab82f721146"
+    },
+    {
+      "caminho": "analise/documentacao/fontes.csv",
+      "bytes": 35238,
+      "sha256": "4c949c3d08c162084fa63ad017a2e81a29949511a16da81da9b88d2797df9a16"
+    },
+    {
+      "caminho": "analise/documentacao/REVISAO_COMPLEMENTOS.md",
+      "bytes": 5757,
+      "sha256": "e6b797724de19124d29499aec63009c5bb0a39e017ac0131c9739a8ea67194ea"
+    },
+    {
+      "caminho": "analise/documentacao/REVISAO_SINAN_POPULACAO.md",
+      "bytes": 7217,
+      "sha256": "c8a4ed5869f606d056b9039ac4065d20d798b8e35b5245cacb3c3129af337ee8"
+    },
+    {
+      "caminho": "analise/meningites_salvador_analitica.rds",
+      "bytes": 168712,
+      "sha256": "2fe0f7f6f02d6367b9cfa55487f24016dd57c09f4dc979f8975efd7edbb5247d"
+    },
+    {
+      "caminho": "analise/README.md",
+      "bytes": 8767,
+      "sha256": "a6a2826c966e51b26a3fd244ba2022c9dadcc6a99d3f309f006e9e436bb9e3a8"
+    },
+    {
+      "caminho": "analise/resultados/descritivos.csv",
+      "bytes": 624410,
+      "sha256": "209fa31f67482580d702f6e05a055661bae7d4b669e8fdcd89eb043cbd81b436"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F01_evolucao_anual.pdf",
+      "bytes": 42836,
+      "sha256": "6a5269656bc3b694ee1c1b25761992e7f8a67994b43da2626a5cf8998eabc81e"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F01_evolucao_anual.png",
+      "bytes": 156149,
+      "sha256": "63641b6ec872c599c157600ee41513381e1c47fdf3cf8291e7b2af7c39511d90"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F02_perfil_sexo_idade.pdf",
+      "bytes": 39689,
+      "sha256": "93f633027a895bf3e27c5384073b45d4d1f587575a497638f7e0d351660f3d5a"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F02_perfil_sexo_idade.png",
+      "bytes": 97255,
+      "sha256": "4f23e660769daaf423a5270a91b0cec5699036a31799a258b268d4ad665629e3"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F03_distribuicao_mensal.pdf",
+      "bytes": 40974,
+      "sha256": "560fd4273f55af762326a82ce62c5275c8985a6900cbec9ab7ee4341699da59c"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F03_distribuicao_mensal.png",
+      "bytes": 160021,
+      "sha256": "a7f14e1415d63d16af9d3301655ea220a3b49013e00037715af7ba0c92d55a50"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F04_classificacao_etiologica.pdf",
+      "bytes": 40945,
+      "sha256": "e044f960c66b78a2d22cf9d41cb05b057952bae6c6b71434ea9c08fde6c79c49"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F04_classificacao_etiologica.png",
+      "bytes": 94871,
+      "sha256": "4cd87e3d399196fcc4584c58ae89871fb28b721b368ad40ec08700444c15a111"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F05_internacoes_disponiveis.pdf",
+      "bytes": 41576,
+      "sha256": "7077e3bd09ccc8256a97913965e5c630b82615f608be4023cc88556b23bfe1c6"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F05_internacoes_disponiveis.png",
+      "bytes": 188726,
+      "sha256": "b702fa9f43cc4df1e1c3f47a146e1fb3c1ce81bdc11eac666f0b7b1118106fea"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F06_cobertura_vacinal_registrada.pdf",
+      "bytes": 41532,
+      "sha256": "aa35662234d1169457a6487e7b06066d486e24ff68fcc83e70111c28f4a692d2"
+    },
+    {
+      "caminho": "analise/resultados/figuras/F06_cobertura_vacinal_registrada.png",
+      "bytes": 108597,
+      "sha256": "6e186b40240d013c56a8c1fa5c0b4dee7353961846430410871ecf5d4ad6da26"
+    },
+    {
+      "caminho": "analise/resultados/RELATORIO_DESCRITIVO.md",
+      "bytes": 12076,
+      "sha256": "293a69321c3f7c2c151918d68e391678680d83cb0f0e79bebf8a93e606920057"
+    },
+    {
+      "caminho": "analise/scripts/conferir_entrega.py",
+      "bytes": 10502,
+      "sha256": "0904ac29693219ee673673d6b81bbd413f53775afacfc9e6c466db9f5fe537ce"
+    },
+    {
+      "caminho": "analise/scripts/executar_etapa.R",
+      "bytes": 14286,
+      "sha256": "5d7296e55fb396584a0301f130ee4a6f044d560a462f1f485a3ea505e898227f"
+    },
+    {
+      "caminho": "analise/scripts/gerar_descritivos.R",
+      "bytes": 27825,
+      "sha256": "0d812b4dcf109c762c7c37e572f1d0e247c4219f397d340b8994ae5d0f97702c"
+    },
+    {
+      "caminho": "analise/scripts/gerar_graficos.R",
+      "bytes": 8854,
+      "sha256": "3b87bc6ec146a059a4eed1ebfcd3a44a2b1b2038b41cced0cb3ba9601585ac98"
+    },
+    {
+      "caminho": "analise/scripts/preparar_complementos.R",
+      "bytes": 19099,
+      "sha256": "ccd6d7e694c11736d293fd92a4751e70702282b43353d8527589825daf885ed0"
+    },
+    {
+      "caminho": "analise/scripts/preparar_sinan_populacao.R",
+      "bytes": 28644,
+      "sha256": "1c4d6209258991aa7c9053573dcfcfda7de180193e88b9449f5317abe82cf57e"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/aquisicao/requisicoes.json",
+      "bytes": 7720,
+      "sha256": "a6e53305e61901cace8f710605cceb968e70bb94e19e7f7c739dc713859a4e5c"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/aquisicao/RESULTADO_RETOMADA.json",
+      "bytes": 67825,
+      "sha256": "c688876284bae996646beb467e83cea77bae5cbe395d67e3c3506da6b1bb2e3f"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/dados/tratados/retomada_20261010/conferencias.csv",
+      "bytes": 1559,
+      "sha256": "eaaae3efba078d9c074b0997a05920c68035eb7256197c492194553b4ca90495"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/dados/tratados/retomada_20261010/perfis_anuais_longo.csv",
+      "bytes": 2145,
+      "sha256": "e180aef6622b4039d3ebf8dcfbb8e9b915f9f192586d7b392dc32af81f8f4e93"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/dados/tratados/retomada_20261010/SIH_A39_sexo_ano_tabela.csv",
+      "bytes": 173,
+      "sha256": "efe1ffa60f3f24d21f325ebd6bda59ed2d93c904f5a6630b7419442d61d47716"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/dados/tratados/retomada_20261010/SIH_dias_permanencia_diagnostico_ano_tabela.csv",
+      "bytes": 1004,
+      "sha256": "0081914bb1988b96212a71747e175191aa3eecd7adad741ac4235451665e0583"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/dados/tratados/retomada_20261010/sih_internacoes_anuais_totais_das_marginais.csv",
+      "bytes": 862,
+      "sha256": "85fcf3ee717365b07eb5fcd2f0b8c534ac7f982d64743dc24ce44fb5495331bc"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/dados/tratados/retomada_20261010/sih_medidas_anuais_longo.csv",
+      "bytes": 7374,
+      "sha256": "d74e362567ab15b02419f199a08e39123f4de818a0facbac1ac32479647f6113"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/metadados/retomada_20261010/SIH_A39_idade_ano.json",
+      "bytes": 10196,
+      "sha256": "d8585b1ca72466f0eac3d9a68f0732fdeadedd95baa10cb8daff505adefaf8e9"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/metadados/retomada_20261010/SIH_A39_sexo_ano.json",
+      "bytes": 11056,
+      "sha256": "9bcc0988fb087a71a87faf84e72f2913f20e1c40c9eeb04aa4e0cff146aab6ed"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/metadados/retomada_20261010/SIH_dias_permanencia_diagnostico_ano.json",
+      "bytes": 11485,
+      "sha256": "94d65525c216610ff872f94282a3434260627fc317210f823d22b1e99e45d9d2"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/metadados/retomada_20261010/SIH_formulario.json",
+      "bytes": 35282,
+      "sha256": "b7dc1490c8436bd2b2e55b564b5e717d1e663abaee0ae03836776adc664de7c6"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/metadados/retomada_20261010/SIH_G00_sexo_ano.json",
+      "bytes": 10183,
+      "sha256": "bd249f42f21b3684c3109fab5a5b776f869f4b69c3b93b78335094f26b800645"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/metadados/retomada_20261010/SIH_internacoes_diagnostico_ano.json",
+      "bytes": 10535,
+      "sha256": "1435cd343b49f49ce872ba6031e11faec8ecd31bf4b78b01b2d9d4f7f87780b7"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/scripts/_tabnet_complementos.py",
+      "bytes": 4934,
+      "sha256": "98bfa941f83d4b72c4d8ab8cc4f79935190708aa54c1d458a422cab52f4cb3f9"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/scripts/coletor_pni_local.py",
+      "bytes": 45602,
+      "sha256": "f6a9e0f2729f052b343e08503c087c28fd8259171b58bc1f06d2846f9dc3039c"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/scripts/coletor_sih_local.py",
+      "bytes": 29858,
+      "sha256": "b6b4678c99b4895956f71229533fc70ef2d2d50c28effd7dad74b04cb6143dbc"
+    },
+    {
+      "caminho": "analise/trabalho/complementos/scripts/retomar_seletivo.py",
+      "bytes": 5323,
+      "sha256": "568727ed96aeefc79d134d2afadca692d0f30bc7dfb45a3b1dd8769cbc5c632f"
+    }
+  ],
+  "sessionInfo": [
+    "R version 4.5.1 (2025-06-13 ucrt)",
+    "Platform: x86_64-w64-mingw32/x64",
+    "Running under: Windows 11 x64 (build 26200)",
+    "",
+    "Matrix products: default",
+    "  LAPACK version 3.12.1",
+    "",
+    "locale:",
+    "[1] LC_COLLATE=Portuguese_Brazil.utf8  LC_CTYPE=Portuguese_Brazil.utf8   ",
+    "[3] LC_MONETARY=Portuguese_Brazil.utf8 LC_NUMERIC=C                      ",
+    "[5] LC_TIME=Portuguese_Brazil.utf8    ",
+    "",
+    "time zone: America/Sao_Paulo",
+    "tzcode source: internal",
+    "",
+    "attached base packages:",
+    "[1] stats     graphics  grDevices utils     datasets  methods   base     ",
+    "",
+    "loaded via a namespace (and not attached):",
+    " [1] digest_0.6.37      RColorBrewer_1.1-3 R6_2.6.1           tidyselect_1.2.1  ",
+    " [5] farver_2.1.2       magrittr_2.0.3     gtable_0.3.6       glue_1.8.0        ",
+    " [9] tibble_3.3.0       pkgconfig_2.0.3    dplyr_1.2.1        generics_0.1.4    ",
+    "[13] lifecycle_1.0.5    ggplot2_4.0.2      cli_3.6.5          S7_0.2.0          ",
+    "[17] scales_1.4.0       grid_4.5.1         vctrs_0.7.3        compiler_4.5.1    ",
+    "[21] pillar_1.11.0      rlang_1.2.0        jsonlite_2.0.0    "
+  ],
+  "aquisicao_adicional": {
+    "sih_post": 9,
+    "pni_post": 2,
+    "sih_consultas_validas": 2,
+    "pni_novas_observacoes": 0
+  },
+  "inspecao_visual": "Concluída: QA_VISUAL.json confere os 12 hashes PNG/PDF.",
+  "selado_utc": "2026-10-10T18:56:52.502304+00:00",
+  "revisoes_independentes": {
+    "sinan_populacao": 39,
+    "complementos": 17
+  }
+}

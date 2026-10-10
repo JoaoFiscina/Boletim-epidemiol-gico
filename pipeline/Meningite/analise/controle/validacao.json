@@ -1,0 +1,3178 @@
+{
+  "versao": "20261010",
+  "status": "aprovado",
+  "controles": 352,
+  "aprovados": 352,
+  "bloqueantes_reprovados": 0,
+  "testes": [
+    {
+      "controle": "hash_pacote_congelado",
+      "observado": "9fec05cb6c73b51d6cf30669d186d740fbf0f4b200121e2ad30f713713571dd5",
+      "esperado": "9fec05cb6c73b51d6cf30669d186d740fbf0f4b200121e2ad30f713713571dd5",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "anos_unicos",
+      "observado": "0",
+      "esperado": "0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "perfil_11_anos",
+      "observado": "11",
+      "esperado": "11",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "perfil_11_faixas",
+      "observado": "11",
+      "esperado": "11",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "municipio_config",
+      "observado": "292740",
+      "esperado": "292740",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "coorte",
+      "observado": "1976",
+      "esperado": "1976",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "campos_obrigatorios",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "municipio_pacote",
+      "observado": "292740",
+      "esperado": "292740",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "inventario_nucleo_nao_vazio",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_entrada_1",
+      "observado": "bac815fe8e4ff5c0a0b93e5086f8aead8549e45e39ae00e72b102df739ba7319",
+      "esperado": "bac815fe8e4ff5c0a0b93e5086f8aead8549e45e39ae00e72b102df739ba7319",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "metadados/sinan_br_20261009/RESULTADO_PROCESSAMENTO.json",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "bytes_entrada_1",
+      "observado": "11259",
+      "esperado": "11259",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_entrada_2",
+      "observado": "1f3ed66d13b3c5c7474879a78447389bad3df9f029556ced5cf74d205ed785d6",
+      "esperado": "1f3ed66d13b3c5c7474879a78447389bad3df9f029556ced5cf74d205ed785d6",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "dados/tratados/sinan_br_20261009/meningites_salvador_sinan.rds",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "bytes_entrada_2",
+      "observado": "111460",
+      "esperado": "111460",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_entrada_3",
+      "observado": "e0d2f73029bec27820fad805b1eb47e447efdc927db60432060638050e37ad57",
+      "esperado": "e0d2f73029bec27820fad805b1eb47e447efdc927db60432060638050e37ad57",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "dados/denominadores/populacao_total.csv",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "bytes_entrada_3",
+      "observado": "173",
+      "esperado": "173",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_entrada_4",
+      "observado": "b0317f55013b789071593a84564bd6e83cf4a90208929c6990f06a290bcf8afa",
+      "esperado": "b0317f55013b789071593a84564bd6e83cf4a90208929c6990f06a290bcf8afa",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "dados/denominadores/populacao_sexo_idade_original.csv",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "bytes_entrada_4",
+      "observado": "49638",
+      "esperado": "49638",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_entrada_5",
+      "observado": "71cde10b4bde4ed2734935978b1add9e3a1a6c47cb86df4e2c7345564ef95ee9",
+      "esperado": "71cde10b4bde4ed2734935978b1add9e3a1a6c47cb86df4e2c7345564ef95ee9",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "dados/denominadores/populacao_faixas_sinan.csv",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "bytes_entrada_5",
+      "observado": "6598",
+      "esperado": "6598",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "particoes_13",
+      "observado": "13",
+      "esperado": "13",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR24.dbc",
+      "observado": "69bec57a8f537cb3c8b3859a5efd652728797845201915d64e9a5cb6dce13e31",
+      "esperado": "69bec57a8f537cb3c8b3859a5efd652728797845201915d64e9a5cb6dce13e31",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR25.dbc",
+      "observado": "958e7bbb0a162d0de77b46acb8d9c95f827738263db70686d1b0690b5067bfa7",
+      "esperado": "958e7bbb0a162d0de77b46acb8d9c95f827738263db70686d1b0690b5067bfa7",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR26.dbc",
+      "observado": "89309c24cffe41a187d44cb794ebcd6d9a2d04cd68805d5fab3c5429a8098c73",
+      "esperado": "89309c24cffe41a187d44cb794ebcd6d9a2d04cd68805d5fab3c5429a8098c73",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR14.dbc",
+      "observado": "783a5bb96f9c8078e19f44ee282c2ca02108ad5d422b2abb7ab6071208d0c7ed",
+      "esperado": "783a5bb96f9c8078e19f44ee282c2ca02108ad5d422b2abb7ab6071208d0c7ed",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR15.dbc",
+      "observado": "48468454e32651bbf987962e0418d197b517a710ef55cc32d596843e2ea50aa9",
+      "esperado": "48468454e32651bbf987962e0418d197b517a710ef55cc32d596843e2ea50aa9",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR16.dbc",
+      "observado": "08eff5757eb36d124f9fceb77f3dabdcc362f444f2f99dc9bcee450445640356",
+      "esperado": "08eff5757eb36d124f9fceb77f3dabdcc362f444f2f99dc9bcee450445640356",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR17.dbc",
+      "observado": "ed152ab81b17664af8f26f2d040b3cce78a0bc4388af2b768377352580e4ff53",
+      "esperado": "ed152ab81b17664af8f26f2d040b3cce78a0bc4388af2b768377352580e4ff53",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR18.dbc",
+      "observado": "092941aec761877b854d4547995fc9124b0e532b9105853043f12916b5b358e3",
+      "esperado": "092941aec761877b854d4547995fc9124b0e532b9105853043f12916b5b358e3",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR19.dbc",
+      "observado": "17d56ae60a35212a89cf7dcce397ec95c55cb690ee30e635bc99582cc7384ec9",
+      "esperado": "17d56ae60a35212a89cf7dcce397ec95c55cb690ee30e635bc99582cc7384ec9",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR20.dbc",
+      "observado": "5e97f2e946074272823df678ef7260bbf96ddcaf36f6eaf8a2344f8c32efae47",
+      "esperado": "5e97f2e946074272823df678ef7260bbf96ddcaf36f6eaf8a2344f8c32efae47",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR21.dbc",
+      "observado": "d277a4caacc920d1c9bd5112de47bd3f3cc02924a106c626e52ee475cace7019",
+      "esperado": "d277a4caacc920d1c9bd5112de47bd3f3cc02924a106c626e52ee475cace7019",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR22.dbc",
+      "observado": "6be9dcbd99fccde082e6db58b276bebfce9b098972efd587dc74414c29a4bd7c",
+      "esperado": "6be9dcbd99fccde082e6db58b276bebfce9b098972efd587dc74414c29a4bd7c",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hash_MENIBR23.dbc",
+      "observado": "9c9320a7150eadc705f4eaaeb5d5176c84868d943ee2c8d4dae92fafa88ba97c",
+      "esperado": "9c9320a7150eadc705f4eaaeb5d5176c84868d943ee2c8d4dae92fafa88ba97c",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Hash DBC sem nova leitura/descompressao",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "mapa_faixas_config",
+      "observado": "<1|1-4|5-9|10-14|15-19|20-39|40-59|60-64|65-69|70-79|80+",
+      "esperado": "<1|1-4|5-9|10-14|15-19|20-39|40-59|60-64|65-69|70-79|80+",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "faixas_idade_recalculadas",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "idade_interpretavel_recalculada",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "idade_anos_recalculada",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "fronteiras_idade",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Unidades horas/dias/meses/anos; 365 dias continua <1 pela divisao historica 365.25; sem recodificacao silenciosa",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "campos_originais_conservados",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "chaves_tecnicas_repetidas",
+      "observado": "0",
+      "esperado": "0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Chave tecnica da versao, nao pessoa",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "hashes_tecnicos_repetidos",
+      "observado": "0",
+      "esperado": "0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "janela_sintomas",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "meses_validos",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "etiologia_nao_canonica",
+      "observado": "6",
+      "esperado": "6",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "etiologia_ausente",
+      "observado": "2",
+      "esperado": "2",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "evolucao_desconhecida",
+      "observado": "144",
+      "esperado": "144",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "MNE_preservada",
+      "observado": "442",
+      "esperado": "442",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "MCC_preservada",
+      "observado": "19",
+      "esperado": "19",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "fora_BA",
+      "observado": "2",
+      "esperado": "2",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "fluxo_n_nacional",
+      "observado": "295369",
+      "esperado": "295369",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "fluxo_n_residentes",
+      "observado": "3871",
+      "esperado": "3871",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "fluxo_n_confirmados",
+      "observado": "2255",
+      "esperado": "2255",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "fluxo_n_confirmados_fora_janela",
+      "observado": "279",
+      "esperado": "279",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "fluxo_sem_data",
+      "observado": "0",
+      "esperado": "0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "fluxo_fechamento",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pop_original_396",
+      "observado": "396",
+      "esperado": "396",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pop_original_chaves",
+      "observado": "0",
+      "esperado": "0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pop_242",
+      "observado": "242",
+      "esperado": "242",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pop_chaves",
+      "observado": "0",
+      "esperado": "0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pop_positiva",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pop_original_positiva",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pop_territorio",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pop_dominios",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "mapa_pop_original_completo",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "reagrupamento_pop_identico",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pop_11_totais",
+      "observado": "11",
+      "esperado": "11",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pop_somas_totais",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "join_pop_muitos_para_um",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "totais_anuais",
+      "observado": "361|292|241|198|141|181|40|51|142|167|162",
+      "esperado": "361|292|241|198|141|181|40|51|142|167|162",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_242",
+      "observado": "242",
+      "esperado": "242",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_mais_ignorados",
+      "observado": "1976",
+      "esperado": "1976",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "mensal_132",
+      "observado": "132",
+      "esperado": "132",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "mensal_chaves",
+      "observado": "0",
+      "esperado": "0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "mensal_fecha_anual",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "categorias_fechamento_sexo",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "categorias_fechamento_faixa_etaria",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "categorias_fechamento_etiologia",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "categorias_fechamento_evolucao",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "categorias_fechamento_criterio",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "qualidade_nao_vazia",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "qualidade_fechamento",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "benchmark_572_referencias",
+      "observado": "572",
+      "esperado": "572",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "benchmark_valores_recontados",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "benchmark_sem_divergencias",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "benchmark_6_extras",
+      "observado": "6",
+      "esperado": "6",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "benchmark_extras_sem_imputacao",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2014",
+      "observado": "361",
+      "esperado": "361",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2015",
+      "observado": "292",
+      "esperado": "292",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2016",
+      "observado": "241",
+      "esperado": "241",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2017",
+      "observado": "198",
+      "esperado": "198",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2018",
+      "observado": "141",
+      "esperado": "141",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2019",
+      "observado": "181",
+      "esperado": "181",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2020",
+      "observado": "40",
+      "esperado": "40",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2021",
+      "observado": "51",
+      "esperado": "51",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2022",
+      "observado": "142",
+      "esperado": "142",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2023",
+      "observado": "167",
+      "esperado": "167",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "estratos_fecha_2024",
+      "observado": "162",
+      "esperado": "162",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "contagens_nao_negativas_inteiras",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "taxas_zeros_ic_finito",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "taxas_sem_denominador_ausentes",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "total_separado_componentes",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "categoria_chaves",
+      "observado": "0",
+      "esperado": "0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "sinan_estratos_chaves",
+      "observado": "0",
+      "esperado": "0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_sinan_estratos_anuais",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_sinan_mensal",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_sinan_categorias_anuais",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_populacao",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_sinan_qualidade_anual",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_sinan_estratos_ignorados",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_dicionario",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_fontes",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_cobertura",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_decisoes",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_mapa_faixas",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_mapa_populacao",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "csv_roundtrip_auditoria_idade",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "rds_roundtrip",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "SINAN/populacao"
+    },
+    {
+      "controle": "pacote_entrada_SHA",
+      "observado": "9fec05cb6c73b51d6cf30669d186d740fbf0f4b200121e2ad30f713713571dd5",
+      "esperado": "9fec05cb6c73b51d6cf30669d186d740fbf0f4b200121e2ad30f713713571dd5",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIH_medidas_chaves",
+      "observado": "198",
+      "esperado": "198",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2014",
+      "observado": "95",
+      "esperado": "95",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2015",
+      "observado": "85",
+      "esperado": "85",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2016",
+      "observado": "62",
+      "esperado": "62",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2017",
+      "observado": "51",
+      "esperado": "51",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2018",
+      "observado": "28",
+      "esperado": "28",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2019",
+      "observado": "52",
+      "esperado": "52",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2020",
+      "observado": "21",
+      "esperado": "21",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2021",
+      "observado": "5",
+      "esperado": "5",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2022",
+      "observado": "26",
+      "esperado": "26",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2023",
+      "observado": "38",
+      "esperado": "38",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A87_2024",
+      "observado": "26",
+      "esperado": "26",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2014",
+      "observado": "23",
+      "esperado": "23",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2015",
+      "observado": "62",
+      "esperado": "62",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2016",
+      "observado": "32",
+      "esperado": "32",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2017",
+      "observado": "29",
+      "esperado": "29",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2018",
+      "observado": "37",
+      "esperado": "37",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2019",
+      "observado": "56",
+      "esperado": "56",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2020",
+      "observado": "32",
+      "esperado": "32",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2021",
+      "observado": "25",
+      "esperado": "25",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2022",
+      "observado": "69",
+      "esperado": "69",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2023",
+      "observado": "81",
+      "esperado": "81",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_G00_2024",
+      "observado": "86",
+      "esperado": "86",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2014",
+      "observado": "19",
+      "esperado": "19",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2015",
+      "observado": "11",
+      "esperado": "11",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2016",
+      "observado": "18",
+      "esperado": "18",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2017",
+      "observado": "5",
+      "esperado": "5",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2018",
+      "observado": "2",
+      "esperado": "2",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2019",
+      "observado": "14",
+      "esperado": "14",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2020",
+      "observado": "5",
+      "esperado": "5",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2021",
+      "observado": "4",
+      "esperado": "4",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2022",
+      "observado": "21",
+      "esperado": "21",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2023",
+      "observado": "11",
+      "esperado": "11",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "total_marginal_A39_2024",
+      "observado": "12",
+      "esperado": "12",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIH_grade_totais",
+      "observado": "264",
+      "esperado": "264",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIH_folhas",
+      "observado": "A39|A87|G00|G01|G02|G03",
+      "esperado": "G00|G01|G02|G03|A39|A87",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIH_SIM_controles_nao_vazios",
+      "observado": "105",
+      "esperado": ">=77",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2014_2024_obitos_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2014_2024_obitos_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2014_2024_obitos_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G02_2014_2024_obitos_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G03_2014_2024_obitos_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2014_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2015_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2016_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2017_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2018_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2019_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2020_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2021_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2022_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2023_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2024_obitos_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2014_2024_valor_total_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2014_2024_valor_total_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2014_2024_valor_total_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G01_2014_2024_valor_total_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G02_2014_2024_valor_total_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G03_2014_2024_valor_total_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2014_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2015_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2016_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2017_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2018_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2019_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2020_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2021_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2022_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2023_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2024_valor_total_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0.1",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2014_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2015_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2016_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2017_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2018_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2019_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2020_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2021_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2022_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2023_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIM_conjunto_filtrado_2024_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2014_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2015_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2016_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2017_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2018_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2019_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2020_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2021_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2022_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2023_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2024_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2014_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2015_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2016_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2017_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2018_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2019_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2020_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2021_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2022_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2023_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2024_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2014_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2015_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2016_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2017_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2018_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2019_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2020_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2021_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2022_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2023_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2024_soma_idade",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2014_2024_dias_permanencia_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A87_2014_2024_dias_permanencia_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G00_2014_2024_dias_permanencia_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G01_2014_2024_dias_permanencia_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G02_2014_2024_dias_permanencia_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_G03_2014_2024_dias_permanencia_soma_anos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2014_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2015_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2016_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2017_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2018_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2019_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2020_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2021_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2022_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2023_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_conjunto_filtrado_2024_dias_permanencia_soma_diagnosticos",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2014_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2015_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2016_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2017_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2018_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2019_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2020_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2021_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2022_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2023_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "conservacao_SIH_A39_2024_soma_sexo",
+      "observado": "0",
+      "esperado": "abs<=0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_serie_11_anos",
+      "observado": "11",
+      "esperado": "11",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_202_obitos",
+      "observado": "202",
+      "esperado": "202",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2014",
+      "observado": "34",
+      "esperado": "34",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2015",
+      "observado": "19",
+      "esperado": "19",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2016",
+      "observado": "19",
+      "esperado": "19",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2017",
+      "observado": "15",
+      "esperado": "15",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2018",
+      "observado": "22",
+      "esperado": "22",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2019",
+      "observado": "14",
+      "esperado": "14",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2020",
+      "observado": "14",
+      "esperado": "14",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2021",
+      "observado": "11",
+      "esperado": "11",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2022",
+      "observado": "14",
+      "esperado": "14",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2023",
+      "observado": "18",
+      "esperado": "18",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_idade_2024",
+      "observado": "22",
+      "esperado": "22",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_grade44",
+      "observado": "44",
+      "esperado": "44",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_chave_semantica",
+      "observado": "44",
+      "esperado": "44",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI17_preservados",
+      "observado": "17",
+      "esperado": ">=17",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI27_pendencias_iniciais",
+      "observado": "27",
+      "esperado": "27",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_RNDS8",
+      "observado": "8",
+      "esperado": "8",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_RNDS_razoes",
+      "observado": "0",
+      "esperado": "1e-08",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "tabela_nao_vazia_SIH",
+      "observado": "572",
+      "esperado": ">0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "tabela_nao_vazia_SIM",
+      "observado": "143",
+      "esperado": ">0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "tabela_nao_vazia_PNI_TabNet_legado",
+      "observado": "44",
+      "esperado": ">0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "aquisicao_SIH_POST",
+      "observado": "9",
+      "esperado": "10",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "aquisicao_PNI_POST",
+      "observado": "2",
+      "esperado": "6",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "aquisicao_timeout",
+      "observado": "25",
+      "esperado": "25",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "aquisicao_max2_por_consulta",
+      "observado": "2",
+      "esperado": "2",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "aquisicao_SIH_seletiva",
+      "observado": "SIH_internacoes_diagnostico_ano|SIH_dias_permanencia_diagnostico_ano|SIH_G00_sexo_ano|SIH_A39_sexo_ano|SIH_A39_idade_ano",
+      "esperado": "SIH_internacoes_diagnostico_ano|SIH_dias_permanencia_diagnostico_ano|SIH_G00_sexo_ano|SIH_A39_sexo_ano|SIH_A39_idade_ano",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIH_territorio",
+      "observado": "292740",
+      "esperado": "292740",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_territorio",
+      "observado": "292740",
+      "esperado": "292740",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_territorio",
+      "observado": "292740",
+      "esperado": "292740",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIH_chave_total_perfil",
+      "observado": "572",
+      "esperado": "572",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "SIM_chave_total_perfil",
+      "observado": "143",
+      "esperado": "143",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "hash_html_SIH_A87_idade_ano.json",
+      "observado": "af3c951953befde765af974608dde2ca06287e536a94499bb9f172a9723e7266",
+      "esperado": "af3c951953befde765af974608dde2ca06287e536a94499bb9f172a9723e7266",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "hash_html_SIH_A87_sexo_ano.json",
+      "observado": "df9f34edff13d3e9140bd586e9bd763d363666123738223bdb1caf494985af65",
+      "esperado": "df9f34edff13d3e9140bd586e9bd763d363666123738223bdb1caf494985af65",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "hash_html_SIH_G00_idade_ano.json",
+      "observado": "78a986c4e4f78cb01cc55c0c844b43b8e97e22236e58d5a415c4e004852896f6",
+      "esperado": "78a986c4e4f78cb01cc55c0c844b43b8e97e22236e58d5a415c4e004852896f6",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "hash_html_SIH_obitos_diagnostico_ano.json",
+      "observado": "00aa78a9d46c823b44139a767fd24c2bfbe4750314a2f0c0914c77b612ee818d",
+      "esperado": "00aa78a9d46c823b44139a767fd24c2bfbe4750314a2f0c0914c77b612ee818d",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "hash_html_SIH_valor_total_diagnostico_ano.json",
+      "observado": "acb4fe9e1dec7e2a74e6b6ce6f18799ba1503cf991aa53451ca463658d966a94",
+      "esperado": "acb4fe9e1dec7e2a74e6b6ce6f18799ba1503cf991aa53451ca463658d966a94",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "hash_html_SIM_idade_ano_G00_G03_A39_A87.json",
+      "observado": "9cad8eae5458ac51ce962cde784dd23a97f35c6f8f406a0f9d85d1416d9b7656",
+      "esperado": "9cad8eae5458ac51ce962cde784dd23a97f35c6f8f406a0f9d85d1416d9b7656",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "hash_html_SIH_A39_sexo_ano.json",
+      "observado": "eb3a9a2f373f1658dbdaead5c3043c184bdddff166de7c319474ee43d3137c27",
+      "esperado": "eb3a9a2f373f1658dbdaead5c3043c184bdddff166de7c319474ee43d3137c27",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "hash_html_SIH_dias_permanencia_diagnostico_ano.json",
+      "observado": "0fd3acadea9702d396473599ef5a368ff0b3df8c70cc343a6b5cc76afde9738b",
+      "esperado": "0fd3acadea9702d396473599ef5a368ff0b3df8c70cc343a6b5cc76afde9738b",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_2",
+      "observado": "9af00a55ba3f2faf4f77d89c8e9d3f5481f7b53dbd83d5efb33409f64dc0e739",
+      "esperado": "9af00a55ba3f2faf4f77d89c8e9d3f5481f7b53dbd83d5efb33409f64dc0e739",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_9",
+      "observado": "6359c2763fd71941493d91540856d2fdf6ce91ee982d4ea21df9e33f8b6ecbcb",
+      "esperado": "6359c2763fd71941493d91540856d2fdf6ce91ee982d4ea21df9e33f8b6ecbcb",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_16",
+      "observado": "6e55c7f3502964a527a9e0dd57c683f084307e6bc34806acfebed2cd0d0aeedf",
+      "esperado": "6e55c7f3502964a527a9e0dd57c683f084307e6bc34806acfebed2cd0d0aeedf",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_21",
+      "observado": "942a381b069527594195c302565f9b207f2cec6022929c118a14e48e95d0471b",
+      "esperado": "942a381b069527594195c302565f9b207f2cec6022929c118a14e48e95d0471b",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_23",
+      "observado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "esperado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_24",
+      "observado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "esperado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_25",
+      "observado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "esperado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_26",
+      "observado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "esperado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_27",
+      "observado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "esperado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_28",
+      "observado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "esperado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_29",
+      "observado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "esperado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_30",
+      "observado": "e8e772e4b436dee998feee5bb7be5b2fa74354a7dbb2bb6abf4c0d49f1886527",
+      "esperado": "e8e772e4b436dee998feee5bb7be5b2fa74354a7dbb2bb6abf4c0d49f1886527",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_31",
+      "observado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "esperado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_32",
+      "observado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "esperado": "8c6b8bd57a65c2f3777c1d8999df1e98e5d5adb2e51a8ef6992e526ea9d41dc7",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_33",
+      "observado": "ad66196ef86351fafac98b63a0000c82432aa247beda743468f34da3355fd5cd",
+      "esperado": "ad66196ef86351fafac98b63a0000c82432aa247beda743468f34da3355fd5cd",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_40",
+      "observado": "ef9921d41a39b2aac79ae645c1f0adec9a32c131c16930115c868856722b8b1f",
+      "esperado": "ef9921d41a39b2aac79ae645c1f0adec9a32c131c16930115c868856722b8b1f",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "PNI_sha_44",
+      "observado": "4a23775d60f49c9d93f59135e532c0de57cf408341b6efdf3551cc5db73536e0",
+      "esperado": "4a23775d60f49c9d93f59135e532c0de57cf408341b6efdf3551cc5db73536e0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "complementos"
+    },
+    {
+      "controle": "fontes_ids_unicos",
+      "observado": "0",
+      "esperado": "0",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "cobertura_fontes_existentes",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "sete_bases_canonicas",
+      "observado": "sinan_estratos_anuais|sinan_mensal|sinan_categorias_anuais|populacao|sih|sim|pni",
+      "esperado": "sinan_estratos_anuais|sinan_mensal|sinan_categorias_anuais|populacao|sih|sim|pni",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "campos_originais_conservados_na_integracao",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "dicionario_sinan_estratos_anuais",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "dicionario_sinan_mensal",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "dicionario_sinan_categorias_anuais",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "dicionario_populacao",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "dicionario_sih",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "dicionario_sim",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "dicionario_pni",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "descritivos_D01_D10",
+      "observado": "D01|D02|D03|D04|D05|D06|D07|D08|D09|D10",
+      "esperado": "D01|D02|D03|D04|D05|D06|D07|D08|D09|D10",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "anual_mestre_vs_frente",
+      "observado": "361|292|241|198|141|181|40|51|142|167|162",
+      "esperado": "361|292|241|198|141|181|40|51|142|167|162",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "taxas_mestre_vs_frente",
+      "observado": "0",
+      "esperado": "<1e-10",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "IC_independente_poisson_test",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "descritivo_fecha_etiologia_anual",
+      "observado": "1976",
+      "esperado": "1976",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "descritivo_fecha_criterio_anual",
+      "observado": "1976",
+      "esperado": "1976",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "descritivo_fecha_evolucao_anual",
+      "observado": "1976",
+      "esperado": "1976",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "descritivo_fecha_mensal",
+      "observado": "1976",
+      "esperado": "1976",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "sexo_ignorado_conservado",
+      "observado": "1976",
+      "esperado": "1976",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "perfil_idade_fecha",
+      "observado": "1976",
+      "esperado": "1976",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "evolucao_D_U",
+      "observado": "190|144",
+      "esperado": "190|144",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_sinan_estratos_anuais.csv",
+      "observado": "242",
+      "esperado": "242",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_sinan_mensal.csv",
+      "observado": "132",
+      "esperado": "132",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_sinan_categorias_anuais.csv",
+      "observado": "495",
+      "esperado": "495",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_populacao.csv",
+      "observado": "242",
+      "esperado": "242",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_sih.csv",
+      "observado": "572",
+      "esperado": "572",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_sim.csv",
+      "observado": "143",
+      "esperado": "143",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_pni.csv",
+      "observado": "44",
+      "esperado": "44",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_dicionario.csv",
+      "observado": "213",
+      "esperado": "213",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_fontes.csv",
+      "observado": "162",
+      "esperado": "162",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_cobertura.csv",
+      "observado": "418",
+      "esperado": "418",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "exportacao_descritivos.csv",
+      "observado": "2939",
+      "esperado": "2939",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "Reimportação com tipos explícitos; município como texto; ausências não viram zero.",
+      "frente": "integracao"
+    },
+    {
+      "controle": "seis_figuras",
+      "observado": "6",
+      "esperado": "6",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    },
+    {
+      "controle": "rds_final_releitura",
+      "observado": "TRUE",
+      "esperado": "TRUE",
+      "aprovado": true,
+      "bloqueante": true,
+      "detalhe": "",
+      "frente": "integracao"
+    }
+  ],
+  "limite": "Integridade e coerência; não validação clínica ou eficácia vacinal"
+}

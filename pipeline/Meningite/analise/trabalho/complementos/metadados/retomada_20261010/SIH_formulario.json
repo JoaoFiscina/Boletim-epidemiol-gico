@@ -1,0 +1,1416 @@
+{
+  "sistema": "SIH",
+  "url": "https://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/nrbr.def",
+  "endpoint": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+  "sha256_html": "12cbb0691d9d947dc93b163e9efb8b8e166ab2b775566bab91a4f6f0b6ef5d79",
+  "bytes": 381420,
+  "coletado_em": "2026-10-09T18:14:36-03:00",
+  "reconferido_em": "2026-10-10T15:14:31-03:00",
+  "selects": {
+    "Linha": [
+      {
+        "label": "Município",
+        "value": "Município",
+        "selected": true
+      },
+      {
+        "label": "Capital",
+        "value": "Capital",
+        "selected": false
+      },
+      {
+        "label": "Região de Saúde (CIR)",
+        "value": "Região_de_Saúde_(CIR)",
+        "selected": false
+      },
+      {
+        "label": "Macrorregião de Saúde",
+        "value": "Macrorregião_de_Saúde",
+        "selected": false
+      },
+      {
+        "label": "Microrregião IBGE",
+        "value": "Microrregião_IBGE",
+        "selected": false
+      },
+      {
+        "label": "Região Metropolitana - RIDE",
+        "value": "Região_Metropolitana_-_RIDE",
+        "selected": false
+      },
+      {
+        "label": "Território da Cidadania",
+        "value": "Território_da_Cidadania",
+        "selected": false
+      },
+      {
+        "label": "Mesorregião PNDR",
+        "value": "Mesorregião_PNDR",
+        "selected": false
+      },
+      {
+        "label": "Ano/mês processamento",
+        "value": "Ano/mês_processamento",
+        "selected": false
+      },
+      {
+        "label": "Ano processamento",
+        "value": "Ano_processamento",
+        "selected": false
+      },
+      {
+        "label": "Ano/mês atendimento",
+        "value": "Ano/mês_atendimento",
+        "selected": false
+      },
+      {
+        "label": "Ano atendimento",
+        "value": "Ano_atendimento",
+        "selected": false
+      },
+      {
+        "label": "Caráter atendimento",
+        "value": "Caráter_atendimento",
+        "selected": false
+      },
+      {
+        "label": "Regime",
+        "value": "Regime",
+        "selected": false
+      },
+      {
+        "label": "Capítulo CID-10",
+        "value": "Capítulo_CID-10",
+        "selected": false
+      },
+      {
+        "label": "Lista Morb  CID-10",
+        "value": "Lista_Morb__CID-10",
+        "selected": false
+      },
+      {
+        "label": "Faixa Etária 1",
+        "value": "Faixa_Etária_1",
+        "selected": false
+      },
+      {
+        "label": "Faixa Etária 2",
+        "value": "Faixa_Etária_2",
+        "selected": false
+      },
+      {
+        "label": "Sexo",
+        "value": "Sexo",
+        "selected": false
+      },
+      {
+        "label": "Cor/raça",
+        "value": "Cor/raça",
+        "selected": false
+      }
+    ],
+    "Coluna": [
+      {
+        "label": "Não ativa",
+        "value": "--Não-Ativa--",
+        "selected": true
+      },
+      {
+        "label": "Capital",
+        "value": "Capital",
+        "selected": false
+      },
+      {
+        "label": "Ano processamento",
+        "value": "Ano_processamento",
+        "selected": false
+      },
+      {
+        "label": "Ano/mês atendimento",
+        "value": "Ano/mês_atendimento",
+        "selected": false
+      },
+      {
+        "label": "Ano atendimento",
+        "value": "Ano_atendimento",
+        "selected": false
+      },
+      {
+        "label": "Caráter atendimento",
+        "value": "Caráter_atendimento",
+        "selected": false
+      },
+      {
+        "label": "Regime",
+        "value": "Regime",
+        "selected": false
+      },
+      {
+        "label": "Capítulo CID-10",
+        "value": "Capítulo_CID-10",
+        "selected": false
+      },
+      {
+        "label": "Faixa Etária 1",
+        "value": "Faixa_Etária_1",
+        "selected": false
+      },
+      {
+        "label": "Faixa Etária 2",
+        "value": "Faixa_Etária_2",
+        "selected": false
+      },
+      {
+        "label": "Sexo",
+        "value": "Sexo",
+        "selected": false
+      },
+      {
+        "label": "Cor/raça",
+        "value": "Cor/raça",
+        "selected": false
+      }
+    ],
+    "Incremento": [
+      {
+        "label": "Internações",
+        "value": "Internações",
+        "selected": true
+      },
+      {
+        "label": "AIH aprovadas",
+        "value": "AIH_aprovadas",
+        "selected": false
+      },
+      {
+        "label": "Valor total",
+        "value": "Valor_total",
+        "selected": false
+      },
+      {
+        "label": "Valor serviços hospitalares",
+        "value": "Valor_serviços_hospitalares",
+        "selected": false
+      },
+      {
+        "label": "Val serv hosp - compl federal",
+        "value": "Val_serv_hosp_-_compl_federal",
+        "selected": false
+      },
+      {
+        "label": "Val serv hosp - compl gestor",
+        "value": "Val_serv_hosp_-_compl_gestor",
+        "selected": false
+      },
+      {
+        "label": "Valor serviços profissionais",
+        "value": "Valor_serviços_profissionais",
+        "selected": false
+      },
+      {
+        "label": "Val serv prof - compl federal",
+        "value": "Val_serv_prof_-_compl_federal",
+        "selected": false
+      },
+      {
+        "label": "Val serv prof - compl gestor",
+        "value": "Val_serv_prof_-_compl_gestor",
+        "selected": false
+      },
+      {
+        "label": "Valor médio AIH",
+        "value": "Valor_médio_AIH",
+        "selected": false
+      },
+      {
+        "label": "Valor médio intern",
+        "value": "Valor_médio_intern",
+        "selected": false
+      },
+      {
+        "label": "Dias permanência",
+        "value": "Dias_permanência",
+        "selected": false
+      },
+      {
+        "label": "Média permanência",
+        "value": "Média_permanência",
+        "selected": false
+      },
+      {
+        "label": "Óbitos",
+        "value": "Óbitos",
+        "selected": false
+      },
+      {
+        "label": "Taxa mortalidade",
+        "value": "Taxa_mortalidade",
+        "selected": false
+      }
+    ],
+    "Arquivos": [
+      {
+        "label": "Jul/2026",
+        "value": "nrbr2607.dbf",
+        "selected": true
+      },
+      {
+        "label": "Jun/2026",
+        "value": "nrbr2606.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2026",
+        "value": "nrbr2605.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2026",
+        "value": "nrbr2604.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2026",
+        "value": "nrbr2603.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2026",
+        "value": "nrbr2602.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2026",
+        "value": "nrbr2601.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2025",
+        "value": "nrbr2512.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2025",
+        "value": "nrbr2511.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2025",
+        "value": "nrbr2510.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2025",
+        "value": "nrbr2509.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2025",
+        "value": "nrbr2508.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2025",
+        "value": "nrbr2507.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2025",
+        "value": "nrbr2506.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2025",
+        "value": "nrbr2505.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2025",
+        "value": "nrbr2504.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2025",
+        "value": "nrbr2503.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2025",
+        "value": "nrbr2502.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2025",
+        "value": "nrbr2501.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2024",
+        "value": "nrbr2412.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2024",
+        "value": "nrbr2411.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2024",
+        "value": "nrbr2410.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2024",
+        "value": "nrbr2409.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2024",
+        "value": "nrbr2408.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2024",
+        "value": "nrbr2407.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2024",
+        "value": "nrbr2406.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2024",
+        "value": "nrbr2405.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2024",
+        "value": "nrbr2404.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2024",
+        "value": "nrbr2403.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2024",
+        "value": "nrbr2402.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2024",
+        "value": "nrbr2401.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2023",
+        "value": "nrbr2312.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2023",
+        "value": "nrbr2311.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2023",
+        "value": "nrbr2310.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2023",
+        "value": "nrbr2309.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2023",
+        "value": "nrbr2308.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2023",
+        "value": "nrbr2307.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2023",
+        "value": "nrbr2306.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2023",
+        "value": "nrbr2305.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2023",
+        "value": "nrbr2304.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2023",
+        "value": "nrbr2303.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2023",
+        "value": "nrbr2302.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2023",
+        "value": "nrbr2301.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2022",
+        "value": "nrbr2212.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2022",
+        "value": "nrbr2211.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2022",
+        "value": "nrbr2210.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2022",
+        "value": "nrbr2209.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2022",
+        "value": "nrbr2208.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2022",
+        "value": "nrbr2207.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2022",
+        "value": "nrbr2206.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2022",
+        "value": "nrbr2205.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2022",
+        "value": "nrbr2204.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2022",
+        "value": "nrbr2203.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2022",
+        "value": "nrbr2202.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2022",
+        "value": "nrbr2201.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2021",
+        "value": "nrbr2112.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2021",
+        "value": "nrbr2111.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2021",
+        "value": "nrbr2110.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2021",
+        "value": "nrbr2109.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2021",
+        "value": "nrbr2108.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2021",
+        "value": "nrbr2107.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2021",
+        "value": "nrbr2106.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2021",
+        "value": "nrbr2105.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2021",
+        "value": "nrbr2104.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2021",
+        "value": "nrbr2103.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2021",
+        "value": "nrbr2102.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2021",
+        "value": "nrbr2101.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2020",
+        "value": "nrbr2012.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2020",
+        "value": "nrbr2011.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2020",
+        "value": "nrbr2010.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2020",
+        "value": "nrbr2009.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2020",
+        "value": "nrbr2008.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2020",
+        "value": "nrbr2007.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2020",
+        "value": "nrbr2006.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2020",
+        "value": "nrbr2005.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2020",
+        "value": "nrbr2004.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2020",
+        "value": "nrbr2003.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2020",
+        "value": "nrbr2002.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2020",
+        "value": "nrbr2001.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2019",
+        "value": "nrbr1912.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2019",
+        "value": "nrbr1911.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2019",
+        "value": "nrbr1910.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2019",
+        "value": "nrbr1909.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2019",
+        "value": "nrbr1908.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2019",
+        "value": "nrbr1907.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2019",
+        "value": "nrbr1906.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2019",
+        "value": "nrbr1905.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2019",
+        "value": "nrbr1904.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2019",
+        "value": "nrbr1903.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2019",
+        "value": "nrbr1902.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2019",
+        "value": "nrbr1901.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2018",
+        "value": "nrbr1812.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2018",
+        "value": "nrbr1811.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2018",
+        "value": "nrbr1810.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2018",
+        "value": "nrbr1809.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2018",
+        "value": "nrbr1808.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2018",
+        "value": "nrbr1807.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2018",
+        "value": "nrbr1806.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2018",
+        "value": "nrbr1805.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2018",
+        "value": "nrbr1804.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2018",
+        "value": "nrbr1803.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2018",
+        "value": "nrbr1802.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2018",
+        "value": "nrbr1801.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2017",
+        "value": "nrbr1712.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2017",
+        "value": "nrbr1711.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2017",
+        "value": "nrbr1710.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2017",
+        "value": "nrbr1709.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2017",
+        "value": "nrbr1708.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2017",
+        "value": "nrbr1707.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2017",
+        "value": "nrbr1706.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2017",
+        "value": "nrbr1705.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2017",
+        "value": "nrbr1704.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2017",
+        "value": "nrbr1703.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2017",
+        "value": "nrbr1702.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2017",
+        "value": "nrbr1701.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2016",
+        "value": "nrbr1612.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2016",
+        "value": "nrbr1611.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2016",
+        "value": "nrbr1610.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2016",
+        "value": "nrbr1609.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2016",
+        "value": "nrbr1608.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2016",
+        "value": "nrbr1607.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2016",
+        "value": "nrbr1606.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2016",
+        "value": "nrbr1605.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2016",
+        "value": "nrbr1604.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2016",
+        "value": "nrbr1603.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2016",
+        "value": "nrbr1602.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2016",
+        "value": "nrbr1601.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2015",
+        "value": "nrbr1512.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2015",
+        "value": "nrbr1511.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2015",
+        "value": "nrbr1510.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2015",
+        "value": "nrbr1509.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2015",
+        "value": "nrbr1508.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2015",
+        "value": "nrbr1507.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2015",
+        "value": "nrbr1506.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2015",
+        "value": "nrbr1505.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2015",
+        "value": "nrbr1504.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2015",
+        "value": "nrbr1503.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2015",
+        "value": "nrbr1502.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2015",
+        "value": "nrbr1501.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2014",
+        "value": "nrbr1412.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2014",
+        "value": "nrbr1411.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2014",
+        "value": "nrbr1410.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2014",
+        "value": "nrbr1409.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2014",
+        "value": "nrbr1408.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2014",
+        "value": "nrbr1407.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2014",
+        "value": "nrbr1406.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2014",
+        "value": "nrbr1405.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2014",
+        "value": "nrbr1404.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2014",
+        "value": "nrbr1403.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2014",
+        "value": "nrbr1402.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2014",
+        "value": "nrbr1401.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2013",
+        "value": "nrbr1312.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2013",
+        "value": "nrbr1311.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2013",
+        "value": "nrbr1310.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2013",
+        "value": "nrbr1309.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2013",
+        "value": "nrbr1308.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2013",
+        "value": "nrbr1307.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2013",
+        "value": "nrbr1306.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2013",
+        "value": "nrbr1305.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2013",
+        "value": "nrbr1304.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2013",
+        "value": "nrbr1303.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2013",
+        "value": "nrbr1302.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2013",
+        "value": "nrbr1301.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2012",
+        "value": "nrbr1212.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2012",
+        "value": "nrbr1211.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2012",
+        "value": "nrbr1210.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2012",
+        "value": "nrbr1209.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2012",
+        "value": "nrbr1208.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2012",
+        "value": "nrbr1207.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2012",
+        "value": "nrbr1206.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2012",
+        "value": "nrbr1205.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2012",
+        "value": "nrbr1204.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2012",
+        "value": "nrbr1203.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2012",
+        "value": "nrbr1202.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2012",
+        "value": "nrbr1201.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2011",
+        "value": "nrbr1112.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2011",
+        "value": "nrbr1111.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2011",
+        "value": "nrbr1110.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2011",
+        "value": "nrbr1109.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2011",
+        "value": "nrbr1108.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2011",
+        "value": "nrbr1107.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2011",
+        "value": "nrbr1106.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2011",
+        "value": "nrbr1105.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2011",
+        "value": "nrbr1104.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2011",
+        "value": "nrbr1103.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2011",
+        "value": "nrbr1102.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2011",
+        "value": "nrbr1101.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2010",
+        "value": "nrbr1012.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2010",
+        "value": "nrbr1011.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2010",
+        "value": "nrbr1010.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2010",
+        "value": "nrbr1009.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2010",
+        "value": "nrbr1008.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2010",
+        "value": "nrbr1007.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2010",
+        "value": "nrbr1006.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2010",
+        "value": "nrbr1005.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2010",
+        "value": "nrbr1004.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2010",
+        "value": "nrbr1003.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2010",
+        "value": "nrbr1002.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2010",
+        "value": "nrbr1001.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2009",
+        "value": "nrbr0912.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2009",
+        "value": "nrbr0911.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2009",
+        "value": "nrbr0910.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2009",
+        "value": "nrbr0909.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2009",
+        "value": "nrbr0908.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2009",
+        "value": "nrbr0907.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2009",
+        "value": "nrbr0906.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2009",
+        "value": "nrbr0905.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2009",
+        "value": "nrbr0904.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2009",
+        "value": "nrbr0903.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2009",
+        "value": "nrbr0902.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2009",
+        "value": "nrbr0901.dbf",
+        "selected": false
+      },
+      {
+        "label": "Dez/2008",
+        "value": "nrbr0812.dbf",
+        "selected": false
+      },
+      {
+        "label": "Nov/2008",
+        "value": "nrbr0811.dbf",
+        "selected": false
+      },
+      {
+        "label": "Out/2008",
+        "value": "nrbr0810.dbf",
+        "selected": false
+      },
+      {
+        "label": "Set/2008",
+        "value": "nrbr0809.dbf",
+        "selected": false
+      },
+      {
+        "label": "Ago/2008",
+        "value": "nrbr0808.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jul/2008",
+        "value": "nrbr0807.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jun/2008",
+        "value": "nrbr0806.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mai/2008",
+        "value": "nrbr0805.dbf",
+        "selected": false
+      },
+      {
+        "label": "Abr/2008",
+        "value": "nrbr0804.dbf",
+        "selected": false
+      },
+      {
+        "label": "Mar/2008",
+        "value": "nrbr0803.dbf",
+        "selected": false
+      },
+      {
+        "label": "Fev/2008",
+        "value": "nrbr0802.dbf",
+        "selected": false
+      },
+      {
+        "label": "Jan/2008",
+        "value": "nrbr0801.dbf",
+        "selected": false
+      }
+    ]
+  },
+  "campo_diagnostico": "SLista_Morb__CID-10",
+  "diagnosticos_selecionados": [
+    {
+      "label": "Infecção meningocócica",
+      "value": "23",
+      "selected": false
+    },
+    {
+      "label": "Meningite viral",
+      "value": "53",
+      "selected": false
+    },
+    {
+      "label": "Meningite bacteriana não classif outra parte",
+      "value": "140",
+      "selected": false
+    },
+    {
+      "label": "Meningite em doenças bacters class outr parte",
+      "value": "141",
+      "selected": false
+    },
+    {
+      "label": "Mening em doenç infec/parasit class outr part",
+      "value": "142",
+      "selected": false
+    },
+    {
+      "label": "Mening dev outras causas e causas não especif",
+      "value": "143",
+      "selected": false
+    }
+  ],
+  "campo_geografico": "SCapital",
+  "categoria_geografica": {
+    "label": "292740 Salvador",
+    "value": "16",
+    "selected": false
+  },
+  "links_documentacao": [
+    "https://tabnet.datasus.gov.br/cgi/sih/Morb_geral_loc_res_2008.pdf"
+  ],
+  "notas_formulario": "nadas no período perinatal Espinha bífida Outras malformações congênitas do sistema nervoso Malformações congênitas do aparelho circulatório Fenda labial e fenda palatina Ausência atresia e estenose do intestino delgado Outras malformações congênitas aparelho digestivo Testiculo não-descido Outras malformações do aparelho geniturinário Deformidades congênitas do quadril Deformidades congênitas dos pés Outr malform e deform congênit aparelho osteomusc Outras malformações congênitas Anomalias cromossômicas NCOP Dor abdominal e pélvica Febre de origem desconhecida Senilidade Outr sist sinais achad anorm ex clín laborat NCOP Fratura do crânio e dos ossos da face Fratura do pescoço tórax ou pelve Fratura do fêmur Fratura de outros ossos dos membros Fraturas envolvendo múltiplas regiões do corpo Luxações entorse distensão reg esp e múltip corpo Traumatismo do olho e da órbita ocular Traumatismo intracraniano Traumatismo de outros órgãos internos Lesões esmag amput traumát reg esp e múltip corpo Outr traum reg espec não espec e múltiplas corpo Efeitos corpo estranho através de orifício natural Queimadura e corrosões Envenenamento por drogas e substâncias biológicas Efeitos tóxicos subst origem princ não-medicinal Síndromes de maus tratos Outros efeitos e não espec de causas externas Cert compl prec traum compl cirúrg ass médic NCOP Seqüel traum enven e outr conseq causas externas Pessoas em contato com serv saúde exame e investig Estado infec assint vírus da imunodef humana [HIV] Outr pess riscos pot à saúde rel doenças transmiss Anticoncepção Rastreamento pré-natal e outr superv da gravidez Nascidos vivos segundo o local de nascimento Assistência e exame pós-natal Pessoas contato serv saúde cuidados proc específ Pessoas contato serv saúde por outras razões Acidentes de transporte Quedas Afogamento e submersão acidentamente Exposição ao fumo ao fogo e às chamas Envenenamento intox exposição substâncias nocivas Lesões autoprovocadas voluntariamente Agressões Todas as outras causas externas Não preenchido CID 10ª Revisão não disponível CID inválido Faixa Etária 1 Todas as categorias Menor 1 ano 1 a 4 anos 5 a 9 anos 10 a 14 anos 15 a 19 anos 20 a 29 anos 30 a 39 anos 40 a 49 anos 50 a 59 anos 60 a 69 anos 70 a 79 anos 80 anos e mais Idade ignorada Faixa Etária 2 Todas as categorias Menor 1 ano 1 a 4 anos 5 a 9 anos 10 a 14 anos 15 a 19 anos 20 a 24 anos 25 a 29 anos 30 a 34 anos 35 a 39 anos 40 a 44 anos 45 a 49 anos 50 a 54 anos 55 a 59 anos 60 a 64 anos 65 a 69 anos 70 a 74 anos 75 a 79 anos 80 anos e mais Idade ignorada Sexo Todas as categorias Masc Fem Ign Cor/raça Todas as categorias Branca Preta Parda Amarela Indígena Sem informação Ordenar pelos valores da coluna Exibir linhas zeradas Formato Tabela com bordas Texto pré-formatado Colunas separadas por \";\" Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS) Notas: Dados referentes aos últimos seis meses, sujeitos a atualização. Veja a versão do Tab para Windows (TABWIN)",
+  "origem_formulario": "dados\\brutos\\retomada_20261010\\SIH_formulario_atual.html",
+  "atualizacao_formulario_pendente": false,
+  "motivo_reuso_formulario": null,
+  "url_coleta_formulario": "https://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/nrbr.def"
+}

@@ -1,0 +1,153 @@
+[
+  {
+    "sistema": "SIH",
+    "metodo": "GET",
+    "url": "https://tabnet.datasus.gov.br/cgi/deftohtm.exe?sih/cnv/nrbr.def",
+    "tentativa": 1,
+    "inicio_utc": "2026-10-10T18:14:09.811948+00:00",
+    "payload_sha256": null,
+    "status": "falha",
+    "erro": "URLError: <urlopen error [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu>"
+  },
+  {
+    "sistema": "SIH",
+    "metodo": "CACHE",
+    "status": "formulario_preservado",
+    "arquivo": "analise\\trabalho\\complementos\\dados\\brutos\\retomada_20261010\\SIH_formulario_atual.html",
+    "nota": "GET atual falhou; parametros reais preservados09/10"
+  },
+  {
+    "sistema": "SIH",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "tentativa": 1,
+    "inicio_utc": "2026-10-10T18:14:31.729240+00:00",
+    "payload_sha256": "655608ed281cd57f7bc34efcee1e48adbe50b9d2494fe62bed4ed737878bda33",
+    "status": "falha",
+    "erro": "TimeoutError: The read operation timed out"
+  },
+  {
+    "sistema": "SIH",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "tentativa": 2,
+    "inicio_utc": "2026-10-10T18:14:56.900459+00:00",
+    "payload_sha256": "655608ed281cd57f7bc34efcee1e48adbe50b9d2494fe62bed4ed737878bda33",
+    "status": "falha",
+    "erro": "URLError: <urlopen error [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu>"
+  },
+  {
+    "sistema": "SIH",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "tentativa": 1,
+    "inicio_utc": "2026-10-10T18:15:17.944812+00:00",
+    "payload_sha256": "15db8ecb421cbf1e9483cca0918e36f7c90ee1fbecdb4b4b419131928eeaeb39",
+    "status": "falha",
+    "erro": "URLError: <urlopen error [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu>"
+  },
+  {
+    "sistema": "SIH",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "tentativa": 2,
+    "inicio_utc": "2026-10-10T18:15:39.073308+00:00",
+    "payload_sha256": "15db8ecb421cbf1e9483cca0918e36f7c90ee1fbecdb4b4b419131928eeaeb39",
+    "status": "obtido",
+    "status_http": 200,
+    "bytes": 6384,
+    "sha256": "0fd3acadea9702d396473599ef5a368ff0b3df8c70cc343a6b5cc76afde9738b",
+    "url_final": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "arquivo": "analise\\trabalho\\complementos\\aquisicao\\SIH_6.html"
+  },
+  {
+    "sistema": "SIH",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "tentativa": 1,
+    "inicio_utc": "2026-10-10T18:15:44.788010+00:00",
+    "payload_sha256": "fb475d02dce9e7a56fe6b4a90a3fb4ab5d626b8ceba464737f15ef89e2d7a043",
+    "status": "falha",
+    "erro": "URLError: <urlopen error [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu>"
+  },
+  {
+    "sistema": "SIH",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "tentativa": 2,
+    "inicio_utc": "2026-10-10T18:16:05.839571+00:00",
+    "payload_sha256": "fb475d02dce9e7a56fe6b4a90a3fb4ab5d626b8ceba464737f15ef89e2d7a043",
+    "status": "falha",
+    "erro": "URLError: <urlopen error [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu>"
+  },
+  {
+    "sistema": "SIH",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "tentativa": 1,
+    "inicio_utc": "2026-10-10T18:16:26.923012+00:00",
+    "payload_sha256": "a1425833b66ad3cbcca2a60b2b35dffabcd63da9ef17299942a5dd28e1d44090",
+    "status": "obtido",
+    "status_http": 200,
+    "bytes": 4238,
+    "sha256": "eb3a9a2f373f1658dbdaead5c3043c184bdddff166de7c319474ee43d3137c27",
+    "url_final": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "arquivo": "analise\\trabalho\\complementos\\aquisicao\\SIH_9.html"
+  },
+  {
+    "sistema": "SIH",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "tentativa": 1,
+    "inicio_utc": "2026-10-10T18:16:34.233083+00:00",
+    "payload_sha256": "979128b861ac5f4b0d1a2a51f9497cc2c60042974f2c76d0170f42938e234643",
+    "status": "falha",
+    "erro": "URLError: <urlopen error [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu>"
+  },
+  {
+    "sistema": "SIH",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/tabcgi.exe?sih/cnv/nrbr.def",
+    "tentativa": 2,
+    "inicio_utc": "2026-10-10T18:16:55.276611+00:00",
+    "payload_sha256": "979128b861ac5f4b0d1a2a51f9497cc2c60042974f2c76d0170f42938e234643",
+    "status": "falha",
+    "erro": "URLError: <urlopen error [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu>"
+  },
+  {
+    "sistema": "PNI",
+    "metodo": "GET",
+    "url": "https://tabnet.datasus.gov.br/cgi/dhdat.exe?bd_pni/cpnibr.def",
+    "tentativa": 1,
+    "inicio_utc": "2026-10-10T18:17:16.349425+00:00",
+    "payload_sha256": null,
+    "status": "falha",
+    "erro": "URLError: <urlopen error [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu>"
+  },
+  {
+    "sistema": "PNI",
+    "metodo": "CACHE",
+    "status": "formulario_preservado",
+    "nota": "GET falhou; formulario real preservado09/10"
+  },
+  {
+    "sistema": "PNI",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/webtabx.exe?bd_pni/cpnibr.def",
+    "tentativa": 1,
+    "inicio_utc": "2026-10-10T18:17:37.899528+00:00",
+    "payload_sha256": "b27467ce53712a08a45666c2dfbea9929fdd544dc9d08873d308efc77b5a62e2",
+    "status": "falha",
+    "erro": "URLError: <urlopen error [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu>"
+  },
+  {
+    "sistema": "PNI",
+    "metodo": "POST",
+    "url": "https://tabnet.datasus.gov.br/cgi/webtabx.exe?bd_pni/cpnibr.def",
+    "tentativa": 2,
+    "inicio_utc": "2026-10-10T18:17:59.033452+00:00",
+    "payload_sha256": "b27467ce53712a08a45666c2dfbea9929fdd544dc9d08873d308efc77b5a62e2",
+    "status": "falha",
+    "erro": "URLError: <urlopen error [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu\r\ncorretamente após um período de tempo ou a conexão estabelecida falhou\r\nporque o host conectado não respondeu>"
+  }
+]

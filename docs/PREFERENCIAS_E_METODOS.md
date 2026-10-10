@@ -37,9 +37,11 @@ Estas escolhas podem mudar com evidência; não são preferências atribuídas a
 - Meningococcemia isolada fica identificada; MNE permanece nas análises de qualidade.
 - Evolução e raridade de eventos condicionam análises de letalidade.
 - Nenhum modelo causal ou busca sistemática de p-valores integra a coleta.
-- Plano de 10/10: pacote RDS e sete CSVs essenciais em `Meningite/analise`; SINAN/população como núcleo, complementos com critérios independentes. Esse diretório é futuro e ainda não foi criado.
-- Primeiro preparar/validar, depois descrever e então gerar quatro figuras iniciais; SIH/PNI entram em figuras condicionais. Essa quantidade é decisão operacional, não exigência do pesquisador.
-- Duas frentes escreverão candidatos em áreas temporárias exclusivas; somente o mestre fará integração, produtos finais e Git. O planejamento desta rodada não autoriza implementação.
+- Execução de 10/10 autorizada por “Agora inicie o plano”: RDS e sete CSVs essenciais em `Meningite/analise`; SINAN/população como núcleo, complementos com critérios independentes.
+- Preparar/validar, descrever e gerar poucas figuras: seis foram entregues, com SIH/PNI sob limites explícitos. Essa quantidade é decisão operacional, não exigência do pesquisador.
+- Duas frentes prepararam candidatos em áreas exclusivas; somente o mestre integrou produtos finais e Git. Foram concluídas revisões independentes com 39 e 17 verificações.
+- Taxas do período usam soma das populações anuais como aproximação de habitantes-ano; IC95 Poisson não corrige subnotificação. Nenhuma modelagem causal ou busca de p-valores nesta entrega.
+- Preparação R offline separada da aquisição. Retomada de 10/10 fez 9 POST SIH e 2 PNI; obteve dias e A39 sexo. Não repetir consultas válidas nem ampliar orçamento sem justificativa.
 
 ## Aprendizados confirmados
 
@@ -57,7 +59,11 @@ Estas escolhas podem mudar com evidência; não são preferências atribuídas a
 | PNI e rupturas | Conjugadas atuais não equivalem a produtos exclusivos; BCG baixo exige auditoria e não prova ausência de vacinação |
 | Auditorias paralelas | Chats com escopo de leitura e arquivo exclusivo conferiram dados sem editar bases/Git; mudanças posteriores exigem reconciliação de hash |
 | Planejamento de 10/10 | Os dois chats entregaram propostas em leitura local. Contratos, dependências e critérios de aceite foram registrados antes de implementar |
-| Grade mensal | 131 combinações observadas não equivalem a 132 meses completos; zero futuro depende da coorte integral, não da ausência de exportação |
+| Grade mensal | Entrega atual tem 132 meses; agosto/2020 zero derivado da coorte integral. Ausência de exportação externa continua ausente |
+| Caminho acentuado no R | Hash nativo digest(file=...) falhou; leitura binária base R seguida de SHA-256 reproduziu o hash congelado |
+| Bibliotecas locais | Definir R_LIBS_USER resolveu a descoberta de jsonlite; nenhum pacote precisou ser instalado |
+| Texto SIH parcial | Soma textual NA corrigida para 75 em cinco folhas; G01 continua sem valor. Não esconder cobertura com na.rm |
+| Figuras e revisão | PNG e PDF exigem inspeção própria; seis PDF renderizados com Poppler e conferidos. Regeneração muda hashes e exige reconciliar QA/manifesto |
 | Retomada SIH | `--priorizar-restantes` apenas muda a ordem; uma rodada futura precisa selecionar consultas pendentes explicitamente para não repetir respostas válidas |
 | PNI legado | 27 chaves pendentes correspondem a três consultas com nove anos; separar quantidade de observações de quantidade de requisições |
 | Controle vazio | Conferência precisa de quantidade esperada de testes; `all(...)` em vetor vazio não demonstra conservação |
