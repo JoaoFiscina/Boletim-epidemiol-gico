@@ -2,6 +2,19 @@
 
 Este atlas aponta para a pasta real `C:\Pesquisa\Boletim epidemiolóico\Meningite`.
 
+## Documento atual dos gráficos — 12/10/2026
+
+| Caminho na pasta Meningite | Uso |
+| --- | --- |
+| `analise/guia_graficos/GUIA_GRAFICOS_MENINGITES.pdf` | 35 páginas, todos os 14 gráficos incorporados e explicações; pode ser enviado sozinho |
+| `analise/guia_graficos/GUIA_GRAFICOS_MENINGITES.md` | Texto editável, fontes, métodos, interpretação e legendas |
+| `analise/guia_graficos/figuras_revisadas/` | Quatro PNGs básicos revisados, mantendo os dados aceitos |
+| `analise/guia_graficos/README.md` | Entrada, reprodução, escopo e cuidados |
+| `analise/guia_graficos/scripts/` | Revisão R, compilação PDF e verificação própria |
+| `analise/guia_graficos/controle/` | Build, QA e manifesto; renders de 35 páginas ficam somente locais |
+
+Espelho público: [pipeline/Meningite/analise/guia_graficos](../pipeline/Meningite/analise/guia_graficos/README.md). As figuras básicas originais e aprofundadas continuam nas pastas anteriores. Não sobrescrever essas entregas para trocar a apresentação.
+
 ## Entrada e configuração
 
 | Caminho | Uso |

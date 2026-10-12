@@ -1,0 +1,315 @@
+{
+  "paginas": [
+    {
+      "pagina": 1,
+      "titulo": "Guia dos gráficos de meningites em Salvador",
+      "chave": "abertura"
+    },
+    {
+      "pagina": 2,
+      "titulo": "Dados e sistemas utilizados",
+      "chave": "sistemas"
+    },
+    {
+      "pagina": 3,
+      "titulo": "Como ler medidas e incertezas",
+      "chave": "leitura"
+    },
+    {
+      "pagina": 4,
+      "titulo": "Índice dos gráficos",
+      "chave": "indice"
+    },
+    {
+      "pagina": 5,
+      "titulo": "F01 Evolução anual dos registros e das taxas",
+      "chave": "F01",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 6,
+      "titulo": "F01 Evolução anual dos registros e das taxas",
+      "chave": "F01_explicacao"
+    },
+    {
+      "pagina": 7,
+      "titulo": "F02 Perfil por sexo e idade",
+      "chave": "F02",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 8,
+      "titulo": "F02 Perfil por sexo e idade",
+      "chave": "F02_explicacao"
+    },
+    {
+      "pagina": 9,
+      "titulo": "F03 Distribuição mensal dos registros",
+      "chave": "F03",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 10,
+      "titulo": "F03 Distribuição mensal dos registros",
+      "chave": "F03_explicacao"
+    },
+    {
+      "pagina": 11,
+      "titulo": "F04 Composição da classificação etiológica",
+      "chave": "F04",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 12,
+      "titulo": "F04 Composição da classificação etiológica",
+      "chave": "F04_explicacao"
+    },
+    {
+      "pagina": 13,
+      "titulo": "F05 Internações disponíveis no SIH SUS",
+      "chave": "F05",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 14,
+      "titulo": "F05 Internações disponíveis no SIH SUS",
+      "chave": "F05_explicacao"
+    },
+    {
+      "pagina": 15,
+      "titulo": "F06 Cobertura vacinal registrada",
+      "chave": "F06",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 16,
+      "titulo": "F06 Cobertura vacinal registrada",
+      "chave": "F06_explicacao"
+    },
+    {
+      "pagina": 17,
+      "titulo": "G01 Taxas padronizadas e diferenças entre períodos",
+      "chave": "G01",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 18,
+      "titulo": "G01 Taxas padronizadas e diferenças entre períodos",
+      "chave": "G01_explicacao"
+    },
+    {
+      "pagina": 19,
+      "titulo": "G02 Razões de taxas entre os sexos",
+      "chave": "G02",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 20,
+      "titulo": "G02 Razões de taxas entre os sexos",
+      "chave": "G02_explicacao"
+    },
+    {
+      "pagina": 21,
+      "titulo": "G03 Idade e classificação etiológica",
+      "chave": "G03",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 22,
+      "titulo": "G03 Idade e classificação etiológica",
+      "chave": "G03_explicacao"
+    },
+    {
+      "pagina": 23,
+      "titulo": "G04 Critérios utilizados para confirmação",
+      "chave": "G04",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 24,
+      "titulo": "G04 Critérios utilizados para confirmação",
+      "chave": "G04_explicacao"
+    },
+    {
+      "pagina": 25,
+      "titulo": "G05 Óbito registrado e incerteza da evolução ignorada",
+      "chave": "G05",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 26,
+      "titulo": "G05 Óbito registrado e incerteza da evolução ignorada",
+      "chave": "G05_explicacao"
+    },
+    {
+      "pagina": 27,
+      "titulo": "G06 Intervalo entre sintomas e notificação",
+      "chave": "G06",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 28,
+      "titulo": "G06 Intervalo entre sintomas e notificação",
+      "chave": "G06_explicacao"
+    },
+    {
+      "pagina": 29,
+      "titulo": "G07 Componente mensal exploratório",
+      "chave": "G07",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 30,
+      "titulo": "G07 Componente mensal exploratório",
+      "chave": "G07_explicacao"
+    },
+    {
+      "pagina": 31,
+      "titulo": "G08 Perfil etário das internações disponíveis",
+      "chave": "G08",
+      "tipo": "figura"
+    },
+    {
+      "pagina": 32,
+      "titulo": "G08 Perfil etário das internações disponíveis",
+      "chave": "G08_explicacao"
+    },
+    {
+      "pagina": 33,
+      "titulo": "Como organizar o argumento do trabalho",
+      "chave": "argumento"
+    },
+    {
+      "pagina": 34,
+      "titulo": "Revisão dos gráficos desta edição",
+      "chave": "revisao"
+    },
+    {
+      "pagina": 35,
+      "titulo": "Referências e rastreabilidade",
+      "chave": "referencias"
+    }
+  ],
+  "figuras": [
+    {
+      "figura": "F01",
+      "arquivo": "analise/resultados/figuras/F01_evolucao_anual.png",
+      "sha256": "63641b6ec872c599c157600ee41513381e1c47fdf3cf8291e7b2af7c39511d90",
+      "pagina_figura": 5,
+      "pagina_explicacao": 6,
+      "revisada": false
+    },
+    {
+      "figura": "F02",
+      "arquivo": "analise/guia_graficos/figuras_revisadas/F02_perfil_sexo_idade.png",
+      "sha256": "f0e1ffb5171f399efa3f77b5317d59f07be4c56de826b431ea54015fc1232008",
+      "pagina_figura": 7,
+      "pagina_explicacao": 8,
+      "revisada": true
+    },
+    {
+      "figura": "F03",
+      "arquivo": "analise/resultados/figuras/F03_distribuicao_mensal.png",
+      "sha256": "a7f14e1415d63d16af9d3301655ea220a3b49013e00037715af7ba0c92d55a50",
+      "pagina_figura": 9,
+      "pagina_explicacao": 10,
+      "revisada": false
+    },
+    {
+      "figura": "F04",
+      "arquivo": "analise/guia_graficos/figuras_revisadas/F04_classificacao_etiologica.png",
+      "sha256": "77471c1ee56271ca07b4360703812cbd52d1d6d70367be10333c652b4737d730",
+      "pagina_figura": 11,
+      "pagina_explicacao": 12,
+      "revisada": true
+    },
+    {
+      "figura": "F05",
+      "arquivo": "analise/guia_graficos/figuras_revisadas/F05_internacoes_disponiveis.png",
+      "sha256": "271343d07dc599a2d2cd2c3a677c27487305e7c94cffa01dbb048b844f327c90",
+      "pagina_figura": 13,
+      "pagina_explicacao": 14,
+      "revisada": true
+    },
+    {
+      "figura": "F06",
+      "arquivo": "analise/guia_graficos/figuras_revisadas/F06_cobertura_vacinal_registrada.png",
+      "sha256": "5c8b22b2c0df99fb31ea44d96c1703b7e34be6ccbb288de19f339c03dbd2a176",
+      "pagina_figura": 15,
+      "pagina_explicacao": 16,
+      "revisada": true
+    },
+    {
+      "figura": "G01",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G01_taxas_idade_periodos.png",
+      "sha256": "66ba0757233a5a3109fdc6853f976b7995fdc06ebdba907f3eec5edecda49483",
+      "pagina_figura": 17,
+      "pagina_explicacao": 18,
+      "revisada": false
+    },
+    {
+      "figura": "G02",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G02_razoes_sexo_idade.png",
+      "sha256": "cee4ce997b3be2a508624ec37e502b2633adc189fa3b61ce70bf83884baa727b",
+      "pagina_figura": 19,
+      "pagina_explicacao": 20,
+      "revisada": false
+    },
+    {
+      "figura": "G03",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G03_etiologia_idade.png",
+      "sha256": "ce0427da4a86ac6d2b5220d1b3b1ac0b975d98d7085eb362f0a3e6b6d5db61eb",
+      "pagina_figura": 21,
+      "pagina_explicacao": 22,
+      "revisada": false
+    },
+    {
+      "figura": "G04",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G04_criterios_etiologia.png",
+      "sha256": "ccbb653cdf5d36408a0a6960ca61a2bdcf5b19b5db3c0942fd7398c13b35f2e1",
+      "pagina_figura": 23,
+      "pagina_explicacao": 24,
+      "revisada": false
+    },
+    {
+      "figura": "G05",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G05_evolucao_limites.png",
+      "sha256": "573d320b453411dc216caa15ccaa4c3e5b3e8dc4e6c5cb2a4f38b25050bee1b5",
+      "pagina_figura": 25,
+      "pagina_explicacao": 26,
+      "revisada": false
+    },
+    {
+      "figura": "G06",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G06_intervalo_notificacao.png",
+      "sha256": "640bbfd1acedba18906e4ee696387dc760aaa5f02fdb5c97e8b4a2b04312be7f",
+      "pagina_figura": 27,
+      "pagina_explicacao": 28,
+      "revisada": false
+    },
+    {
+      "figura": "G07",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G07_sazonalidade_exploratoria.png",
+      "sha256": "7409c2d7de16689a6031e33a0494ee8d4fa1f74c6cc56104624b9e17a4860701",
+      "pagina_figura": 29,
+      "pagina_explicacao": 30,
+      "revisada": false
+    },
+    {
+      "figura": "G08",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G08_perfis_hospitalares.png",
+      "sha256": "ad1f414e9a48f8a97b660ad13ae27c6d76143a65408ad8b042133f7cbcea2add",
+      "pagina_figura": 31,
+      "pagina_explicacao": 32,
+      "revisada": false
+    }
+  ],
+  "fontes_rds": {
+    "analise/meningites_salvador_analitica.rds": "2fe0f7f6f02d6367b9cfa55487f24016dd57c09f4dc979f8975efd7edbb5247d",
+    "analise/aprofundamento/meningites_aprofundamento.rds": "ddf2225151a6d638a3b7083f9d5d63cca987d7600fb5d9d6014e1a1dddd711aa"
+  },
+  "texto_sha256": "4553c8f43160623e9c4c274395021263723d0822e3670be82ed7159ca1971aab",
+  "pdf_sha256": "506fb40358e8aa41a8fdf31f6017e212dccf9c1a29d36146467fe7537f9a8866",
+  "n_paginas": 35,
+  "observacao": "Sem novos downloads, recálculo de modelos ou alteração de bases."
+}

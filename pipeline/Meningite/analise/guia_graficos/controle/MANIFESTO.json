@@ -1,0 +1,90 @@
+{
+  "versao": "20261012-guia-graficos",
+  "criterio": "Lista explícita; documentos e gráficos agregados; sem RDS, fontes individuais ou renders.",
+  "arquivos": [
+    {
+      "caminho": "README.md",
+      "bytes": 4928,
+      "sha256": "f22438988348cecd7b713037c6f516c799272ad9364d20882d60304fb86c2eea"
+    },
+    {
+      "caminho": "GUIA_GRAFICOS_MENINGITES.md",
+      "bytes": 53864,
+      "sha256": "4553c8f43160623e9c4c274395021263723d0822e3670be82ed7159ca1971aab"
+    },
+    {
+      "caminho": "GUIA_GRAFICOS_MENINGITES.pdf",
+      "bytes": 2900154,
+      "sha256": "506fb40358e8aa41a8fdf31f6017e212dccf9c1a29d36146467fe7537f9a8866"
+    },
+    {
+      "caminho": "scripts/revisar_basicos.R",
+      "bytes": 7254,
+      "sha256": "32956836fa7fae46895f711cecc5aa4171a9c4147415398a79b92fef5504beb0"
+    },
+    {
+      "caminho": "scripts/gerar_guia.py",
+      "bytes": 9640,
+      "sha256": "b7690ccd894a391727fe7403dccc05a20499425b8df10b596ee09a828dc92353"
+    },
+    {
+      "caminho": "scripts/verificar_guia.py",
+      "bytes": 9041,
+      "sha256": "c7f82fe41a9edf2a3a838b4af61ff9f37b89591fa0b4c25bad83fd6bf82435a6"
+    },
+    {
+      "caminho": "figuras_revisadas/F02_perfil_sexo_idade.png",
+      "bytes": 213756,
+      "sha256": "f0e1ffb5171f399efa3f77b5317d59f07be4c56de826b431ea54015fc1232008"
+    },
+    {
+      "caminho": "figuras_revisadas/F04_classificacao_etiologica.png",
+      "bytes": 150804,
+      "sha256": "77471c1ee56271ca07b4360703812cbd52d1d6d70367be10333c652b4737d730"
+    },
+    {
+      "caminho": "figuras_revisadas/F05_internacoes_disponiveis.png",
+      "bytes": 267148,
+      "sha256": "271343d07dc599a2d2cd2c3a677c27487305e7c94cffa01dbb048b844f327c90"
+    },
+    {
+      "caminho": "figuras_revisadas/F06_cobertura_vacinal_registrada.png",
+      "bytes": 256334,
+      "sha256": "5c8b22b2c0df99fb31ea44d96c1703b7e34be6ccbb288de19f339c03dbd2a176"
+    },
+    {
+      "caminho": "controle/BUILD_OUTPUT.json",
+      "bytes": 9455,
+      "sha256": "d87f7ff60f345f96c7a4983ff4e2101e7c74d6b1e55ccec73033c0b38482f9c8"
+    },
+    {
+      "caminho": "controle/QA_VISUAL.json",
+      "bytes": 14295,
+      "sha256": "a4311c7088d0c3c8aff7fb1f54f82f587a1390c24e28e838a8f757c54b1972c5"
+    }
+  ],
+  "bases_rds": {
+    "analise/meningites_salvador_analitica.rds": "2fe0f7f6f02d6367b9cfa55487f24016dd57c09f4dc979f8975efd7edbb5247d",
+    "analise/aprofundamento/meningites_aprofundamento.rds": "ddf2225151a6d638a3b7083f9d5d63cca987d7600fb5d9d6014e1a1dddd711aa"
+  },
+  "pdf_paginas": 35,
+  "figuras": 14,
+  "revisadas": 4,
+  "historicos_preservados": [
+    {
+      "manifesto": "manifesto_portabilidade.json",
+      "arquivos_por_raiz": 45,
+      "sha256_manifesto": "373feaa07eda3e333e061638e5b5896732a2d3c22a1bd152a7250e8e5d30f86d"
+    },
+    {
+      "manifesto": "analise/manifesto_portabilidade.json",
+      "arquivos_por_raiz": 58,
+      "sha256_manifesto": "c40ac1b43784e63022a4ff502982eed5e404f165272285937ad5c7a41c57cd0f"
+    },
+    {
+      "manifesto": "analise/aprofundamento/manifesto_portabilidade.json",
+      "arquivos_por_raiz": 30,
+      "sha256_manifesto": "8492b538cbb96e47524a6faf2c046de863444a4479eebfa29d2d2f4775a0ea9b"
+    }
+  ]
+}

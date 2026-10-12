@@ -2,7 +2,21 @@
 
 Os comandos abaixo pressupõem Windows PowerShell e a estrutura original em `C:\Pesquisa\Boletim epidemiolóico`. Execute a leitura e a auditoria antes de fazer qualquer nova consulta.
 
-## Entrada vigente: aprofundamento de 12/10
+## Entrada vigente: guia explicativo de 12/10
+
+Abra o [PDF dos 14 gráficos](../pipeline/Meningite/analise/guia_graficos/GUIA_GRAFICOS_MENINGITES.pdf), com 35 páginas, e leia o [README do guia](../pipeline/Meningite/analise/guia_graficos/README.md). O PDF pode ser enviado sozinho; contém todas as figuras. As quatro revisões estão em `figuras_revisadas/`. O texto Markdown é a fonte editável. Não executar aquisição nem modelos para editar o documento.
+
+Para conferir a edição local, sem mudar arquivos:
+
+```powershell
+& 'C:/Users/joaov/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' 'C:/Pesquisa/Boletim epidemiolóico/Meningite/analise/guia_graficos/scripts/verificar_guia.py' --raiz 'C:/Pesquisa/Boletim epidemiolóico/Meningite' --repo 'C:/Pesquisa/Boletim epidemiolóico/Boletim epidemiológico'
+```
+
+Regenerar gráficos exige o RDS básico aceito, ggplot2/patchwork/digest e `revisar_basicos.R`. Compilar o texto/imagens exige os dois RDS com SHA esperado, Python reportlab/Pillow/pypdf, fontes Arial e `gerar_guia.py --raiz`. Os comandos completos estão no README. Não há instalação automática. Depois de mudar texto/figura, renderizar e inspecionar as páginas afetadas, registrar hashes e só então selar com o verificador desta edição.
+
+`--selar --sincronizar --repo` cria o manifesto do guia e espelha sua lista explícita de 13 arquivos. Esses parâmetros não atualizam manifestos históricos. Em clone público, `--agregados` permite validar o guia sem RDS, declarando as bases não conferidas. Os renders ficam locais; o QA guarda seus hashes no Git. Conferir também o SHA dos arquivos no índice antes do commit para evitar conversão de finais de linha.
+
+## Reprodução do aprofundamento de 12/10
 
 Ler [README do aprofundamento](../pipeline/Meningite/analise/aprofundamento/README.md), relatório, decisões, proveniência e revisões. Abrir o RDS agregado não recalcula ou baixa dados. O controlador R recalcula apenas esta etapa usando a fonte aprovada, com SHA bloqueante e módulos source-only. Pacotes existentes: jsonlite, digest, ggplot2, patchwork, MASS e sandwich; verificar bibliotecas antes de instalar.
 

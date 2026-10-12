@@ -1,5 +1,13 @@
 # Histórico do manual
 
+## 2026-10-12 — guia explicativo e revisão dos gráficos
+
+- Atendido o pedido de explicar os seis gráficos básicos e oito aprofundados: PDF ilustrado de 35 páginas, texto editável, fontes/sistemas, cálculos, leitura, resultados, interpretações possíveis, limites, glossário e legendas sugeridas. Índice clicável e marcadores, com uma página ampla para cada figura.
+- Revisados somente quatro básicos em novas cópias: F02 sexo/idade com n/taxas e melhor uso do espaço; F04 N anual; F05 escala comum entre CIDs e contagens; F06 épocas/metodologias separadas e lacunas explícitas. Figuras originais, dados, intervalos e modelos preservados.
+- Todas as 35 páginas, 14 PNGs originais e quatro revisões inspecionados. A adição final do glossário alterou somente a página 3, reinspecionada; 34 páginas mantiveram pixels idênticos. QA registra os hashes da versão final e o limite da revisão.
+- 526 controles próprios aprovados. Reexecutados os verificadores de preparação/aprofundamento (352/3.447); 45/58/30 arquivos históricos conferidos nas duas raízes. Guia com manifesto próprio e 13 arquivos públicos; sem fontes individuais, RDS ou imagens intermediárias de renderização.
+- Atualizados estado, métodos/preferências, comandos, atlas e continuidade. Nenhum download, recálculo de modelos ou instalação de pacotes; Git local, sem envio ao remoto.
+
 ## 2026-10-12 — execução do aprofundamento autorizado
 
 - Coordenados os dois chats existentes, com escrita exclusiva para cruzamentos SINAN/população e auditoria clínica/social/complementos. O mestre integrou modelos, figuras, relatório e Git. Execução offline, sem downloads ou instalação de pacotes.

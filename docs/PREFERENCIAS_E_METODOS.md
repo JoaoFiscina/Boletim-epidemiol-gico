@@ -2,6 +2,16 @@
 
 Atualizado em 12/10/2026. Preferências expressas pelo usuário são separadas das decisões tomadas para executar a pesquisa.
 
+## Documento explicativo e revisão visual em 12/10
+
+Preferência expressa: reunir gráficos básicos e aprofundados em documento explicativo, detalhando dados e sistemas, significado e interpretação possível; observar ajustes, sobretudo nos básicos; manter qualidade e clareza, com detalhes quando necessários. Não apresentar a figura sem explicar sua pergunta, universo e medida.
+
+A equipe escolheu um PDF ilustrado de 35 páginas e fonte Markdown, com uma página de figura seguida da explicação, glossário, legenda sugerida e proposta de argumento. Esses formatos e paginação são decisões operacionais. As quatro revisões básicas conservam as tabelas aceitas: n/rótulos/espaço de F02, N anual em F04, escala hospitalar comum em F05 e separação de eras/lacunas em F06. Escalas próprias continuam declaradas em F02.
+
+O guia diferencia porcentagem de taxa, IC de cenários de desconhecidos, notificação de AIH, critério registrado de identificação de agente, e intervalo entre datas de registro de atraso diagnóstico. MV conserva a categoria histórica asséptica e não comprova vírus identificado. Original e revisão recebem hashes diferentes e permanecem em pastas distintas. As 35 páginas foram inspecionadas; após acrescentar o glossário, somente a página 3 mudou em pixels e foi reinspecionada.
+
+Não confundir revisão de apresentação com nova validação clínica ou coleta. Recomendações sobre figuras principais/suplementares são editoriais e precisam acompanhar os limites reais de PNI, sazonalidade e perfis SIH. O manifesto da edição é independente dos históricos.
+
 ## Aprofundamento executado em 12/10
 
 Preferência expressa nesta etapa: executar o plano aprofundado com coordenação dos dois chats. Organização compacta e interpretação legível seguem os pedidos anteriores. A equipe escolheu duas tabelas CSV canônicas, um RDS agregado local, oito PNGs e um caderno PDF; esses formatos são decisões operacionais, não preferências novas atribuídas ao usuário.

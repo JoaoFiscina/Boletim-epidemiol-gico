@@ -1,0 +1,364 @@
+{
+  "data_utc": "2026-10-12T19:29:28.535949+00:00",
+  "status": "aprovado",
+  "pdf_sha256": "506fb40358e8aa41a8fdf31f6017e212dccf9c1a29d36146467fe7537f9a8866",
+  "texto_sha256": "4553c8f43160623e9c4c274395021263723d0822e3670be82ed7159ca1971aab",
+  "escopo": "Inspeção visual dos 14 gráficos originais, quatro básicos revisados e 35 páginas a 150 dpi.",
+  "criterios": [
+    "Imagens proporcionais e completas, sem corte",
+    "Eixos, valores, títulos e notas legíveis",
+    "Sem sobreposição, página vazia ou símbolo perdido",
+    "Texto, figura, denominador, universo e interpretação compatíveis",
+    "Índice e links PDF presentes"
+  ],
+  "metodo_revisao_final": "As 35 páginas foram inspecionadas. Após o glossário, somente a página 3 mudou em pixels e foi reinspecionada; as outras 34 permaneceram idênticas.",
+  "paginas_pdf": [
+    {
+      "pagina": 1,
+      "png_local": "controle/render_pdf/pagina-01.png",
+      "sha256_png": "fdeaad098f80f6b089da82dd8d31376eada6e5e5473f081f850da1c680ac97fd",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 2,
+      "png_local": "controle/render_pdf/pagina-02.png",
+      "sha256_png": "6b800bc21fd10c707ee5b5dcacf941fa0d97a0c372529313ef8ae599542a3ff5",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 3,
+      "png_local": "controle/render_pdf/pagina-03.png",
+      "sha256_png": "2780953bde30455de55c9066c9e524c38e6b652ea5c8390ab86ec26f3339519a",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 4,
+      "png_local": "controle/render_pdf/pagina-04.png",
+      "sha256_png": "c0964e9168242fec77f76fd2628df3988cc948879c9bdddd9f931158afebdd36",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 5,
+      "png_local": "controle/render_pdf/pagina-05.png",
+      "sha256_png": "94bc2529cb89e52067f1776096d75777c9238f0c4a35b3b0bfe482350db408e3",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 6,
+      "png_local": "controle/render_pdf/pagina-06.png",
+      "sha256_png": "5eabaffa88409c7ed77bbc31aa7271b085e4e884c0f8b0dc60692fa358627daa",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 7,
+      "png_local": "controle/render_pdf/pagina-07.png",
+      "sha256_png": "d170a9d85192bd8894e20a8dca99f8efb3fd33785400030ab10d546fb155006a",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 8,
+      "png_local": "controle/render_pdf/pagina-08.png",
+      "sha256_png": "675f94670cf1aed8f63d6911df5ac7a6c328281777616d1f3c18e04ae5443c14",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 9,
+      "png_local": "controle/render_pdf/pagina-09.png",
+      "sha256_png": "80888b96289e0ffbac68d4325fb03801201494de8acde40f122d125ffb51fb93",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 10,
+      "png_local": "controle/render_pdf/pagina-10.png",
+      "sha256_png": "b851a46c5f363cc5d5f761d748e115dbd15001eed322ab27ba110948f2b73a65",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 11,
+      "png_local": "controle/render_pdf/pagina-11.png",
+      "sha256_png": "01b3c28d7c8e3c1debf0397f94cd378a1e3b8716a84c925e9e1c3d09159a67f9",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 12,
+      "png_local": "controle/render_pdf/pagina-12.png",
+      "sha256_png": "702edeea1e03df7a5656c2f306fd020229fea730f85a3f2c32be0d7b810ed553",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 13,
+      "png_local": "controle/render_pdf/pagina-13.png",
+      "sha256_png": "7dc4cddb356f3742a1de626b50d400ca77b9e2b08cc877d08754bf042ca0ecdf",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 14,
+      "png_local": "controle/render_pdf/pagina-14.png",
+      "sha256_png": "ef219801c09daceb89cbaffe8a447d705dd4e15dd8f05be17372bfcfe822ab78",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 15,
+      "png_local": "controle/render_pdf/pagina-15.png",
+      "sha256_png": "691a1478db61db3e41cab892dc0d2008469ba29f9d999d4e0c8df0e6d346e1eb",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 16,
+      "png_local": "controle/render_pdf/pagina-16.png",
+      "sha256_png": "a853325079ec24f3c58e1369a8865b9f8f8daa20d9e89916e69f3d6398c1da63",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 17,
+      "png_local": "controle/render_pdf/pagina-17.png",
+      "sha256_png": "b7445bc03a66745d0b42c49b3aaac1391518b7e1575c00ea8675c2dc9babac16",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 18,
+      "png_local": "controle/render_pdf/pagina-18.png",
+      "sha256_png": "ffb758fe51c5b2522e09e2737c49c5f7ce6b013092282f2fea9bd52cb694c770",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 19,
+      "png_local": "controle/render_pdf/pagina-19.png",
+      "sha256_png": "ada3b7e9f5383edccc487f1d20bc62a91c74269b7953579506222355ff83b865",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 20,
+      "png_local": "controle/render_pdf/pagina-20.png",
+      "sha256_png": "481f05dab1a1d30870d4d0f9f15fb04bf998dcb74c6255871edf2b34d37fe571",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 21,
+      "png_local": "controle/render_pdf/pagina-21.png",
+      "sha256_png": "d238cc01bd77c20590e7ed7866418b4a09808b3929414122be39752a627ebde7",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 22,
+      "png_local": "controle/render_pdf/pagina-22.png",
+      "sha256_png": "cf512c2022a38fb5749a398622a373ad846ac41211e5f6d93e18435cafa900f4",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 23,
+      "png_local": "controle/render_pdf/pagina-23.png",
+      "sha256_png": "e2de491183171874c2f149002100c261ca2016f16ebcc19cea5f6a6706ad88f3",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 24,
+      "png_local": "controle/render_pdf/pagina-24.png",
+      "sha256_png": "1fe8bf5206f0dbc457f48b5e0baf9e0fbc6b94a0ea32ea3c8918d1254acc5fc0",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 25,
+      "png_local": "controle/render_pdf/pagina-25.png",
+      "sha256_png": "db9b265318507fdd8bbff795ce3d71b9a089b79a3d58414dea854f620be4565a",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 26,
+      "png_local": "controle/render_pdf/pagina-26.png",
+      "sha256_png": "63cdb44978a128fb9b908c94e62400083dbd99fe609d0547b17bd7abbc6ad764",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 27,
+      "png_local": "controle/render_pdf/pagina-27.png",
+      "sha256_png": "9eae17a4ab1f192d68ba46f98530e2c945937d6a18f870d8a75a38e0aba4bd9d",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 28,
+      "png_local": "controle/render_pdf/pagina-28.png",
+      "sha256_png": "6a2c6b446886880f781af4409a3d15d4431b1a327afc57b684fc668232a040fb",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 29,
+      "png_local": "controle/render_pdf/pagina-29.png",
+      "sha256_png": "ef4aa3a6020f4e14d3945d763b2b778068ab3c73f15a38252c32b42a2ef4737c",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 30,
+      "png_local": "controle/render_pdf/pagina-30.png",
+      "sha256_png": "751bd8b4cb39bbec8e858aa8b13aabebd07a1fc6f76e54be1ddac33f179879ab",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 31,
+      "png_local": "controle/render_pdf/pagina-31.png",
+      "sha256_png": "209173b17ce3e6573890895ae2f1adc7524dcd87ab804b15165d159c8437448e",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 32,
+      "png_local": "controle/render_pdf/pagina-32.png",
+      "sha256_png": "e196d20e984dc8c063dec17e963e226b86a492fb50d773be798bbef2747905b6",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 33,
+      "png_local": "controle/render_pdf/pagina-33.png",
+      "sha256_png": "b0e482e0ce0edeccf31d9c066de207e77c97367b9d7c6be515ddb9f148c3ebd6",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 34,
+      "png_local": "controle/render_pdf/pagina-34.png",
+      "sha256_png": "c567439a1205e52b598a6b39361277088ad67dfbaaf4e7d4efbd1f77b1684ddc",
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "pagina": 35,
+      "png_local": "controle/render_pdf/pagina-35.png",
+      "sha256_png": "6f97e15c50c9058975a4ee397e70d30374697e37e8af605b4231600fc87cb778",
+      "status": "inspecionada e aprovada"
+    }
+  ],
+  "figuras_originais": [
+    {
+      "figura": "F01",
+      "arquivo": "analise/resultados/figuras/F01_evolucao_anual.png",
+      "sha256": "63641b6ec872c599c157600ee41513381e1c47fdf3cf8291e7b2af7c39511d90",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "F02",
+      "arquivo": "analise/resultados/figuras/F02_perfil_sexo_idade.png",
+      "sha256": "4f23e660769daaf423a5270a91b0cec5699036a31799a258b268d4ad665629e3",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "F03",
+      "arquivo": "analise/resultados/figuras/F03_distribuicao_mensal.png",
+      "sha256": "a7f14e1415d63d16af9d3301655ea220a3b49013e00037715af7ba0c92d55a50",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "F04",
+      "arquivo": "analise/resultados/figuras/F04_classificacao_etiologica.png",
+      "sha256": "4cd87e3d399196fcc4584c58ae89871fb28b721b368ad40ec08700444c15a111",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "F05",
+      "arquivo": "analise/resultados/figuras/F05_internacoes_disponiveis.png",
+      "sha256": "b702fa9f43cc4df1e1c3f47a146e1fb3c1ce81bdc11eac666f0b7b1118106fea",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "F06",
+      "arquivo": "analise/resultados/figuras/F06_cobertura_vacinal_registrada.png",
+      "sha256": "6e186b40240d013c56a8c1fa5c0b4dee7353961846430410871ecf5d4ad6da26",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "G01",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G01_taxas_idade_periodos.png",
+      "sha256": "66ba0757233a5a3109fdc6853f976b7995fdc06ebdba907f3eec5edecda49483",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "G02",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G02_razoes_sexo_idade.png",
+      "sha256": "cee4ce997b3be2a508624ec37e502b2633adc189fa3b61ce70bf83884baa727b",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "G03",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G03_etiologia_idade.png",
+      "sha256": "ce0427da4a86ac6d2b5220d1b3b1ac0b975d98d7085eb362f0a3e6b6d5db61eb",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "G04",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G04_criterios_etiologia.png",
+      "sha256": "ccbb653cdf5d36408a0a6960ca61a2bdcf5b19b5db3c0942fd7398c13b35f2e1",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "G05",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G05_evolucao_limites.png",
+      "sha256": "573d320b453411dc216caa15ccaa4c3e5b3e8dc4e6c5cb2a4f38b25050bee1b5",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "G06",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G06_intervalo_notificacao.png",
+      "sha256": "640bbfd1acedba18906e4ee696387dc760aaa5f02fdb5c97e8b4a2b04312be7f",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "G07",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G07_sazonalidade_exploratoria.png",
+      "sha256": "7409c2d7de16689a6031e33a0494ee8d4fa1f74c6cc56104624b9e17a4860701",
+      "status": "inspecionada"
+    },
+    {
+      "figura": "G08",
+      "arquivo": "analise/aprofundamento/resultados/figuras/G08_perfis_hospitalares.png",
+      "sha256": "ad1f414e9a48f8a97b660ad13ae27c6d76143a65408ad8b042133f7cbcea2add",
+      "status": "inspecionada"
+    }
+  ],
+  "figuras_revisadas": [
+    {
+      "figura": "F02",
+      "arquivo": "analise/guia_graficos/figuras_revisadas/F02_perfil_sexo_idade.png",
+      "sha256": "f0e1ffb5171f399efa3f77b5317d59f07be4c56de826b431ea54015fc1232008",
+      "pagina_figura": 7,
+      "pagina_explicacao": 8,
+      "revisada": true,
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "figura": "F04",
+      "arquivo": "analise/guia_graficos/figuras_revisadas/F04_classificacao_etiologica.png",
+      "sha256": "77471c1ee56271ca07b4360703812cbd52d1d6d70367be10333c652b4737d730",
+      "pagina_figura": 11,
+      "pagina_explicacao": 12,
+      "revisada": true,
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "figura": "F05",
+      "arquivo": "analise/guia_graficos/figuras_revisadas/F05_internacoes_disponiveis.png",
+      "sha256": "271343d07dc599a2d2cd2c3a677c27487305e7c94cffa01dbb048b844f327c90",
+      "pagina_figura": 13,
+      "pagina_explicacao": 14,
+      "revisada": true,
+      "status": "inspecionada e aprovada"
+    },
+    {
+      "figura": "F06",
+      "arquivo": "analise/guia_graficos/figuras_revisadas/F06_cobertura_vacinal_registrada.png",
+      "sha256": "5c8b22b2c0df99fb31ea44d96c1703b7e34be6ccbb288de19f339c03dbd2a176",
+      "pagina_figura": 15,
+      "pagina_explicacao": 16,
+      "revisada": true,
+      "status": "inspecionada e aprovada"
+    }
+  ],
+  "ajustes": {
+    "F02": "Sexo e idade empilhados; n e taxa de cada faixa; escalas próprias declaradas",
+    "F04": "N por ano acima das barras de composição",
+    "F05": "Escala comum aos CIDs e contagens anotadas",
+    "F06": "Métodos/épocas separados, 17 observações e 27 lacunas explícitas"
+  },
+  "limites": [
+    "Sem nova validação clínica ou auditoria integral das fontes",
+    "Sem novos downloads ou recálculo dos modelos",
+    "Contagens, taxas, IC, denominadores e lacunas preservados",
+    "G07 exploratório e G08 descritivo/suplementar; PNI parcial"
+  ],
+  "verificacoes_anteriores": "Verificadores da preparação e do aprofundamento executados nesta etapa: 352 e 3447 controles aprovados."
+}

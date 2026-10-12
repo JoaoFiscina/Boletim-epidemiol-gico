@@ -1,4 +1,8 @@
-# Estado do projeto — aprofundamento executado em 12/10/2026
+# Estado do projeto — guia dos gráficos concluído em 12/10/2026
+
+**Etapa atual:** [guia dos gráficos](../pipeline/Meningite/analise/guia_graficos/README.md) e [PDF ilustrado](../pipeline/Meningite/analise/guia_graficos/GUIA_GRAFICOS_MENINGITES.pdf), com 35 páginas, seis básicos e oito aprofundados. Cada gráfico tem fonte, cálculo, modo de leitura, resultados, interpretações, limites e legenda. Quatro básicos revisados em pasta própria: F02 inclui n/taxas das idades; F04 mostra N anual; F05 adota escala comum; F06 separa métodos/épocas e explicita lacunas. Todas as páginas inspecionadas, 526 controles aprovados e 45/58/30 arquivos históricos preservados em ambas as raízes. Não houve nova coleta, alteração de bases ou recálculo de modelos.
+
+O documento indica G01/G02/G04/G05 como prioridades editoriais, G07/G08 como suplementos, e qualifica PNI como contexto parcial. A decisão de incluir uma figura no trabalho continua dependente da pergunta científica. Inspeção visual e integridade não equivalem a uma nova auditoria clínica. O [QA](../pipeline/Meningite/analise/guia_graficos/controle/QA_VISUAL.json) e o [manifesto da edição](../pipeline/Meningite/analise/guia_graficos/controle/MANIFESTO.json) delimitam o aceite.
 
 **Atualização de 12/10:** [aprofundamento executado](../pipeline/Meningite/analise/aprofundamento/README.md), após autorização humana e coordenação dos dois chats. 3.447 controles de integração aprovados, oito figuras, padronização por idade, razões M/F, critérios etiológicos, desfechos com desconhecidos, intervalos de notificação, modelos exploratórios e auditoria de 22 campos. Duas tabelas CSV canônicas e RDS agregado local. Fonte aprovada de 10/10 inalterada, sem novas consultas; cobertura e lacunas abaixo permanecem. O [plano de 10/10](../pipeline/Meningite/PLANO_APROFUNDAMENTO_ANALITICO_20261010.md) permanece histórico.
 

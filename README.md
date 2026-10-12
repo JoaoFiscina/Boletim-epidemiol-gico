@@ -2,17 +2,20 @@
 
 Este repositório é o guia reproduzível da investigação de meningites e doença meningocócica em residentes de Salvador. Ele foi escrito para que outra pessoa ou outra IA consiga entender o objetivo, repetir a coleta, conferir os resultados e continuar o trabalho sem misturar fontes ou inventar dados.
 
-**Etapa vigente, executada em 12/10:** [aprofundamento analítico](pipeline/Meningite/analise/aprofundamento/README.md), com [relatório científico](pipeline/Meningite/analise/aprofundamento/resultados/RELATORIO_APROFUNDADO.md), duas tabelas CSV, modelos exploratórios, auditoria de 22 campos e oito gráficos em um caderno PDF. O [plano de 10/10](pipeline/Meningite/PLANO_APROFUNDAMENTO_ANALITICO_20261010.md) foi executado após autorização humana, com os dois chats existentes. Nenhuma nova coleta. A preparação e seus manifestos descritos abaixo permanecem preservados.
+**Etapa vigente, concluída em 12/10:** [guia explicativo dos gráficos](pipeline/Meningite/analise/guia_graficos/README.md), com [PDF de 35 páginas](pipeline/Meningite/analise/guia_graficos/GUIA_GRAFICOS_MENINGITES.pdf). Reúne os seis básicos e oito aprofundados, fontes/sistemas, cálculos, leitura, resultados, interpretações possíveis, limites e legendas sugeridas. F02/F04/F05/F06 receberam ajustes de apresentação. As 35 páginas foram conferidas visualmente; 526 controles da edição aprovados. Bases, modelos e gráficos históricos preservados, sem novas extrações.
+
+**Etapa anterior, também executada em 12/10:** [aprofundamento analítico](pipeline/Meningite/analise/aprofundamento/README.md), com [relatório científico](pipeline/Meningite/analise/aprofundamento/resultados/RELATORIO_APROFUNDADO.md), duas tabelas CSV, modelos exploratórios, auditoria de 22 campos e oito gráficos em um caderno PDF. O [plano de 10/10](pipeline/Meningite/PLANO_APROFUNDAMENTO_ANALITICO_20261010.md) foi executado após autorização humana, com os dois chats existentes. A preparação e seus manifestos descritos abaixo permanecem preservados.
 
 O projeto executado está em `C:\Pesquisa\Boletim epidemiolóico\Meningite`. Este Git contém manual, código, configuração, denominadores e resultados agregados com hashes em [pipeline](pipeline/README.md). Dados brutos e pacotes R permanecem locais. Para repetir a leitura integral, transportar os brutos com seus manifestos ou coletá-los pela rotina oficial na própria cópia do projeto.
 
 Comece nesta ordem:
 
-1. [Entrada da base analítica](pipeline/Meningite/analise/README.md) e [relatório descritivo](pipeline/Meningite/analise/resultados/RELATORIO_DESCRITIVO.md) — entrega executada em 10/10, sete bases e seis figuras.
-2. [Estado atual da coleta](docs/ESTADO_COLETA.md) — núcleo validado e lacunas remanescentes por fonte.
-3. [Guia mestre](GUIA_MESTRE_MENINGITES_SALVADOR.md) e [preferências/métodos](docs/PREFERENCIAS_E_METODOS.md).
-4. [Operações reproduzíveis](docs/OPERACOES_REPRODUZIVEIS.md) e [checklist de qualidade](docs/CHECKLIST_QUALIDADE.md).
-5. [Prompt para continuidade por outra IA](PROMPT_CONTINUIDADE_IA.md) — contexto pronto para colar em outro chat.
+1. [Guia dos 14 gráficos](pipeline/Meningite/analise/guia_graficos/GUIA_GRAFICOS_MENINGITES.pdf) — documento ilustrado pronto para leitura e compartilhamento.
+2. [Entrada da base analítica](pipeline/Meningite/analise/README.md) e [relatório descritivo](pipeline/Meningite/analise/resultados/RELATORIO_DESCRITIVO.md) — entrega executada em 10/10, sete bases e seis figuras originais.
+3. [Estado atual da coleta](docs/ESTADO_COLETA.md) — núcleo validado e lacunas remanescentes por fonte.
+4. [Guia mestre](GUIA_MESTRE_MENINGITES_SALVADOR.md) e [preferências/métodos](docs/PREFERENCIAS_E_METODOS.md).
+5. [Operações reproduzíveis](docs/OPERACOES_REPRODUZIVEIS.md) e [checklist de qualidade](docs/CHECKLIST_QUALIDADE.md).
+6. [Prompt para continuidade por outra IA](PROMPT_CONTINUIDADE_IA.md) — contexto pronto para colar em outro chat.
 
 **Estado em 10/10:** preparação executada após “Agora inicie o plano”. Entrada central em `Meningite/analise`, com RDS local, sete CSVs longos essenciais, dicionário, fontes, cobertura, dez conjuntos descritivos e seis figuras em PNG/PDF. 352 controles aprovados; revisões independentes de 39 e 17 verificações e inspeção dos doze arquivos de figura. O [plano anterior](pipeline/Meningite/PLANO_PREPARACAO_ANALITICA_20261010.md) documenta contratos e critérios de aceite.
 
