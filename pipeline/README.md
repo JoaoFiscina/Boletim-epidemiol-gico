@@ -1,5 +1,7 @@
 # Código e bases mínimas para reprodução em outra máquina
 
+**Entrada vigente (12/10):** [aprofundamento](Meningite/analise/aprofundamento/README.md), com scripts R, duas tabelas CSV, oito PNGs, caderno PDF, relatório e auditorias. Manifesto próprio no subdiretório; RDS agregado e fontes locais permanecem fora do Git. A preparação de 10/10 e os 45 arquivos de 09/10 abaixo não foram sobrescritos.
+
 **Entrada atual (10/10):** [base analítica](Meningite/analise/README.md) e [relatório descritivo](Meningite/analise/resultados/RELATORIO_DESCRITIVO.md). Sete CSVs, dez conjuntos descritivos, seis PNG/PDF, código R offline e aquisição seletiva documentada. O [novo manifesto](Meningite/analise/manifesto_portabilidade.json) confere a entrega pública. O pacote RDS fica no projeto original. Os arquivos abaixo de 09/10 continuam como snapshot histórico, sem substituição silenciosa.
 
 Este diretório contém o código usado em 09/10/2026, o perfil documental, plano, relatórios, população, benchmark TabNet de 05/10 e agregados novos. Os arquivos têm SHA idêntico aos do projeto original, registrado em `Meningite/manifesto_portabilidade.json`. Brutos e RDS permanecem fora do Git.

@@ -1,0 +1,74 @@
+{
+  "entrada": {
+    "caminho": "analise/meningites_salvador_analitica.rds",
+    "sha256": "2fe0f7f6f02d6367b9cfa55487f24016dd57c09f4dc979f8975efd7edbb5247d"
+  },
+  "fontes_complementos": [
+    {
+      "caminho": "analise/meningites_salvador_analitica.rds",
+      "sha256": "2fe0f7f6f02d6367b9cfa55487f24016dd57c09f4dc979f8975efd7edbb5247d",
+      "bytes": 168712,
+      "uso": "entrada_analitica",
+      "_row": "C:/Pesquisa/Boletim epidemiolóico/Meningite/analise/meningites_salvador_analitica.rds"
+    },
+    {
+      "caminho": "referencias/sinan_dicionario_meningite_v5.txt",
+      "sha256": "61307be33dbf2e180c5d6992ef5cd9345f1239254a97753a815a1bf230ecac29",
+      "bytes": 29691,
+      "uso": "dominio_documental",
+      "_row": "C:/Pesquisa/Boletim epidemiolóico/Meningite/referencias/sinan_dicionario_meningite_v5.txt"
+    },
+    {
+      "caminho": "referencias/sinan_dicionario_notificacao_individual_2018.txt",
+      "sha256": "86569d4304965cae2df0e4a7710b83551185202b3776857332715484945d4524",
+      "bytes": 42722,
+      "uso": "dominio_documental",
+      "_row": "C:/Pesquisa/Boletim epidemiolóico/Meningite/referencias/sinan_dicionario_notificacao_individual_2018.txt"
+    },
+    {
+      "caminho": "referencias/sinan_ficha_meningite_v5.txt",
+      "sha256": "17e27bde2f873cd014e69e018f0f6f37c46eefcd388cc34e432734350b90ce2a",
+      "bytes": 6722,
+      "uso": "dominio_documental",
+      "_row": "C:/Pesquisa/Boletim epidemiolóico/Meningite/referencias/sinan_ficha_meningite_v5.txt"
+    },
+    {
+      "caminho": "referencias/sinan_instrucional_meningite_v5.txt",
+      "sha256": "dd1a846afd0f368a251f52e7a71cc8f044a8af5562db5bae89b126d3ee78f8d2",
+      "bytes": 13812,
+      "uso": "dominio_documental",
+      "_row": "C:/Pesquisa/Boletim epidemiolóico/Meningite/referencias/sinan_instrucional_meningite_v5.txt"
+    },
+    {
+      "caminho": "analise/aprofundamento/configuracao.json",
+      "sha256": "ba67ee91873289c7a8ab319b989680e0983fb5646ec19d753cfd9454ac471436",
+      "bytes": 1279,
+      "uso": "configuracao",
+      "_row": "C:/Pesquisa/Boletim epidemiolóico/Meningite/analise/aprofundamento/configuracao.json"
+    },
+    {
+      "caminho": "analise/aprofundamento/trabalho/complementos/preparar_auditoria_complementos.R",
+      "sha256": "efd7690697c3deae1bf3a26098619131e2ccbd5aa7622c9c601142434ac1d4c1",
+      "bytes": 22580,
+      "uso": "funcao_reproduzivel",
+      "_row": "C:/Pesquisa/Boletim epidemiolóico/Meningite/analise/aprofundamento/trabalho/complementos/preparar_auditoria_complementos.R"
+    },
+    {
+      "caminho": "dados/tratados/sinan_br_20261009/esquema_campos.csv",
+      "sha256": "065d5a09c91c8440b2714e0ecffaf4e1e585509f794f11743412f56f057e3f2f",
+      "bytes": 66796,
+      "uso": "esquema_real_13particoes",
+      "_row": "C:/Pesquisa/Boletim epidemiolóico/Meningite/dados/tratados/sinan_br_20261009/esquema_campos.csv"
+    }
+  ],
+  "pacotes": {
+    "ggplot2": "4.0.2",
+    "patchwork": "1.3.1",
+    "jsonlite": "2.0.0",
+    "digest": "0.6.37",
+    "MASS": "7.3.65",
+    "sandwich": "3.1.1"
+  },
+  "R": "R version 4.5.1 (2025-06-13 ucrt)",
+  "configuracao_sha256": "ba67ee91873289c7a8ab319b989680e0983fb5646ec19d753cfd9454ac471436"
+}

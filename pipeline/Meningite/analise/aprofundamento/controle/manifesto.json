@@ -1,0 +1,157 @@
+{
+  "versao": "20261012",
+  "gerado_utc": "2026-10-12T18:46:30.495528+00:00",
+  "arquivos": [
+    {
+      "caminho": "analise/aprofundamento/configuracao.json",
+      "bytes": 1279,
+      "sha256": "ba67ee91873289c7a8ab319b989680e0983fb5646ec19d753cfd9454ac471436"
+    },
+    {
+      "caminho": "analise/aprofundamento/controle/QA_VISUAL.json",
+      "bytes": 3491,
+      "sha256": "fa019cd58e9f8b2ca0887f43ab0b2a49a32230426882efbacba27bcb5305601e"
+    },
+    {
+      "caminho": "analise/aprofundamento/controle/validacao.json",
+      "bytes": 909484,
+      "sha256": "f40edc3275475532bb7e8b40d99771d0d98ce23eb425b873694a542fed06d50d"
+    },
+    {
+      "caminho": "analise/aprofundamento/controle/VERIFICACAO_ENTREGA.json",
+      "bytes": 1071,
+      "sha256": "86d97cdf5c2ff457a43235d37a0c2ffada0d17f09692e31dd12341352ac62f0c"
+    },
+    {
+      "caminho": "analise/aprofundamento/dados/cruzamentos_sinan.csv",
+      "bytes": 4616977,
+      "sha256": "62b650f367b58b5d3e9607759876d5af45e34c02d28867fb8877413858253c76"
+    },
+    {
+      "caminho": "analise/aprofundamento/dados/estimativas_e_sensibilidades.csv",
+      "bytes": 786070,
+      "sha256": "f23caad864faedfd9d5ed744de2734ccdf189d45f44c0b2853a6911a12d83cac"
+    },
+    {
+      "caminho": "analise/aprofundamento/documentacao/COORDENACAO.md",
+      "bytes": 2535,
+      "sha256": "d0f74d0f35dcfc0e0cb2925e45e5b1c48cb6f33ffe56385f79df70d17065570e"
+    },
+    {
+      "caminho": "analise/aprofundamento/documentacao/dicionario_e_decisoes.json",
+      "bytes": 9507,
+      "sha256": "22834ef1eadacda07d5c5f304fdf557f0140fa6b68ea5c5210f8751abe945937"
+    },
+    {
+      "caminho": "analise/aprofundamento/documentacao/proveniencia.json",
+      "bytes": 3270,
+      "sha256": "d452d027941f1cbfb2ead9bf224b6fe990983bc2d1623f0982973776a7909da6"
+    },
+    {
+      "caminho": "analise/aprofundamento/documentacao/REVISAO_COMPLEMENTOS.md",
+      "bytes": 6239,
+      "sha256": "250ce927c33d1b744eb8cbee445d0420c3d6811377c3622089a023fb342044a1"
+    },
+    {
+      "caminho": "analise/aprofundamento/documentacao/REVISAO_MODELOS_PRELIMINAR.md",
+      "bytes": 8451,
+      "sha256": "165d23f0b80d8ce39543dec22a68fabbd54d94e36c93abd36d7512b46897723d"
+    },
+    {
+      "caminho": "analise/aprofundamento/documentacao/REVISAO_SINAN_MODELOS.md",
+      "bytes": 6127,
+      "sha256": "c912bac0ac69cd70d418d262d6d0f15787a1cc29aec41b3e190ce6d33508a879"
+    },
+    {
+      "caminho": "analise/aprofundamento/meningites_aprofundamento.rds",
+      "bytes": 191724,
+      "sha256": "ddf2225151a6d638a3b7083f9d5d63cca987d7600fb5d9d6014e1a1dddd711aa"
+    },
+    {
+      "caminho": "analise/aprofundamento/README.md",
+      "bytes": 2656,
+      "sha256": "e7bca9e419b1d3edd6ae66a9c7116c2449f88b96ef12c35cefafb13006dce1f5"
+    },
+    {
+      "caminho": "analise/aprofundamento/resultados/figuras/CADERNO_GRAFICOS_APROFUNDADOS.pdf",
+      "bytes": 79626,
+      "sha256": "286d671e71bdda2de094fa3e7323ded3dab9cb606e3d40b99bbfda8f44d054f0"
+    },
+    {
+      "caminho": "analise/aprofundamento/resultados/figuras/G01_taxas_idade_periodos.png",
+      "bytes": 222405,
+      "sha256": "66ba0757233a5a3109fdc6853f976b7995fdc06ebdba907f3eec5edecda49483"
+    },
+    {
+      "caminho": "analise/aprofundamento/resultados/figuras/G02_razoes_sexo_idade.png",
+      "bytes": 118787,
+      "sha256": "cee4ce997b3be2a508624ec37e502b2633adc189fa3b61ce70bf83884baa727b"
+    },
+    {
+      "caminho": "analise/aprofundamento/resultados/figuras/G03_etiologia_idade.png",
+      "bytes": 220514,
+      "sha256": "ce0427da4a86ac6d2b5220d1b3b1ac0b975d98d7085eb362f0a3e6b6d5db61eb"
+    },
+    {
+      "caminho": "analise/aprofundamento/resultados/figuras/G04_criterios_etiologia.png",
+      "bytes": 207154,
+      "sha256": "ccbb653cdf5d36408a0a6960ca61a2bdcf5b19b5db3c0942fd7398c13b35f2e1"
+    },
+    {
+      "caminho": "analise/aprofundamento/resultados/figuras/G05_evolucao_limites.png",
+      "bytes": 213722,
+      "sha256": "573d320b453411dc216caa15ccaa4c3e5b3e8dc4e6c5cb2a4f38b25050bee1b5"
+    },
+    {
+      "caminho": "analise/aprofundamento/resultados/figuras/G06_intervalo_notificacao.png",
+      "bytes": 114700,
+      "sha256": "640bbfd1acedba18906e4ee696387dc760aaa5f02fdb5c97e8b4a2b04312be7f"
+    },
+    {
+      "caminho": "analise/aprofundamento/resultados/figuras/G07_sazonalidade_exploratoria.png",
+      "bytes": 117520,
+      "sha256": "7409c2d7de16689a6031e33a0494ee8d4fa1f74c6cc56104624b9e17a4860701"
+    },
+    {
+      "caminho": "analise/aprofundamento/resultados/figuras/G08_perfis_hospitalares.png",
+      "bytes": 149700,
+      "sha256": "ad1f414e9a48f8a97b660ad13ae27c6d76143a65408ad8b042133f7cbcea2add"
+    },
+    {
+      "caminho": "analise/aprofundamento/resultados/RELATORIO_APROFUNDADO.md",
+      "bytes": 13965,
+      "sha256": "d61bb6376aaf1d6f5fe131a5214e4ed03e021ba66225dac5b526caeb9bdc9733"
+    },
+    {
+      "caminho": "analise/aprofundamento/scripts/ajustar_modelos.R",
+      "bytes": 13897,
+      "sha256": "28100c0179ac022d22ec1016ce19f0feee30d6fe6200f0840c17934fe5daaa11"
+    },
+    {
+      "caminho": "analise/aprofundamento/scripts/executar_aprofundamento.R",
+      "bytes": 24277,
+      "sha256": "056723540c9a01417b0902ca33689e32c5dc61e31c241a0778290d5c528ddd0e"
+    },
+    {
+      "caminho": "analise/aprofundamento/scripts/gerar_figuras_aprofundadas.R",
+      "bytes": 14042,
+      "sha256": "c0a3c2fb670a07917464b3180e8236fc1566b3cbc5e004f691b34c1ebef995f6"
+    },
+    {
+      "caminho": "analise/aprofundamento/scripts/preparar_auditoria_complementos.R",
+      "bytes": 22580,
+      "sha256": "efd7690697c3deae1bf3a26098619131e2ccbd5aa7622c9c601142434ac1d4c1"
+    },
+    {
+      "caminho": "analise/aprofundamento/scripts/preparar_cruzamentos.R",
+      "bytes": 26609,
+      "sha256": "3ffab6c28d65e73af3d31173f733d22338ae814a98f3c1f76251531a573f7556"
+    },
+    {
+      "caminho": "analise/aprofundamento/scripts/verificar_aprofundamento.py",
+      "bytes": 8077,
+      "sha256": "2a25e36d61ed2d5fe354062c33924ea38ec8d5c89ab733fa48b1291cb6efc551"
+    }
+  ],
+  "criterio": "Lista explicita; RDS agregado local excluido do espelho Git"
+}

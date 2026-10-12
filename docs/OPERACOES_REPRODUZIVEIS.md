@@ -2,6 +2,20 @@
 
 Os comandos abaixo pressupõem Windows PowerShell e a estrutura original em `C:\Pesquisa\Boletim epidemiolóico`. Execute a leitura e a auditoria antes de fazer qualquer nova consulta.
 
+## Entrada vigente: aprofundamento de 12/10
+
+Ler [README do aprofundamento](../pipeline/Meningite/analise/aprofundamento/README.md), relatório, decisões, proveniência e revisões. Abrir o RDS agregado não recalcula ou baixa dados. O controlador R recalcula apenas esta etapa usando a fonte aprovada, com SHA bloqueante e módulos source-only. Pacotes existentes: jsonlite, digest, ggplot2, patchwork, MASS e sandwich; verificar bibliotecas antes de instalar.
+
+```powershell
+$env:LC_ALL = 'Portuguese_Brazil.utf8'
+$env:R_LIBS_USER = 'C:/Users/joaov/AppData/Local/R/win-library/4.5'
+& 'C:/R/R/R-4.5.1/bin/x64/Rscript.exe' 'C:/Pesquisa/Boletim epidemiolóico/Meningite/analise/aprofundamento/scripts/executar_aprofundamento.R' 'C:/Pesquisa/Boletim epidemiolóico/Meningite'
+```
+
+Os dois CSVs usam UTF-8, `;`, ponto decimal e vazio como NA. Reler com schema definido para preservar eixos/códigos e Inf explicitamente sinalizado. Filtrar tabela/medida/eixos; não somar níveis do longo. A função de figuras aceita o pacote integrado e carrega patchwork explicitamente. O aviso ggplot2 compilado em R4.5.3 no runtime4.5.1 foi observado; a execução, exportação e inspeção concluíram, sem instalar outro runtime.
+
+Após mudar uma figura ou método, repetir somente verificações afetadas, renderizar páginas PDF e registrar hashes; depois selar com o verificador próprio `analise/aprofundamento/scripts/verificar_aprofundamento.py`. Não usar `--selar` ou `--sincronizar` da preparação anterior para esta etapa. Espelhar apenas a lista pública do novo pacote, sem RDS/fontes individuais, e preservar os manifestos de 09/10 e 10/10.
+
 ## Entrada atual: preparação analítica de 10/10
 
 Comece pelo [guia da base analítica](../pipeline/Meningite/analise/README.md), com comandos R offline, tipos CSV, flags de apresentação e conferência de entrega. Abrir o RDS não baixa dados; repetir a preparação exige fontes locais/caches com os hashes declarados. Em clone, sete CSVs, descritivos e figuras estão disponíveis; RDS, brutos e bases individuais precisam ser transferidos ou coletados separadamente.

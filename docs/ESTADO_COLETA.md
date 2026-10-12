@@ -1,6 +1,6 @@
-# Estado do projeto — preparação analítica executada em 10/10/2026
+# Estado do projeto — aprofundamento executado em 12/10/2026
 
-**Pedido posterior, ainda em 10/10:** concluído [plano de aprofundamento](../pipeline/Meningite/PLANO_APROFUNDAMENTO_ANALITICO_20261010.md). Define análises adicionais, novas figuras, gates de qualidade, modelos condicionais, coleta estritamente necessária e divisão futura dos chats. Não foi executado; nenhum novo resultado, arquivo de dados, modelo, gráfico ou consulta foi produzido. O estado dos dados abaixo é o da entrega aceita.
+**Atualização de 12/10:** [aprofundamento executado](../pipeline/Meningite/analise/aprofundamento/README.md), após autorização humana e coordenação dos dois chats. 3.447 controles de integração aprovados, oito figuras, padronização por idade, razões M/F, critérios etiológicos, desfechos com desconhecidos, intervalos de notificação, modelos exploratórios e auditoria de 22 campos. Duas tabelas CSV canônicas e RDS agregado local. Fonte aprovada de 10/10 inalterada, sem novas consultas; cobertura e lacunas abaixo permanecem. O [plano de 10/10](../pipeline/Meningite/PLANO_APROFUNDAMENTO_ANALITICO_20261010.md) permanece histórico.
 
 O comando humano “Agora inicie o plano” autorizou a execução. A entrada central é [Meningite/analise](../pipeline/Meningite/analise/README.md), com RDS local, sete CSVs essenciais, configuração, dicionário/fontes/cobertura, dez conjuntos descritivos e seis figuras PNG/PDF. O [relatório descritivo](../pipeline/Meningite/analise/resultados/RELATORIO_DESCRITIVO.md) apresenta resultados e limites.
 

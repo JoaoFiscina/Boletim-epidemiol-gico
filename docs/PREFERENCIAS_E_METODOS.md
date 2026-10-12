@@ -1,6 +1,18 @@
 # Preferências do pesquisador e métodos de trabalho
 
-Atualizado em 10/10/2026. Preferências expressas pelo usuário são separadas das decisões tomadas para executar a pesquisa.
+Atualizado em 12/10/2026. Preferências expressas pelo usuário são separadas das decisões tomadas para executar a pesquisa.
+
+## Aprofundamento executado em 12/10
+
+Preferência expressa nesta etapa: executar o plano aprofundado com coordenação dos dois chats. Organização compacta e interpretação legível seguem os pedidos anteriores. A equipe escolheu duas tabelas CSV canônicas, um RDS agregado local, oito PNGs e um caderno PDF; esses formatos são decisões operacionais, não preferências novas atribuídas ao usuário.
+
+Decisões metodológicas aplicadas: pesos internos fixos para padronização, gamma Fay–Feuer, IC condicional exato de razões M/F, cinco faixas amplas no modelo principal e 11 na sensibilidade. Sobredispersão diagnosticada por Pearson, NB convergente e quasi como sensibilidade; não escolher modelos pela força de um efeito. Coeficientes, covariâncias padrão/HAC e grades agregadas preservados para conferência sem microdados.
+
+Sazonalidade permanece exploratória: HAC12 e ACF/Ljung–Box aproximado expõem dependência residual. P-valores exploratórios, sem ajuste de multiplicidade, não são resultados confirmatórios. Quasi-binomial no óbito é sensibilidade a incerteza; cenários de ignorados não são IC ou limites de coeficientes. Células mistas com posto completo afastam separação nessa fórmula, sem resolver seleção ou validade clínica.
+
+Auditoria distingue campo preenchido de informação específica: agente não identificado, bactéria não especificada, não realizado, ignorado e vazio têm estados próprios. Educação25+, sorogrupos condicionais e laboratório após punção usam universos elegíveis; data de internação não é binário. Completude boa não autoriza associação sem avaliar seleção, raridade e correspondência temporal. Taxa positiva muito pequena deve aparecer como <0,1 no gráfico, não zero arredondado.
+
+O relatório diferencia composição e taxa: MNE cresce proporcionalmente enquanto sua taxa permanece quase estável. Também conecta mudanças dos critérios à observabilidade da etiologia. Essa interpretação evita construir o argumento apenas com porcentagens ou testes. Usar G01/G02/G04/G05 no corpo, G03/G06 para aprofundar e G07/G08 como suplementos é uma proposta editorial da equipe.
 
 ## Preferências expressas
 

@@ -1,5 +1,15 @@
 # Histórico do manual
 
+## 2026-10-12 — execução do aprofundamento autorizado
+
+- Coordenados os dois chats existentes, com escrita exclusiva para cruzamentos SINAN/população e auditoria clínica/social/complementos. O mestre integrou modelos, figuras, relatório e Git. Execução offline, sem downloads ou instalação de pacotes.
+- Padronização direta por idade com pesos internos fixos e IC gamma Fay–Feuer; períodos 2014–2019, 2020–2021 e 2022–2024. Razões M/F com IC exato, critérios por etiologia, limites de evolução desconhecida e ECDF de intervalos de registro.
+- Modelos exploratórios de taxas com offset e diagnóstico de sobredispersão, sensibilidades por MCC/anos/faixas/quasi. Modelo mensal harmônico com HAC lag12, matriz preservada e autocorrelação residual documentada. Modelo de óbito por contagens agregadas, OR, quasi e cenários de 141 ignorados elegíveis; separação afastada pelo posto completo das células mistas.
+- 3.447 controles integrados aprovados. Auditoria de 22 campos e 308 taxas de perfis SIH com faixas compatíveis; médias/razões administrativas, taxas raciais, eficácia vacinal, sobrevivência e comparação Bahia não liberadas. Dois CSVs canônicos com 20.863 linhas de cruzamentos/auditoria e 2.740 de estimativas; RDS agregado local.
+- Oito PNGs e um caderno PDF vetorial de oito páginas. Relatório desenvolve ocorrência registrada, diferença por sexo, mudanças de investigação, desfechos/perdas e limites inferenciais; quatro figuras prioritárias e quatro de aprofundamento/suplemento.
+- Integração corrigiu ano textual apenas nas cópias dos gráficos, carregamento explícito de patchwork e rótulos de taxas positivas menores que 0,1. A regra inicial heurística phi>1,5 foi substituída por diagnóstico Pearson phi>1 e p<0,05, antes da entrega; não selecionada pela significância dos efeitos. Ljung–Box usa fitdf0 e interpretação aproximada para GLM.
+- Novos manifestos e revisões separados; fontes e 58 arquivos públicos da preparação de 10/10 e 45 de 09/10 preservados. Manual, métodos, comandos e continuidade atualizados. Commit local, sem envio ao remoto.
+
 ## 2026-10-10 — plano de aprofundamento, sem nova execução
 
 - Inspecionados relatório/documentação/dicionários e nomes dos campos/tabelas do RDS aceito, para distinguir dados disponíveis de campos ainda sem auditoria específica. Nenhum novo cruzamento, modelo, gráfico ou consulta foi executado.

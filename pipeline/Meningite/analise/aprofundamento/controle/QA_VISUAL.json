@@ -1,0 +1,95 @@
+{
+  "versao": "20261012",
+  "gerado_utc": "2026-10-12T18:46:19.334864+00:00",
+  "status": "inspecionado_aprovado",
+  "png_inspecionados": 8,
+  "paginas_pdf_inspecionadas": 8,
+  "responsavel": "chat mestre; revisoes SINAN/modelos e complementos independentes",
+  "arquivos": [
+    {
+      "caminho": "resultados/figuras/G01_taxas_idade_periodos.png",
+      "sha256": "66ba0757233a5a3109fdc6853f976b7995fdc06ebdba907f3eec5edecda49483",
+      "bytes": 222405
+    },
+    {
+      "caminho": "resultados/figuras/G02_razoes_sexo_idade.png",
+      "sha256": "cee4ce997b3be2a508624ec37e502b2633adc189fa3b61ce70bf83884baa727b",
+      "bytes": 118787
+    },
+    {
+      "caminho": "resultados/figuras/G03_etiologia_idade.png",
+      "sha256": "ce0427da4a86ac6d2b5220d1b3b1ac0b975d98d7085eb362f0a3e6b6d5db61eb",
+      "bytes": 220514
+    },
+    {
+      "caminho": "resultados/figuras/G04_criterios_etiologia.png",
+      "sha256": "ccbb653cdf5d36408a0a6960ca61a2bdcf5b19b5db3c0942fd7398c13b35f2e1",
+      "bytes": 207154
+    },
+    {
+      "caminho": "resultados/figuras/G05_evolucao_limites.png",
+      "sha256": "573d320b453411dc216caa15ccaa4c3e5b3e8dc4e6c5cb2a4f38b25050bee1b5",
+      "bytes": 213722
+    },
+    {
+      "caminho": "resultados/figuras/G06_intervalo_notificacao.png",
+      "sha256": "640bbfd1acedba18906e4ee696387dc760aaa5f02fdb5c97e8b4a2b04312be7f",
+      "bytes": 114700
+    },
+    {
+      "caminho": "resultados/figuras/G07_sazonalidade_exploratoria.png",
+      "sha256": "7409c2d7de16689a6031e33a0494ee8d4fa1f74c6cc56104624b9e17a4860701",
+      "bytes": 117520
+    },
+    {
+      "caminho": "resultados/figuras/G08_perfis_hospitalares.png",
+      "sha256": "ad1f414e9a48f8a97b660ad13ae27c6d76143a65408ad8b042133f7cbcea2add",
+      "bytes": 149700
+    },
+    {
+      "caminho": "resultados/figuras/CADERNO_GRAFICOS_APROFUNDADOS.pdf",
+      "sha256": "286d671e71bdda2de094fa3e7323ded3dab9cb606e3d40b99bbfda8f44d054f0",
+      "bytes": 79626
+    }
+  ],
+  "renderizacao": {
+    "ferramenta": "Poppler pdftoppm",
+    "dpi": 90,
+    "paginas": [
+      {
+        "pagina": 1,
+        "sha256": "c3ea841e2a3932256f5afdb59b49ed07135360e6fd0ebf1c0b5920f483986601"
+      },
+      {
+        "pagina": 2,
+        "sha256": "ebdc8ec1db87eee9f27b365f597441c23f7f071fc9a7c4ac7508155ccb153419"
+      },
+      {
+        "pagina": 3,
+        "sha256": "178d163859615f022084b945f56146f87723dca631e635ab4c61d09588ac9c14"
+      },
+      {
+        "pagina": 4,
+        "sha256": "b32b113a154892d882a53a79d1279561fc1c5210566d91c0dc46ef94ef35af33"
+      },
+      {
+        "pagina": 5,
+        "sha256": "df3b30f686dfcf14eeee38376d25614444cfefcfbd162115434f72ed9bf152e4"
+      },
+      {
+        "pagina": 6,
+        "sha256": "c0dc5b0ce6b4f89c55d9107611b7f5225652c8b6536d93f1656070177635fb1f"
+      },
+      {
+        "pagina": 7,
+        "sha256": "381c96b2124c9483280e5d5bf863c295533f413a1e719ae44e8d3d31c7906118"
+      },
+      {
+        "pagina": 8,
+        "sha256": "0a6564fb969a319506a9eb7de9fbdc3fe0924b263c295ff7a8ab9b5c1e8b63bd"
+      }
+    ]
+  },
+  "avaliacao": "Titulos, legendas, unidades, IC/limites, escalas e fontes legiveis; sem cortes. G03 usa <0,1 para positivos pequenos; G05 identifica pontos cheios/vazados e limites. PDF vetorial de oito paginas conferido.",
+  "limites": "QA de apresentacao; calculos e contratos revisados separadamente. Nao comprova validade clinica ou causalidade."
+}

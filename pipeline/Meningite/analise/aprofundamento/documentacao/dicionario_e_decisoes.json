@@ -1,0 +1,209 @@
+{
+  "tabelas_sinan": {
+    "periodo_idade": {
+      "linhas": 33,
+      "colunas": ["periodo", "idade", "n", "status", "populacao", "taxa", "ic_inferior", "ic_superior", "N_estrato", "proporcao", "universo_proporcao", "unidade_taxa", "metodo_ic"]
+    },
+    "periodo_faixa_ampla": {
+      "linhas": 15,
+      "colunas": ["periodo", "faixa_ampla", "n", "status", "populacao", "taxa", "ic_inferior", "ic_superior", "N_estrato", "proporcao", "universo_proporcao", "unidade_taxa", "metodo_ic"]
+    },
+    "pesos_padrao": {
+      "linhas": 11,
+      "colunas": ["idade", "populacao_padrao", "peso"]
+    },
+    "padronizadas_anuais": {
+      "linhas": 11,
+      "colunas": ["ano", "n", "populacao", "bruta", "taxa", "ic_inferior", "ic_superior", "variancia", "metodo_ic", "unidade_taxa"]
+    },
+    "padronizadas_periodos": {
+      "linhas": 3,
+      "colunas": ["periodo", "n", "populacao", "bruta", "taxa", "ic_inferior", "ic_superior", "variancia", "metodo_ic", "unidade_taxa"]
+    },
+    "sexo_idade": {
+      "linhas": 88,
+      "colunas": ["periodo", "sexo", "idade", "n", "status", "populacao", "taxa", "ic_inferior", "ic_superior", "N_estrato", "proporcao", "universo_proporcao", "unidade_taxa", "metodo_ic"]
+    },
+    "razoes_sexo_idade": {
+      "linhas": 44,
+      "colunas": ["periodo", "idade", "n_M", "n_F", "exposicao_M", "exposicao_F", "taxa_M", "taxa_F", "razao_M_F", "ic_inferior", "ic_superior", "metodo_ic", "status"]
+    },
+    "idade_etiologia": {
+      "linhas": 231,
+      "colunas": ["periodo", "idade", "grupo", "n", "status", "populacao", "taxa", "ic_inferior", "ic_superior", "N_estrato", "proporcao", "universo_proporcao", "unidade_taxa", "metodo_ic"]
+    },
+    "etiologia_anual": {
+      "linhas": 77,
+      "colunas": ["ano", "grupo", "n", "status", "populacao", "taxa", "ic_inferior", "ic_superior", "N_estrato", "proporcao", "universo_proporcao", "unidade_taxa", "metodo_ic"]
+    },
+    "etiologia_criterio": {
+      "linhas": 231,
+      "colunas": ["periodo", "grupo", "criterio_categoria", "n", "status", "N_grupo", "proporcao_no_grupo"]
+    },
+    "criterio_periodo": {
+      "linhas": 33,
+      "colunas": ["periodo", "criterio_categoria", "n", "status", "N", "proporcao", "N_criterio_conhecido", "proporcao_entre_conhecidos"]
+    },
+    "etiologias_originais": {
+      "linhas": 34,
+      "colunas": ["periodo", "etiologia_codigo", "etiologia", "n"]
+    },
+    "evolucao": {
+      "linhas": 86,
+      "colunas": ["ano", "status", "N", "D", "alta", "obito_outra_causa", "U", "K", "D_sobre_N", "D_sobre_K", "limite_extremo_inferior", "limite_extremo_superior", "proporcao_desconhecida", "dimensao", "periodo", "idade", "grupo"]
+    },
+    "atraso": {
+      "linhas": 42,
+      "colunas": ["ano", "dimensao", "N", "n_valido", "n_ausente_nao_finito", "n_negativo", "n_flags_data_ausente", "n_nao_elegivel", "n_gt30", "n_gt365", "minimo", "q25", "mediana", "q75", "p90", "p95", "maximo", "n_0_1", "n_2_7", "n_8_30", "n_mais30", "mediana_sem_gt30", "mediana_sem_gt365", "periodo", "grupo"]
+    },
+    "ecdf_atraso": {
+      "linhas": 1655,
+      "colunas": ["periodo", "grupo", "cenario", "dias", "n_valido", "acumulado", "F", "status"]
+    },
+    "modelo_grade": {
+      "linhas": 110,
+      "colunas": ["ano", "sexo", "faixa_ampla", "n", "status", "populacao", "taxa", "ic_inferior", "ic_superior", "N_estrato", "proporcao", "universo_proporcao", "unidade_taxa", "metodo_ic", "log_exposicao"]
+    },
+    "sensibilidades": {
+      "linhas": 52,
+      "colunas": ["ano", "n", "populacao", "bruta", "taxa", "ic_inferior", "ic_superior", "variancia", "metodo_ic", "unidade_taxa", "cenario", "coorte_cenario", "removidos", "reclassificados"]
+    },
+    "sensibilidades_periodos": {
+      "linhas": 15,
+      "colunas": ["periodo", "n", "populacao", "bruta", "taxa", "ic_inferior", "ic_superior", "variancia", "metodo_ic", "unidade_taxa", "cenario", "coorte_cenario", "removidos", "reclassificados", "anos_efetivos", "n_anos_exposicao"]
+    }
+  },
+  "tabelas_complementos": {
+    "auditoria_campos": {
+      "linhas": 10010,
+      "colunas": ["campo", "ano", "grupo", "estado", "n", "denominador_elegivel", "proporcao", "regra_elegibilidade"]
+    },
+    "dominios_observados": {
+      "linhas": 1213,
+      "colunas": ["campo", "ano", "codigo", "estado", "elegivel", "n"]
+    },
+    "distribuicoes_elegiveis": {
+      "linhas": 146,
+      "colunas": ["campo", "codigo", "n", "denominador_elegivel", "proporcao", "regra_elegibilidade"]
+    },
+    "parecer_campos": {
+      "linhas": 22,
+      "colunas": ["campo", "elegibilidade", "n_elegivel", "n_desconhecido", "percentual_desconhecido", "n_informativo", "n_preenchido_fora_elegibilidade", "tipos_reais", "parecer", "dominio_fonte"]
+    },
+    "inconsistencias": {
+      "linhas": 132,
+      "colunas": ["controle", "ano", "n", "denominador", "nota"]
+    },
+    "perfis_sih": {
+      "linhas": 308,
+      "colunas": ["cid_grupo", "ano_processamento", "medida", "sistema", "valor", "valor_original", "unidade", "status", "consulta_id", "municipio_residencia", "fonte_id", "ano", "referencia_tempo", "tipo_tabela", "dimensao", "estrato", "perspectiva", "abrangencia", "snapshot_id", "denominador", "correspondencia", "taxa_100mil", "ic95_inferior", "ic95_superior", "nota_taxa"]
+    },
+    "medidas_sih": {
+      "linhas": 264,
+      "colunas": ["cid_grupo", "ano_processamento", "medida", "sistema", "valor", "valor_original", "unidade", "status", "consulta_id", "municipio_residencia", "fonte_id", "ano", "referencia_tempo", "tipo_tabela", "dimensao", "estrato", "perspectiva", "abrangencia", "snapshot_id"]
+    },
+    "correspondencia_universos": {
+      "linhas": 4,
+      "colunas": ["medida", "universo", "derivacao_razao", "motivo"]
+    },
+    "triangulacao_indices": {
+      "linhas": 66,
+      "colunas": ["sistema", "serie", "painel_comparacao", "ano", "n", "referencia_tempo", "base_2014", "indice2014_100", "nota", "variacao_percentual_desde2014", "diferenca_pontos_indice_SINAN_menos_SIH"]
+    },
+    "estado_SIM_PNI": {
+      "linhas": 3,
+      "colunas": ["sistema", "status", "limites"]
+    },
+    "fontes": {
+      "linhas": 8,
+      "colunas": ["caminho", "sha256", "bytes", "uso"]
+    },
+    "limites_base_minima": {
+      "linhas": 4,
+      "colunas": ["item", "estado", "implicacao"]
+    },
+    "esquema_campos": {
+      "linhas": 286,
+      "colunas": ["arquivo", "campo", "classe", "presente"]
+    }
+  },
+  "modelos": {
+    "exploratorio": true,
+    "poisson_sobredispersao": "phi>1 e Pearson p<0.05",
+    "nb_disp_residual_max": 2,
+    "idade_principal": ["<1", "1-4", "5-19", "20-59", "60+"],
+    "sexo_referencia": "F",
+    "ano_referencia": 2014,
+    "exposicao": "soma populacoes anuais aproxima habitantes-ano",
+    "intervalos": "Wald; t para quasi; HAC mensal",
+    "multiplos_testes": "p exploratorios, sem ajuste; interpretacao pelas estimativas e IC",
+    "sem_causalidade": true,
+    "modelos_obito": "OR condicionadas aos registros com evolucao conhecida; ignorados como cenarios extremos"
+  },
+  "figuras": [
+    {
+      "figura": "G01_taxas_idade_periodos",
+      "pagina_pdf": 1,
+      "tabelas_origem": "padronizadas_anuais; periodo_faixa_ampla",
+      "png": "G01_taxas_idade_periodos.png",
+      "pdf": "CADERNO_GRAFICOS_APROFUNDADOS.pdf"
+    },
+    {
+      "figura": "G02_razoes_sexo_idade",
+      "pagina_pdf": 2,
+      "tabelas_origem": "razoes_sexo_idade; modelos/coeficientes taxas_principal",
+      "png": "G02_razoes_sexo_idade.png",
+      "pdf": "CADERNO_GRAFICOS_APROFUNDADOS.pdf"
+    },
+    {
+      "figura": "G03_etiologia_idade",
+      "pagina_pdf": 3,
+      "tabelas_origem": "idade_etiologia, agregada em cinco faixas; populações sem duplicação de grupo",
+      "png": "G03_etiologia_idade.png",
+      "pdf": "CADERNO_GRAFICOS_APROFUNDADOS.pdf"
+    },
+    {
+      "figura": "G04_criterios_etiologia",
+      "pagina_pdf": 4,
+      "tabelas_origem": "etiologia_criterio; criterio_periodo; mapa de apresentação documentado no script",
+      "png": "G04_criterios_etiologia.png",
+      "pdf": "CADERNO_GRAFICOS_APROFUNDADOS.pdf"
+    },
+    {
+      "figura": "G05_evolucao_limites",
+      "pagina_pdf": 5,
+      "tabelas_origem": "evolucao dimensões ano/grupo",
+      "png": "G05_evolucao_limites.png",
+      "pdf": "CADERNO_GRAFICOS_APROFUNDADOS.pdf"
+    },
+    {
+      "figura": "G06_intervalo_notificacao",
+      "pagina_pdf": 6,
+      "tabelas_origem": "ecdf_atraso cenário integral; atraso por periodo",
+      "png": "G06_intervalo_notificacao.png",
+      "pdf": "CADERNO_GRAFICOS_APROFUNDADOS.pdf"
+    },
+    {
+      "figura": "G07_sazonalidade_exploratoria",
+      "pagina_pdf": 7,
+      "tabelas_origem": "modelos/sazonalidade_ajustada; diagnostico_mensal",
+      "png": "G07_sazonalidade_exploratoria.png",
+      "pdf": "CADERNO_GRAFICOS_APROFUNDADOS.pdf"
+    },
+    {
+      "figura": "G08_perfis_hospitalares",
+      "pagina_pdf": 8,
+      "tabelas_origem": "complementos/perfis_sih idade G00/A87",
+      "png": "G08_perfis_hospitalares.png",
+      "pdf": "CADERNO_GRAFICOS_APROFUNDADOS.pdf"
+    }
+  ],
+  "csv": {
+    "sep": ";",
+    "dec": ".",
+    "encoding": "UTF-8",
+    "ausente": "campo vazio",
+    "infinito": "Inf, acompanhado por status original"
+  },
+  "regra": "Filtrar tabela/medida/eixos; nunca somar populacao ou n entre niveis diferentes"
+}

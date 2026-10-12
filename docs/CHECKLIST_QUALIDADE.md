@@ -1,5 +1,7 @@
 # Checklist de qualidade e decisão
 
+**Aprofundamento de 12/10:** 3.447 controles de integração aprovados; escopos de revisão e hashes próprios em `analise/aprofundamento`. Conferir conservação1.976/1.975, pesos fixos, universo de141ignorados no modelo de óbito, covariânciaHAC persistida, seleção/raridade, NA dos complementos e ausência de dados individuais no espelho. Controle estrutural aprovado não apaga inconsistência clínica documentada. Inspecionar os oito PNGs e as oito páginas do caderno PDF antes de aceitar apresentação. Os históricos abaixo permanecem congelados.
+
 **Entrega de 10/10/2026:** 352 controles aprovados, 39 verificações independentes SINAN/população e 17 de complementos; seis PNG e seis PDF inspecionados. Resultados e hashes em [validação](../pipeline/Meningite/analise/controle/validacao.json), [QA visual](../pipeline/Meningite/analise/controle/QA_VISUAL.json) e [selo](../pipeline/Meningite/analise/controle/VERIFICACAO_ENTREGA.json). As caixas abaixo são o checklist reutilizável para próximas versões, não uma declaração de que todos os módulos têm cobertura completa.
 
 ## Antes da coleta
